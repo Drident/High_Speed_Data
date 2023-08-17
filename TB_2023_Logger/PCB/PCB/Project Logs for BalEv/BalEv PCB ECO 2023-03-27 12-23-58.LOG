@@ -1,0 +1,24 @@
+Added Component: Designator=C3(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "470pF"; VariantName = "[No Variations]"
+Added Component: Designator=R1(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "NC"; VariantName = "[No Variations]"
+Added Component: Designator=R4(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R5(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=AIN0trig Pin=C3-1
+Added Pin To Net: NetName=+3v3A Pin=R1-2
+Added Pin To Net: NetName=GND Pin=R4-1
+Added Pin To Net: NetName=AIN0trig Pin=R5-2
+Added Pin To Net: NetName=NetC3_2 Pin=C3-2
+Added Pin To Net: NetName=NetC3_2 Pin=R4-2
+Added Pin To Net: NetName=NetC3_2 Pin=R5-1
+Added Pin To Net: NetName=NetC3_2 Pin=U1-6
+Added Net: Name=NetC3_2
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=NetR1_1 Pin=U2-7
+Added Net: Name=NetR1_1
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C3 470pF
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R1 NC
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R4 10k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R5 10k

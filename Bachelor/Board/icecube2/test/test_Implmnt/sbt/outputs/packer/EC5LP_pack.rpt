@@ -1,0 +1,134 @@
+* ******************************************************************************
+
+* iCEcube Report
+
+* Version:            2020.12.27943
+
+* Build Date:         Dec  9 2020 17:31:51
+
+* File Generated:     Aug 7 2023 08:40:48
+
+* Purpose:            General info of design implementation
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Synthesis/Placement Summary:
+----------------------------
+    Status:  Successful
+    Runtime: 0 seconds
+
+Device Info:
+------------
+    Device Family: iCE5LP
+    Device:        iCE5LP1K
+    Package:       SG48
+
+Design statistics:
+------------------
+    FFs:                  171
+    LUTs:                 289
+    RAMs:                 0
+    IOBs:                 31
+    GBs:                  6
+    PLLs:                 0
+    Warm Boots:           0
+    SPIs:                 0
+    I2Cs:                 0
+    HFOSCs:               0
+    LFOSCs:               0
+    RGB_DRVs:             0
+    IR_DRVs:              0
+    LED_DRV_CURs:         0
+    LEDD_IPs:             0
+    DSPs:                 1
+
+Logic Resource Utilization:
+---------------------------
+    Total Logic Cells: 301/1100
+        Combinational Logic Cells: 130      out of   1100      11.8182%
+        Sequential Logic Cells:    171      out of   1100      15.5455%
+        Logic Tiles:               110      out of   440       25%
+    Registers: 
+        Logic Registers:           171      out of   1100      15.5455%
+        IO Registers:              0        out of   480       0
+    Block RAMs:                    0        out of   16        0%
+    Warm Boots:                    0        out of   1         0%
+    SPIs:                          0        out of   1         0%
+    I2Cs:                          0        out of   1         0%
+    HFOSCs:                        0        out of   1         0%
+    LFOSCs:                        0        out of   1         0%
+    RGB_DRVs:                      0        out of   1         0%
+    IR_DRVs:                       0        out of   1         0%
+    LED_DRV_CURs:                  0        out of   1         0%
+    LEDD_IPs:                      0        out of   1         0%
+    DSPs:                          1        out of   2         50%
+    Pins:
+        Input Pins:                14       out of   39        35.8974%
+        Output Pins:               20       out of   39        51.2821%
+        InOut Pins:                0        out of   39        0%
+    Global Buffers:                6        out of   8         75%
+    PLLs:                          0        out of   1         0%
+
+IO Bank Utilization:
+--------------------
+    Bank 3: 0        out of   0         0%
+    Bank 1: 0        out of   0         0%
+    Bank 0: 17       out of   17        100%
+    Bank 2: 17       out of   22        77.2727%
+
+Detailed I/O Info:
+------------------
+    Input Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function                                   Signal Name     
+    ----------  ---------  -----------  -------  -------  -----------                                   -----------     
+    3           Input      SB_LVCMOS    No       2        Simple Input                                  i_fpga_m[1]     
+    6           Input      SB_LVCMOS    No       2        Simple Input                                  i_adc_sdo[3]    
+    9           Input      SB_LVCMOS    No       2        Simple Input                                  i_adc_sdo[2]    
+    10          Input      SB_LVCMOS    No       2        Simple Input                                  i_adc_sdo[1]    
+    11          Input      SB_LVCMOS    No       2        Simple Input                                  i_adc_sdo[0]    
+    19          Input      SB_LVCMOS    No       2        Simple Input                                  i_fpga_m[0]     
+    35          Input      SB_LVCMOS    Yes      0        Simple Input                                  iRST_rst_n      
+    36          Input      SB_LVCMOS    No       0        Simple Input                                  i_acq_pretrig   
+    37          Input      SB_LVCMOS    No       0        Simple Input                                  iGCK_clk        
+    38          Input      SB_LVCMOS    No       0        Simple Input                                  i_fpga_m[2]     
+    42          Input      SB_LVCMOS    No       0        Simple Input                                  i_fpga_m[3]     
+    43          Input      SB_LVCMOS    No       0        Simple Input                                  i_acq_trig      
+    44          Input      SB_LVCMOS    No       2        Simple Input                                  i_fpga_mosi     
+    46          Input      SB_LVCMOS    No       2        Simple Input                                  i_fpga_sck      
+
+    Output Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function                                   Signal Name     
+    ----------  ---------  -----------  -------  -------  -----------                                   -----------     
+    2           Output     SB_LVCMOS    No       2        Output Tristatable by Enable                  o_fram_ncs[2]   
+    4           Output     SB_LVCMOS    No       2        Output Tristatable by Enable                  o_fram_ncs[3]   
+    12          Output     SB_LVCMOS    No       2        Output Tristatable by Enable                  o_fram_sdi[0]   
+    13          Output     SB_LVCMOS    No       2        Output Tristatable by Enable                  o_fram_sdi[2]   
+    18          Output     SB_LVCMOS    No       2        Output Tristatable by Enable                  o_fram_sdi[3]   
+    21          Output     SB_LVCMOS    No       2        Output Tristatable by Enable                  o_fram_sdi[1]   
+    23          Output     SB_LVCMOS    No       0        Output Tristatable by Enable                  o_fram_sclk[1]  
+    25          Output     SB_LVCMOS    No       0        Output Tristatable by Enable                  o_fram_sclk[0]  
+    26          Output     SB_LVCMOS    No       0        Output Tristatable by Enable                  o_fram_sclk[3]  
+    27          Output     SB_LVCMOS    No       0        Output Tristatable by Enable                  o_fram_sclk[2]  
+    28          Output     SB_LVCMOS    No       0        Output Tristatable by Enable                  o_adc_sclk      
+    31          Output     SB_LVCMOS    No       0        Output Tristatable by Enable                  o_adc_nsc       
+    32          Output     SB_LVCMOS    No       0        Output Tristatable by Enable                  o_meas_1mhz     
+    34          Output     SB_LVCMOS    No       0        Output Tristatable by Enable                  o_sclk_meas     
+    39          Output     SB_LVCMOS    Yes      0        Output Tristatable by Enable (Open-drain IO)  o_acq_done      
+    40          Output     SB_LVCMOS    Yes      0        Output Tristatable by Enable (Open-drain IO)  o_cal[2]        
+    41          Output     SB_LVCMOS    Yes      0        Output Tristatable by Enable (Open-drain IO)  o_cal[1]        
+    45          Output     SB_LVCMOS    No       2        Output Tristatable by Enable                  o_fram_ncs[1]   
+    47          Output     SB_LVCMOS    Yes      2        Output Tristatable by Enable                  io_fpga_miso    
+    48          Output     SB_LVCMOS    No       2        Output Tristatable by Enable                  o_fram_ncs[0]   
+
+Detailed Global Buffer Info:
+----------------------------
+    Buffer Number  IO Bank  Driven By  Fanout  Signal Name                       
+    -------------  -------  ---------  ------  -----------                       
+    2              0        IO         151     clk_0_c_g                         
+    3              0                   19      I_DUT.U_1.N_22_g                  
+    1              0                   19      I_DUT.U_1.N_24_g                  
+    4              0                   148     lsig_resetSynch_n_i_g             
+    7              2                   19      I_DUT.U_1.un13_count_pretrig_g    
+    5              2                   19      I_DUT.U_13.MISO_OUT_1_sqmuxa_i_g  

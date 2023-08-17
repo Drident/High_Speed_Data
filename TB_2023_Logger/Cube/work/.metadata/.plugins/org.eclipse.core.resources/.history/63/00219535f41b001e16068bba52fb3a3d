@@ -1,0 +1,44 @@
+/*
+ * fram_func.c
+ *
+ *  Created on: 6 juil. 2023
+ *      Author: christop.grobety
+ */
+#include "main.h"
+#include "fram_func.h"
+
+SPI_HandleTypeDef hspi1;
+SPI_HandleTypeDef hspi2;
+void FRAM_write_one(){
+
+}
+void FRAM_write_all(){
+	PIN_reset();
+	HAL_GPIO_WritePin(SELECTOR_M3_GPIO_Port, SELECTOR_M3_Pin, GPIO_PIN_SET);
+	HAL_SPI_Transmit(&hspi1, (uint8_t*)&TX_Data_FRAM_REG,1, 100);
+	HAL_GPIO_WritePin(SELECTOR_M3_GPIO_Port, SELECTOR_M3_Pin, GPIO_PIN_RESET);
+	HAL_Delay(100);
+}
+void FRAM_write_reg(){
+
+}
+void FRAM_reset_reg(){
+
+}
+void FRAM_read_reg(){
+
+}
+void FRAM_device(){
+
+}
+void FRAM_read(){
+
+}
+void PIN_reset(){
+	HAL_GPIO_WritePin(SELECTOR_M3_GPIO_Port, SELECTOR_M3_Pin, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(SELECTOR_M3_GPIO_Port, SELECTOR_M3_Pin, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(SELECTOR_M3_GPIO_Port, SELECTOR_M3_Pin, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(SELECTOR_M3_GPIO_Port, SELECTOR_M3_Pin, GPIO_PIN_RESET);
+}
+
+

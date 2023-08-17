@@ -1,0 +1,297 @@
+Removed Pin From Net: NetName=GND Pin=U13-0
+Removed Pin From Net: NetName=+3v3 Pin=U13-1
+Removed Pin From Net: NetName=+1v2 Pin=U13-5
+Removed Pin From Net: NetName=CDONE Pin=U13-7
+Removed Pin From Net: NetName=creset_b Pin=U13-8
+Removed Pin From Net: NetName=ICE_MISO Pin=U13-14
+Removed Pin From Net: NetName=ICE_SCK Pin=U13-15
+Removed Pin From Net: NetName=ICE_SS Pin=U13-16
+Removed Pin From Net: NetName=ICE_MOSI Pin=U13-17
+Removed Pin From Net: NetName=+3v3 Pin=U13-22
+Removed Pin From Net: NetName=+2v5 Pin=U13-24
+Removed Pin From Net: NetName=VCC_PLL Pin=U13-29
+Removed Pin From Net: NetName=+1v2 Pin=U13-30
+Removed Pin From Net: NetName=+3v3 Pin=U13-33
+Change Component Designator: OldDesignator=C39 NewDesignator=C43
+Change Component Designator: OldDesignator=C40 NewDesignator=C44
+Change Component Designator: OldDesignator=C41 NewDesignator=C45
+Change Component Designator: OldDesignator=C42 NewDesignator=C46
+Change Component Designator: OldDesignator=C43 NewDesignator=C47
+Change Component Designator: OldDesignator=C44 NewDesignator=C48
+Change Component Designator: OldDesignator=C45 NewDesignator=C49
+Change Component Designator: OldDesignator=C46 NewDesignator=C50
+Change Component Designator: OldDesignator=C47 NewDesignator=C51
+Change Component Designator: OldDesignator=C71 NewDesignator=C72
+Change Component Designator: OldDesignator=C72 NewDesignator=C73
+Change Component Designator: OldDesignator=C73 NewDesignator=C74
+Change Component Designator: OldDesignator=C74 NewDesignator=C75
+Change Component Designator: OldDesignator=C75 NewDesignator=C77
+Change Component Designator: OldDesignator=C76 NewDesignator=C78
+Change Component Designator: OldDesignator=C77 NewDesignator=C79
+Change Component Designator: OldDesignator=C78 NewDesignator=C81
+Change Component Designator: OldDesignator=C79 NewDesignator=C82
+Change Component Designator: OldDesignator=C80 NewDesignator=C83
+Change Component Designator: OldDesignator=C81 NewDesignator=C84
+Change Component Designator: OldDesignator=C82 NewDesignator=C85
+Change Component Designator: OldDesignator=C83 NewDesignator=C86
+Change Component Designator: OldDesignator=C84 NewDesignator=C87
+Change Component Designator: OldDesignator=C85 NewDesignator=C89
+Change Component Designator: OldDesignator=C86 NewDesignator=C90
+Change Component Designator: OldDesignator=R66 NewDesignator=R65
+Change Component Designator: OldDesignator=R67 NewDesignator=R66
+Change Component Designator: OldDesignator=R68 NewDesignator=R67
+Change Component Designator: OldDesignator=R69 NewDesignator=R68
+Change Component Designator: OldDesignator=R70 NewDesignator=R73
+Change Component Designator: OldDesignator=R71 NewDesignator=R75
+Change Component Designator: OldDesignator=R72 NewDesignator=R76
+Change Component Designator: OldDesignator=R73 NewDesignator=R77
+Change Component Designator: OldDesignator=R74 NewDesignator=R78
+Change Component Designator: OldDesignator=R75 NewDesignator=R82
+Change Component Designator: OldDesignator=R76 NewDesignator=R84
+Change Component Designator: OldDesignator=R77 NewDesignator=R85
+Change Component Designator: OldDesignator=R78 NewDesignator=R86
+Change Component Designator: OldDesignator=R79 NewDesignator=R87
+Change Component Designator: OldDesignator=R80 NewDesignator=R88
+Change Component Designator: OldDesignator=R81 NewDesignator=R89
+Change Component Designator: OldDesignator=R82 NewDesignator=R90
+Change Component Designator: OldDesignator=R83 NewDesignator=R91
+Change Component Designator: OldDesignator=R84 NewDesignator=R92
+Change Component Designator: OldDesignator=R85 NewDesignator=R97
+Change Component Designator: OldDesignator=R86 NewDesignator=R98
+Change Component Designator: OldDesignator=R87 NewDesignator=R69
+Change Component Designator: OldDesignator=R88 NewDesignator=R103
+Change Component Designator: OldDesignator=R89 NewDesignator=R104
+Change Component Designator: OldDesignator=U12 NewDesignator=U13
+Change Component Designator: OldDesignator=U70 NewDesignator=U71
+Change Component Designator: OldDesignator=U71 NewDesignator=U72
+Change Component Designator: OldDesignator=U72 NewDesignator=U76
+Added Component: Designator=C76(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Added Component: Designator=J9(SMA SMD Vertical Linx CONSMA001-SMD-G)
+Add component (AddParameter): Name = "Value"; Value = "CONSMA001-SMD-G"; VariantName = "[No Variations]"
+Added Component: Designator=J10(SMA SMD Vertical Linx CONSMA001-SMD-G)
+Add component (AddParameter): Name = "Value"; Value = "CONSMA001-SMD-G"; VariantName = "[No Variations]"
+Added Component: Designator=R105(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R106(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R107(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R108(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R109(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R110(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R111(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R112(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R113(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R114(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R115(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R116(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R117(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "51"; VariantName = "[No Variations]"
+Added Component: Designator=R118(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "51"; VariantName = "[No Variations]"
+Added Component: Designator=R119(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "NC"; VariantName = "[No Variations]"
+Added Component: Designator=R120(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "NC"; VariantName = "[No Variations]"
+Added Component: Designator=R121(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "NC"; VariantName = "[No Variations]"
+Added Component: Designator=R122(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "NC"; VariantName = "[No Variations]"
+Added Component: Designator=R123(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R124(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R125(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R126(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=U12(SOT23-5 P0.95 C1.6x3.0 H1.3)
+Add component (AddParameter): Name = "Value"; Value = "AP7331-12WG-7"; VariantName = "[No Variations]"
+Added Component: Designator=U14(SOT23-5 P0.95 C1.6x3.0 H1.3)
+Add component (AddParameter): Name = "Value"; Value = "AP7331-25WG-7"; VariantName = "[No Variations]"
+Added Component: Designator=U15(QFN50P700X700X100_HS-49N)
+Added Pin To Net: NetName=GND Pin=C76-1
+Added Pin To Net: NetName=+3v3A Pin=C76-2
+Added Pin To Net: NetName=GND Pin=J9-2
+Added Pin To Net: NetName=GND Pin=J9-2
+Added Pin To Net: NetName=GND Pin=J10-2
+Added Pin To Net: NetName=GND Pin=J10-2
+Added Pin To Net: NetName=+3v3 Pin=R106-2
+Added Pin To Net: NetName=FPGA_ADC_SCLK Pin=R111-2
+Added Pin To Net: NetName=FPGA_ADC_nSC Pin=R112-2
+Added Pin To Net: NetName=GND Pin=R117-2
+Added Pin To Net: NetName=GND Pin=R118-2
+Added Pin To Net: NetName=GND Pin=R119-1
+Added Pin To Net: NetName=FPGA_ADC_SDO_0 Pin=R119-2
+Added Pin To Net: NetName=GND Pin=R120-1
+Added Pin To Net: NetName=FPGA_ADC_SDO_1 Pin=R120-2
+Added Pin To Net: NetName=GND Pin=R121-1
+Added Pin To Net: NetName=FPGA_ADC_SDO_2 Pin=R121-2
+Added Pin To Net: NetName=GND Pin=R122-1
+Added Pin To Net: NetName=FPGA_ADC_SDO_3 Pin=R122-2
+Added Pin To Net: NetName=POW_IN Pin=U12-1
+Added Pin To Net: NetName=GND Pin=U12-2
+Added Pin To Net: NetName=EN_1v2 Pin=U12-3
+Added Pin To Net: NetName=+1v2 Pin=U12-5
+Added Pin To Net: NetName=POW_IN Pin=U14-1
+Added Pin To Net: NetName=GND Pin=U14-2
+Added Pin To Net: NetName=EN_1v2 Pin=U14-3
+Added Pin To Net: NetName=+2v5 Pin=U14-5
+Added Pin To Net: NetName=GND Pin=U15-0
+Added Pin To Net: NetName=+3v3 Pin=U15-1
+Added Pin To Net: NetName=+1v2 Pin=U15-5
+Added Pin To Net: NetName=FPGA_ADC_SDO_0 Pin=U15-6
+Added Pin To Net: NetName=CDONE Pin=U15-7
+Added Pin To Net: NetName=creset_b Pin=U15-8
+Added Pin To Net: NetName=FPGA_ADC_SDO_1 Pin=U15-9
+Added Pin To Net: NetName=FPGA_ADC_SDO_2 Pin=U15-10
+Added Pin To Net: NetName=FPGA_ADC_SDO_3 Pin=U15-11
+Added Pin To Net: NetName=ICE_MISO Pin=U15-14
+Added Pin To Net: NetName=ICE_SCK Pin=U15-15
+Added Pin To Net: NetName=ICE_SS Pin=U15-16
+Added Pin To Net: NetName=ICE_MOSI Pin=U15-17
+Added Pin To Net: NetName=+3v3 Pin=U15-22
+Added Pin To Net: NetName=+2v5 Pin=U15-24
+Added Pin To Net: NetName=VCC_PLL Pin=U15-29
+Added Pin To Net: NetName=+1v2 Pin=U15-30
+Added Pin To Net: NetName=+3v3 Pin=U15-33
+Added Pin To Net: NetName=FPGA_CAL_1 Pin=U15-41
+Added Pin To Net: NetName=FPGA_ACQ_TRIG Pin=U15-43
+Added Pin To Net: NetName=STM_FPGA_MOSI Pin=U15-44
+Change Net Name : Old Net Name=NetC71_2 New Net Name=NetC72_2
+Change Net Name : Old Net Name=NetC72_2 New Net Name=NetC73_2
+Change Net Name : Old Net Name=NetC73_1 New Net Name=NetC74_1
+Change Net Name : Old Net Name=NetC74_1 New Net Name=NetC75_1
+Change Net Name : Old Net Name=NetC77_1 New Net Name=NetC79_1
+Change Net Name : Old Net Name=NetC78_1 New Net Name=NetC81_1
+Change Net Name : Old Net Name=NetC80_1 New Net Name=NetC83_1
+Change Net Name : Old Net Name=NetC81_1 New Net Name=NetC84_1
+Change Net Name : Old Net Name=NetC83_2 New Net Name=NetC86_2
+Change Net Name : Old Net Name=NetC84_1 New Net Name=NetC87_1
+Change Net Name : Old Net Name=NetC85_1 New Net Name=NetC89_1
+Change Net Name : Old Net Name=NetR66_1 New Net Name=NetR65_1
+Change Net Name : Old Net Name=NetR74_1 New Net Name=NetR78_1
+Change Net Name : Old Net Name=NetR75_1 New Net Name=NetR82_1
+Change Net Name : Old Net Name=NetR79_1 New Net Name=NetR87_1
+Change Net Name : Old Net Name=NetR82_1 New Net Name=NetR90_1
+Added Pin To Net: NetName=64M_CLK_EN Pin=R106-1
+Added Net: Name=64M_CLK_EN
+Added Pin To Net: NetName=FPGA_1MHz_Meas Pin=R113-1
+Added Pin To Net: NetName=FPGA_1MHz_Meas Pin=R114-2
+Added Net: Name=FPGA_1MHz_Meas
+Added Pin To Net: NetName=FPGA_64M_CLK_EN Pin=U15-20
+Added Net: Name=FPGA_64M_CLK_EN
+Added Pin To Net: NetName=FPGA_64M_CLK Pin=R107-1
+Added Pin To Net: NetName=FPGA_64M_CLK Pin=U15-37
+Added Net: Name=FPGA_64M_CLK
+Added Pin To Net: NetName=FPGA_ACQ_DONE Pin=U15-39
+Added Net: Name=FPGA_ACQ_DONE
+Added Pin To Net: NetName=FPGA_ACQ_PRETRIG Pin=U15-36
+Added Net: Name=FPGA_ACQ_PRETRIG
+Added Pin To Net: NetName=FPGA_CAL_2 Pin=U15-40
+Added Net: Name=FPGA_CAL_2
+Added Pin To Net: NetName=FPGA_FRAM_0_SCLK Pin=R105-2
+Added Net: Name=FPGA_FRAM_0_SCLK
+Added Pin To Net: NetName=FPGA_FRAM_1_SCLK Pin=R108-2
+Added Net: Name=FPGA_FRAM_1_SCLK
+Added Pin To Net: NetName=FPGA_FRAM_2_SCLK Pin=R109-2
+Added Net: Name=FPGA_FRAM_2_SCLK
+Added Pin To Net: NetName=FPGA_FRAM_3_SCLK Pin=R110-2
+Added Net: Name=FPGA_FRAM_3_SCLK
+Added Pin To Net: NetName=FPGA_FRAM_nCS_0 Pin=U15-48
+Added Net: Name=FPGA_FRAM_nCS_0
+Added Pin To Net: NetName=FPGA_FRAM_nCS_1 Pin=U15-45
+Added Net: Name=FPGA_FRAM_nCS_1
+Added Pin To Net: NetName=FPGA_FRAM_nCS_2 Pin=U15-2
+Added Net: Name=FPGA_FRAM_nCS_2
+Added Pin To Net: NetName=FPGA_FRAM_nCS_3 Pin=U15-4
+Added Net: Name=FPGA_FRAM_nCS_3
+Added Pin To Net: NetName=FPGA_FRAM_SDI_0 Pin=R123-2
+Added Net: Name=FPGA_FRAM_SDI_0
+Added Pin To Net: NetName=FPGA_FRAM_SDI_1 Pin=R124-2
+Added Net: Name=FPGA_FRAM_SDI_1
+Added Pin To Net: NetName=FPGA_FRAM_SDI_2 Pin=R125-2
+Added Net: Name=FPGA_FRAM_SDI_2
+Added Pin To Net: NetName=FPGA_FRAM_SDI_3 Pin=R126-2
+Added Net: Name=FPGA_FRAM_SDI_3
+Added Pin To Net: NetName=FPGA_SCLK_MEAS Pin=R115-1
+Added Pin To Net: NetName=FPGA_SCLK_MEAS Pin=R116-2
+Added Net: Name=FPGA_SCLK_MEAS
+Added Pin To Net: NetName=NetJ9_1 Pin=J9-1
+Added Pin To Net: NetName=NetJ9_1 Pin=R113-2
+Added Pin To Net: NetName=NetJ9_1 Pin=R117-1
+Added Net: Name=NetJ9_1
+Added Pin To Net: NetName=NetJ10_1 Pin=J10-1
+Added Pin To Net: NetName=NetJ10_1 Pin=R115-2
+Added Pin To Net: NetName=NetJ10_1 Pin=R118-1
+Added Net: Name=NetJ10_1
+Added Pin To Net: NetName=NetR105_1 Pin=R105-1
+Added Pin To Net: NetName=NetR105_1 Pin=U15-25
+Added Net: Name=NetR105_1
+Added Pin To Net: NetName=NetR107_2 Pin=R107-2
+Added Net: Name=NetR107_2
+Added Pin To Net: NetName=NetR108_1 Pin=R108-1
+Added Pin To Net: NetName=NetR108_1 Pin=U15-23
+Added Net: Name=NetR108_1
+Added Pin To Net: NetName=NetR109_1 Pin=R109-1
+Added Pin To Net: NetName=NetR109_1 Pin=U15-27
+Added Net: Name=NetR109_1
+Added Pin To Net: NetName=NetR110_1 Pin=R110-1
+Added Pin To Net: NetName=NetR110_1 Pin=U15-26
+Added Net: Name=NetR110_1
+Added Pin To Net: NetName=NetR111_1 Pin=R111-1
+Added Pin To Net: NetName=NetR111_1 Pin=U15-28
+Added Net: Name=NetR111_1
+Added Pin To Net: NetName=NetR112_1 Pin=R112-1
+Added Pin To Net: NetName=NetR112_1 Pin=U15-31
+Added Net: Name=NetR112_1
+Added Pin To Net: NetName=NetR114_1 Pin=R114-1
+Added Pin To Net: NetName=NetR114_1 Pin=U15-32
+Added Net: Name=NetR114_1
+Added Pin To Net: NetName=NetR116_1 Pin=R116-1
+Added Pin To Net: NetName=NetR116_1 Pin=U15-34
+Added Net: Name=NetR116_1
+Added Pin To Net: NetName=NetR123_1 Pin=R123-1
+Added Pin To Net: NetName=NetR123_1 Pin=U15-12
+Added Net: Name=NetR123_1
+Added Pin To Net: NetName=NetR124_1 Pin=R124-1
+Added Pin To Net: NetName=NetR124_1 Pin=U15-21
+Added Net: Name=NetR124_1
+Added Pin To Net: NetName=NetR125_1 Pin=R125-1
+Added Pin To Net: NetName=NetR125_1 Pin=U15-13
+Added Net: Name=NetR125_1
+Added Pin To Net: NetName=NetR126_1 Pin=R126-1
+Added Pin To Net: NetName=NetR126_1 Pin=U15-18
+Added Net: Name=NetR126_1
+Added Pin To Net: NetName=STM_FPGA_M0 Pin=U15-19
+Added Net: Name=STM_FPGA_M0
+Added Pin To Net: NetName=STM_FPGA_M1 Pin=U15-3
+Added Net: Name=STM_FPGA_M1
+Added Pin To Net: NetName=STM_FPGA_M2 Pin=U15-38
+Added Net: Name=STM_FPGA_M2
+Added Pin To Net: NetName=STM_FPGA_M3 Pin=U15-42
+Added Net: Name=STM_FPGA_M3
+Added Pin To Net: NetName=STM_FPGA_MISO Pin=U15-47
+Added Net: Name=STM_FPGA_MISO
+Added Pin To Net: NetName=STM_FPGA_reset Pin=U15-35
+Added Net: Name=STM_FPGA_reset
+Added Pin To Net: NetName=STM_FPGA_SCK Pin=U15-46
+Added Net: Name=STM_FPGA_SCK
+Added Class: Name=BalEv_FPTG_IO_v1_0
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C48 10nF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C49 100nF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C50 100nF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C51 100nF
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component C87 68pF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component U14 AP7331-25WG-7
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component U15 iCE40 Ultra / iCE5LP

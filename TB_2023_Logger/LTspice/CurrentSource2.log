@@ -1,0 +1,49 @@
+Circuit: * I:\RaD\SI-ET\Projets\ECS\TB_2023_Logger\LTspice\CurrentSource2.asc
+
+WARNING: Less than two connections to node VSS.  This node is used by V2.
+Direct Newton iteration for .op point succeeded.
+.step t4=-0.001 t5=-0.001 t6=-0.001
+.step t4=0 t5=-0.001 t6=-0.001
+.step t4=0.001 t5=-0.001 t6=-0.001
+.step t4=-0.001 t5=0 t6=-0.001
+.step t4=0 t5=0 t6=-0.001
+.step t4=0.001 t5=0 t6=-0.001
+.step t4=-0.001 t5=0.001 t6=-0.001
+.step t4=0 t5=0.001 t6=-0.001
+.step t4=0.001 t5=0.001 t6=-0.001
+.step t4=-0.001 t5=-0.001 t6=0
+.step t4=0 t5=-0.001 t6=0
+.step t4=0.001 t5=-0.001 t6=0
+.step t4=-0.001 t5=0 t6=0
+.step t4=0 t5=0 t6=0
+.step t4=0.001 t5=0 t6=0
+.step t4=-0.001 t5=0.001 t6=0
+.step t4=0 t5=0.001 t6=0
+.step t4=0.001 t5=0.001 t6=0
+.step t4=-0.001 t5=-0.001 t6=0.001
+.step t4=0 t5=-0.001 t6=0.001
+.step t4=0.001 t5=-0.001 t6=0.001
+.step t4=-0.001 t5=0 t6=0.001
+.step t4=0 t5=0 t6=0.001
+.step t4=0.001 t5=0 t6=0.001
+.step t4=-0.001 t5=0.001 t6=0.001
+.step t4=0 t5=0.001 t6=0.001
+.step t4=0.001 t5=0.001 t6=0.001
+
+Date: Mon Mar 20 10:59:34 2023
+Total elapsed time: 2.119 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2174
+traniter = 2148
+tranpoints = 1065
+accept = 1058
+rejected = 7
+matrix size = 21
+fillins = 11
+solver = Normal
+Matrix Compiler1: 1.45 KB object code size  0.4/0.3/[0.1]
+Matrix Compiler2: 1.80 KB object code size  0.2/0.2/[0.2]
+

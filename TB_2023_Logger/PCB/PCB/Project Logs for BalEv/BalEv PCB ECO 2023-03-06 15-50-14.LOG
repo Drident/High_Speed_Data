@@ -1,0 +1,77 @@
+Added Component: Designator=C1(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "4.7nF"; VariantName = "[No Variations]"
+Added Component: Designator=C2(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C4(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Added Component: Designator=C5(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C7(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C8(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Added Component: Designator=C10(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "4.7nF"; VariantName = "[No Variations]"
+Added Component: Designator=R2(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "1.5k"; VariantName = "[No Variations]"
+Added Component: Designator=R3(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "3k"; VariantName = "[No Variations]"
+Added Component: Designator=R6(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "7.15k"; VariantName = "[No Variations]"
+Added Component: Designator=R9(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "7.15k"; VariantName = "[No Variations]"
+Added Component: Designator=R10(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "1.5k"; VariantName = "[No Variations]"
+Added Component: Designator=R11(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "3k"; VariantName = "[No Variations]"
+Added Component: Designator=U1(SOT23-6 P0.95 C1.5x3.0 H1.3)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U2(LFCSP8 P0.5 C3.0x2.8 H1.0)
+Add component (AddParameter): Name = "Value"; Value = "AD8137YCPZ"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3v3A Pin=C2-1
+Added Pin To Net: NetName=+3v3A Pin=C5-2
+Added Pin To Net: NetName=+3v3A Pin=U1-6
+Added Pin To Net: NetName=+3v3A Pin=U2-3
+Added Net: Name=+3v3A
+Added Pin To Net: NetName=+ADCcm Pin=R10-1
+Added Pin To Net: NetName=+ADCcm Pin=U2-2
+Added Net: Name=+ADCcm
+Added Pin To Net: NetName=-3v3A Pin=C7-1
+Added Pin To Net: NetName=-3v3A Pin=U2-6
+Added Net: Name=-3v3A
+Added Pin To Net: NetName=AIN0n Pin=C8-1
+Added Pin To Net: NetName=AIN0n Pin=R11-2
+Added Pin To Net: NetName=AIN0n Pin=U2-5
+Added Net: Name=AIN0n
+Added Pin To Net: NetName=AIN0p Pin=C4-1
+Added Pin To Net: NetName=AIN0p Pin=R3-2
+Added Pin To Net: NetName=AIN0p Pin=U2-4
+Added Net: Name=AIN0p
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=GND Pin=C10-2
+Added Pin To Net: NetName=GND Pin=U2-0
+Added Net: Name=GND
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=NetC1_2 Pin=R2-2
+Added Pin To Net: NetName=NetC1_2 Pin=R3-1
+Added Pin To Net: NetName=NetC1_2 Pin=R6-2
+Added Net: Name=NetC1_2
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Pin To Net: NetName=NetC2_2 Pin=U1-2
+Added Net: Name=NetC2_2
+Added Pin To Net: NetName=NetC4_2 Pin=C4-2
+Added Pin To Net: NetName=NetC4_2 Pin=R6-1
+Added Pin To Net: NetName=NetC4_2 Pin=U2-1
+Added Net: Name=NetC4_2
+Added Pin To Net: NetName=NetC8_2 Pin=C8-2
+Added Pin To Net: NetName=NetC8_2 Pin=R9-2
+Added Pin To Net: NetName=NetC8_2 Pin=U2-8
+Added Net: Name=NetC8_2
+Added Pin To Net: NetName=NetC10_1 Pin=C10-1
+Added Pin To Net: NetName=NetC10_1 Pin=R9-1
+Added Pin To Net: NetName=NetC10_1 Pin=R10-2
+Added Pin To Net: NetName=NetC10_1 Pin=R11-1
+Added Net: Name=NetC10_1
+Added Class: Name=BalEv_AIN_v1_0

@@ -1,0 +1,38 @@
+/*
+ * fram_func.h
+ *
+ *  Created on: 6 juil. 2023
+ *      Author: christop.grobety
+ */
+
+#ifndef INC_FRAM_FUNC_H_
+#define INC_FRAM_FUNC_H_
+
+#define MEMORY_SIZE 524288
+#include "main.h"
+#include <stdbool.h>
+#include <stdio.h>
+
+/**
+ * @brief Read all the value in a SD's file
+ * @param sd_file: SD_card emplacement
+ * @param fileName: name and type of the file
+ * @return the pointer on the first adress of the data's file table
+*/
+void FRAM_write_one(enum State state_, uint8_t*TX_FRAM, uint8_t data_size, SPI_HandleTypeDef hspi_1);
+void FRAM_write_all(SPI_HandleTypeDef hspi_1, uint8_t*TX_FRAM, uint8_t data_size);
+void FRAM_write_ADC_to_FRAM(SPI_HandleTypeDef hspi_1);
+void FRAM_write_reg(SPI_HandleTypeDef hspi_1);
+void FRAM_reset_reg(SPI_HandleTypeDef hspi_1);
+void FRAM_read_reg(enum State state_, SPI_HandleTypeDef hspi_1);
+void FRAM_device(SPI_HandleTypeDef hspi_1);
+uint8_t* FRAM_read(enum State state_, uint32_t add,SPI_HandleTypeDef hspi_1, uint8_t data_size);
+void PIN_reset();
+void setPreTrigg(SPI_HandleTypeDef hspi_1, uint8_t pretrig);
+void setTriggChannel(enum trig_channel chan);
+
+void LED_on(enum color_Led color);
+void LED_off();
+
+
+#endif /* INC_FRAM_FUNC_H_ */

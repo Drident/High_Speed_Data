@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=FPGA_CAL_2 Pin=J3-1
+Added Pin To Net: NetName=+3v3 Pin=J15-1
+Added Pin To Net: NetName=STM_ACQ_TRIG_SRC0 Pin=U18-57
+Added Pin To Net: NetName=STM_ACQ_TRIG_SRC1 Pin=U18-61

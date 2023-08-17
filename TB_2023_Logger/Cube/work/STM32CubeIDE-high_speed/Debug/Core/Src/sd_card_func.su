@@ -1,0 +1,4 @@
+../Core/Src/sd_card_func.c:18:6:SD_create_file	8	static
+../Core/Src/sd_card_func.c:37:6:SD_write_data	8	static
+../Core/Src/sd_card_func.c:67:10:SD_read_data	8	static
+../Core/Src/sd_card_func.c:98:9:initValue	6240	static

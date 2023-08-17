@@ -1,0 +1,142 @@
+Change Component Library : Designator=U1 Old Library=Amplifier.IntLib New Library=Amplifier.SchLib
+Change Component Library : Designator=U2 Old Library=Amplifier.IntLib New Library=Amplifier.SchLib
+Change Component Library : Designator=U5 Old Library=Amplifier.IntLib New Library=Amplifier.SchLib
+Change Component Library : Designator=U6 Old Library=Amplifier.IntLib New Library=Amplifier.SchLib
+Change Component Library : Designator=U7 Old Library=Amplifier.IntLib New Library=Amplifier.SchLib
+Change Component Library : Designator=U8 Old Library=Amplifier.IntLib New Library=Amplifier.SchLib
+Change Component Library : Designator=U9 Old Library=Amplifier.IntLib New Library=Amplifier.SchLib
+Change Component Library : Designator=U10 Old Library=Amplifier.IntLib New Library=Amplifier.SchLib
+Change Component Library : Designator=U70 Old Library=Amplifier.IntLib New Library=Amplifier.SchLib
+Change Component Library : Designator=C1 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C2 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C3 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C4 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C5 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C6 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C7 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C8 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C9 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C10 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C11 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C12 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C13 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C14 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C15 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C16 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C17 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C18 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C19 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C20 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C21 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C22 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C23 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C24 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C25 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C26 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C27 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C28 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C29 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C30 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C31 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C32 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C33 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C34 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C35 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C70 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C71 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C72 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C73 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C74 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C75 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C76 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C77 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C78 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C79 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C80 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C81 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C82 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C83 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C84 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C85 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=C86 Old Library=Capacitor.IntLib New Library=Capacitor.SchLib
+Change Component Library : Designator=J1 Old Library=Connector.IntLib New Library=Connector.SchLib
+Change Component Library : Designator=J2 Old Library=Connector.IntLib New Library=Connector.SchLib
+Change Component Library : Designator=J4 Old Library=Connector.IntLib New Library=Connector.SchLib
+Change Component Library : Designator=J5 Old Library=Connector.IntLib New Library=Connector.SchLib
+Change Component Library : Designator=U71 Old Library=Converter.IntLib New Library=Converter.SchLib
+Added Component: Designator=C36(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C37(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "10nF"; VariantName = "[No Variations]"
+Added Component: Designator=C38(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C39(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "10nF"; VariantName = "[No Variations]"
+Added Component: Designator=C40(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "10nF"; VariantName = "[No Variations]"
+Added Component: Designator=C41(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "NC"; VariantName = "[No Variations]"
+Added Component: Designator=C42(CAPACITOR 1608 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Component: Designator=C43(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C44(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "10nF"; VariantName = "[No Variations]"
+Added Component: Designator=C45(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C46(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C47(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=J6(MOLEX 43650-0200)
+Added Component: Designator=J8(FlatCable2x5 2MM Straight TH FCI 98414-G06-10ULF)
+Added Pin To Net: NetName=GND Pin=C36-1
+Added Pin To Net: NetName=POW_IN Pin=C36-2
+Added Pin To Net: NetName=GND Pin=C37-1
+Added Pin To Net: NetName=ACQ_POW_EN Pin=C37-2
+Added Pin To Net: NetName=GND Pin=C38-1
+Added Pin To Net: NetName=+3v3 Pin=C38-2
+Added Pin To Net: NetName=GND Pin=C39-1
+Added Pin To Net: NetName=+1v2 Pin=C39-2
+Added Pin To Net: NetName=GND Pin=C40-1
+Added Pin To Net: NetName=+1v2 Pin=C40-2
+Added Pin To Net: NetName=GND Pin=C41-1
+Added Pin To Net: NetName=creset_b Pin=C41-2
+Added Pin To Net: NetName=GND Pin=C42-1
+Added Pin To Net: NetName=VCC_PLL Pin=C42-2
+Added Pin To Net: NetName=GND Pin=C43-1
+Added Pin To Net: NetName=VCC_PLL Pin=C43-2
+Added Pin To Net: NetName=GND Pin=C44-1
+Added Pin To Net: NetName=+2v5 Pin=C44-2
+Added Pin To Net: NetName=GND Pin=C45-1
+Added Pin To Net: NetName=+3v3 Pin=C45-2
+Added Pin To Net: NetName=GND Pin=C46-1
+Added Pin To Net: NetName=+3v3 Pin=C46-2
+Added Pin To Net: NetName=GND Pin=C47-1
+Added Pin To Net: NetName=+3v3 Pin=C47-2
+Added Pin To Net: NetName=POW_IN Pin=J6-1
+Added Pin To Net: NetName=GND Pin=J6-2
+Added Pin To Net: NetName=DONE Pin=J8-1
+Added Pin To Net: NetName=NetJ8_2 Pin=J8-2
+Added Pin To Net: NetName=NetJ8_3 Pin=J8-3
+Added Pin To Net: NetName=TCK/SCLK Pin=J8-4
+Added Pin To Net: NetName=TRST Pin=J8-5
+Added Pin To Net: NetName=TMS Pin=J8-6
+Added Pin To Net: NetName=ISPEN/PROG Pin=J8-7
+Added Pin To Net: NetName=TDI_SI Pin=J8-8
+Added Pin To Net: NetName=NetJ8_9 Pin=J8-9
+Added Pin To Net: NetName=TDI_SO Pin=J8-10
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C36 100nF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C37 10nF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C38 100nF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C39 10nF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C40 10nF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C41 NC
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C42 10uF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C43 100nF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C44 10nF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C45 100nF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C46 100nF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C47 100nF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component J6 MOLEX 43650-0200
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component J8 FlatCable2x5

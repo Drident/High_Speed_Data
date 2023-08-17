@@ -1,0 +1,5 @@
+Added Component: Designator=R142(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "NC"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R142-1
+Added Pin To Net: NetName=FPGA_64M_CLK Pin=R142-2
+Added Member To Class: ClassName=BalEv_FPTG_IO_v1_0 Member=Component R142 NC

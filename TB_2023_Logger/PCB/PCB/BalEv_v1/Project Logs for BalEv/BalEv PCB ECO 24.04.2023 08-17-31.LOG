@@ -1,0 +1,10 @@
+Added Component: Designator=M1(Nut M3 Unconnected)
+Add component (AddParameter): Name = "Value"; Value = "M3"; VariantName = "[No Variations]"
+Added Component: Designator=M2(Nut M3 Unconnected)
+Add component (AddParameter): Name = "Value"; Value = "M3"; VariantName = "[No Variations]"
+Added Component: Designator=M3(Nut M3 Unconnected)
+Add component (AddParameter): Name = "Value"; Value = "M3"; VariantName = "[No Variations]"
+Added Component: Designator=M4(Nut M3 Unconnected)
+Add component (AddParameter): Name = "Value"; Value = "M3"; VariantName = "[No Variations]"
+Added Class: Name=BalEv_Mechanic_v1_0
+Added Member To Class: ClassName=BalEv_USB_v1_0 Member=Component J16 USB4520-03-0-A

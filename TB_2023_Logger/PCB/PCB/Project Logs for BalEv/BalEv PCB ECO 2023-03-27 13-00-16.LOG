@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=AIN1p Pin=R72-1
+Removed Pin From Net: NetName=AIN1n Pin=R73-1
+Added Pin To Net: NetName=AIN0p Pin=R72-1
+Added Pin To Net: NetName=AIN0n Pin=R73-1
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C2 22pF
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C3 100nF
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C4 100nF
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C5 NC
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C10 100nF
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R1 4.7k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R3 1k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R6 1k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R7 0
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R11 10k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R12 10k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component U1 LTC6362_DD
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component U4 TLV???

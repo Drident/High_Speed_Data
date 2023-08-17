@@ -1,0 +1,50 @@
+--
+-- VHDL Architecture Bachelor.memory_to_process.student
+--
+-- Created:
+--          by - christop.grobety.UNKNOWN (WE2332207)
+--          at - 10:24:22 07.06.2023
+--
+-- using Mentor Graphics HDL Designer(TM) 2019.2 (Build 5)
+--
+LIBRARY Common;
+  USE Common.CommonLib.all;
+ARCHITECTURE student OF memory_to_process IS
+	signal count: unsigned((memory_size-1) downto 0);
+	signal count_memory: unsigned((memory_size-1) downto 0);
+	signal start_bit: std_uLogic;
+	signal MISO_IN: std_uLogic;
+	signal done_int: std_uLogic := '0';
+BEGIN
+	sendAdd : process(reset, clock)
+	begin
+		if reset = '1' then
+			start_bit <= '0';
+			MISO_IN <= '0';
+ 			count_memory <= "1011010101010101010";
+	    count <= (others => '0');
+		elsif rising_edge(clock) then
+			if m = "1011" then
+					if start_bit = '0' then
+			          MISO_IN <= '0';
+			          start_bit <= '1';
+			          count_memory <= memoryAdd;
+			    elsif count < memory_size and start_bit = '1' then
+			          count <= count+1;
+			          MISO_IN <= count_memory(count_memory'HIGH);
+			          count_memory <= SHIFT_LEFT(count_memory,1);
+			    elsif count = memory_size then
+			          count_memory <= (others => '0');
+			          MISO_IN <= '0';
+			    end if ;
+	    else
+	    			start_bit <= '0';
+	    			count <= (others => '0');
+	    end if;
+	      	
+		end if ;
+	end process sendAdd;
+	
+	MISO <= MISO_IN;
+END ARCHITECTURE student;
+

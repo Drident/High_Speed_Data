@@ -1,0 +1,170 @@
+08:40:42
+
+
+"C:/eda/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\packer.exe" "C:\eda\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T04.dev" "C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt/sbt/netlist/oadb-EC5LP" --package SG48 --outdir "C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt\sbt\outputs\packer" --translator "C:\eda\lscc\iCEcube2.2020.12\sbt_backend\bin\sdc_translator.tcl" --src_sdc_file "C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt\sbt\outputs\placer\EC5LP_pl.sdc" --dst_sdc_file "C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt\sbt\outputs\packer\EC5LP_pk.sdc" --devicename iCE5LP1K
+starting packerrunning packerLattice Semiconductor Corporation  Packer
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:32:13
+
+Begin Packing...
+initializing finish
+Total HPWL cost is 1179
+used logic cells: 301
+Translating sdc file C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt\sbt\outputs\placer\EC5LP_pl.sdc...
+Translated sdc file is C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt\sbt\outputs\packer\EC5LP_pk.sdc
+Packer succeeded
+
+Packer run-time: 0 (sec)
+packer succeed.
+
+
+"C:\eda\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbrouter.exe" "C:\eda\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T04.dev" "C:\Users\christop.grobety\Bachelor\Bachelor\Board\icecube2\test\test_Implmnt\sbt\netlist\oadb-EC5LP" "C:\eda\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40TH4K.lib" "C:\Users\christop.grobety\Bachelor\Bachelor\Board\icecube2\test\test_Implmnt\sbt\outputs\packer\EC5LP_pk.sdc" --outdir "C:\Users\christop.grobety\Bachelor\Bachelor\Board\icecube2\test\test_Implmnt\sbt\outputs\router" --sdf_file "C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt\sbt\outputs\simulation_netlist\EC5LP_sbt.sdf" --pin_permutation
+starting routerrunning routerSJRouter....
+Executing : C:\eda\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbrouter.exe C:\eda\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T04.dev C:\Users\christop.grobety\Bachelor\Bachelor\Board\icecube2\test\test_Implmnt\sbt\netlist\oadb-EC5LP C:\eda\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40TH4K.lib C:\Users\christop.grobety\Bachelor\Bachelor\Board\icecube2\test\test_Implmnt\sbt\outputs\packer\EC5LP_pk.sdc --outdir C:\Users\christop.grobety\Bachelor\Bachelor\Board\icecube2\test\test_Implmnt\sbt\outputs\router --sdf_file C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt\sbt\outputs\simulation_netlist\EC5LP_sbt.sdf --pin_permutation 
+Lattice Semiconductor Corporation  Router
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:44:15
+
+I1203: Reading Design EC5LP
+Read design time: 0
+I1202: Reading Architecture of device iCE5LP1K
+Warning-1035: Removing timing arc from pin "I_DUT.U_4.fpga_m_ret_RNI15M5_LC_18_1_3/in1" to pin "I_DUT.U_4.fpga_m_ret_RNI15M5_LC_18_1_3/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_5.fpga_m_0_ret_4_RNIDV2F_LC_12_3_2/in1" to pin "I_DUT.U_5.fpga_m_0_ret_4_RNIDV2F_LC_12_3_2/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_5.fpga_m_0_ret_4_RNIBT2F_LC_12_4_6/in1" to pin "I_DUT.U_5.fpga_m_0_ret_4_RNIBT2F_LC_12_4_6/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_5.fpga_m_0_ret_4_RNICU2F_LC_12_4_1/in1" to pin "I_DUT.U_5.fpga_m_0_ret_4_RNICU2F_LC_12_4_1/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_5.fpga_m_0_ret_4_RNIE03F_LC_12_3_7/in1" to pin "I_DUT.U_5.fpga_m_0_ret_4_RNIE03F_LC_12_3_7/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_4.fpga_m_1_ret_RNIHEAG_LC_11_1_6/in1" to pin "I_DUT.U_4.fpga_m_1_ret_RNIHEAG_LC_11_1_6/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_5.fpga_m_ret_8_RNI1CV5_LC_9_5_1/in1" to pin "I_DUT.U_5.fpga_m_ret_8_RNI1CV5_LC_9_5_1/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_5.fpga_m_ret_8_RNI1CV5_1_LC_9_5_0/in1" to pin "I_DUT.U_5.fpga_m_ret_8_RNI1CV5_1_LC_9_5_0/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_5.fpga_m_ret_8_RNI1CV5_0_LC_8_6_1/in1" to pin "I_DUT.U_5.fpga_m_ret_8_RNI1CV5_0_LC_8_6_1/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_5.fpga_m_ret_8_RNI1CV5_2_LC_8_6_5/in1" to pin "I_DUT.U_5.fpga_m_ret_8_RNI1CV5_2_LC_8_6_5/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_4.fpga_m_ret_9_RNI797L1_LC_8_10_1/in1" to pin "I_DUT.U_4.fpga_m_ret_9_RNI797L1_LC_8_10_1/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_4.fpga_m_ret_3_RNIK5EN1_LC_9_7_6/in1" to pin "I_DUT.U_4.fpga_m_ret_3_RNIK5EN1_LC_9_7_6/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_5.fpga_m_ret_4_RNIQT5I2_LC_9_9_4/in1" to pin "I_DUT.U_5.fpga_m_ret_4_RNIQT5I2_LC_9_9_4/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_4.fpga_m_ret_6_RNIM2D7_LC_11_7_3/in1" to pin "I_DUT.U_4.fpga_m_ret_6_RNIM2D7_LC_11_7_3/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_4.fpga_m_ret_5_RNI0PRE1_LC_7_11_4/in1" to pin "I_DUT.U_4.fpga_m_ret_5_RNI0PRE1_LC_7_11_4/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_4.fpga_m_ret_7_RNI2OTC1_LC_8_13_2/in1" to pin "I_DUT.U_4.fpga_m_ret_7_RNI2OTC1_LC_8_13_2/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_4.fpga_m_2_ret_RNIIIGK_LC_11_2_4/in1" to pin "I_DUT.U_4.fpga_m_2_ret_RNIIIGK_LC_11_2_4/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI672E_LC_9_18_4/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI672E_LC_9_18_4/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_15_LC_3_13_7/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_15_LC_3_13_7/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_11_LC_3_13_4/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_11_LC_3_13_4/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_0_LC_3_13_0/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_0_LC_3_13_0/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_7_LC_3_12_5/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_7_LC_3_12_5/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_14_LC_2_13_6/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_14_LC_2_13_6/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_13_LC_2_13_5/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_13_LC_2_13_5/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_10_LC_2_13_3/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_10_LC_2_13_3/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_9_LC_2_13_1/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_9_LC_2_13_1/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_1_LC_2_13_0/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_1_LC_2_13_0/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_5_LC_1_13_6/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_5_LC_1_13_6/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_8_LC_1_13_4/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_8_LC_1_13_4/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_2_LC_1_13_1/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_2_LC_1_13_1/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_16_LC_1_13_0/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_16_LC_1_13_0/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_12_LC_1_12_7/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_12_LC_1_12_7/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_LC_1_12_5/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_LC_1_12_5/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_3_LC_1_12_3/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_3_LC_1_12_3/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_6_LC_1_12_1/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_6_LC_1_12_1/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_4_LC_1_12_0/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_4_LC_1_12_0/lcout" to break the combinatorial loop
+Read device time: 3
+I1209: Started routing
+I1223: Total Nets : 390 
+I1212: Iteration  1 :    91 unrouted : 1 seconds
+I1212: Iteration  2 :    23 unrouted : 0 seconds
+I1212: Iteration  3 :    17 unrouted : 0 seconds
+I1212: Iteration  4 :     4 unrouted : 0 seconds
+I1212: Iteration  5 :     4 unrouted : 0 seconds
+I1212: Iteration  6 :     4 unrouted : 0 seconds
+I1212: Iteration  7 :     4 unrouted : 0 seconds
+I1212: Iteration  8 :     4 unrouted : 0 seconds
+I1212: Iteration  9 :     4 unrouted : 0 seconds
+I1212: Iteration 10 :     4 unrouted : 0 seconds
+I1212: Iteration 11 :     4 unrouted : 0 seconds
+I1212: Iteration 12 :     4 unrouted : 0 seconds
+I1212: Iteration 13 :     2 unrouted : 0 seconds
+I1212: Iteration 14 :     2 unrouted : 0 seconds
+I1212: Iteration 15 :     2 unrouted : 0 seconds
+I1212: Iteration 16 :     2 unrouted : 0 seconds
+I1212: Iteration 17 :     2 unrouted : 0 seconds
+I1212: Iteration 18 :     2 unrouted : 0 seconds
+I1212: Iteration 19 :     0 unrouted : 0 seconds
+I1215: Routing is successful
+Routing time: 1
+I1206: Completed routing
+I1204: Writing Design EC5LP
+Lib Closed
+I1210: Writing routes
+I1218: Exiting the router
+I1224: Router run-time : 4 seconds
+router succeed.
+
+"C:/eda/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\netlister.exe" --verilog "C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt\sbt\outputs\simulation_netlist\EC5LP_sbt.v" --vhdl "C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt/sbt/outputs/simulation_netlist\EC5LP_sbt.vhd" --lib "C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt/sbt/netlist/oadb-EC5LP" --view rt --device "C:\eda\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T04.dev" --splitio  --in-sdc-file "C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt\sbt\outputs\packer\EC5LP_pk.sdc" --out-sdc-file "C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt\sbt\outputs\netlister\EC5LP_sbt.sdc"
+starting netlistrunning netlistLattice Semiconductor Corporation  Verilog & VHDL Netlister
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 18:18:39
+
+Generating Verilog & VHDL netlist files ...
+Writing C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt\sbt\outputs\simulation_netlist\EC5LP_sbt.v
+Writing C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt/sbt/outputs/simulation_netlist\EC5LP_sbt.vhd
+Netlister succeeded.
+
+Netlister run-time: 2 (sec)
+netlist succeed.
+
+
+"C:/eda/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\sbtimer.exe" --des-lib "C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt/sbt/netlist/oadb-EC5LP" --lib-file "C:\eda\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40TH4K.lib" --sdc-file "C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt\sbt\outputs\netlister\EC5LP_sbt.sdc" --sdf-file "C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt\sbt\outputs\simulation_netlist\EC5LP_sbt.sdf" --report-file "C:\Users\christop.grobety\Bachelor\Bachelor\Board\icecube2\test\test_Implmnt\sbt\outputs\timer\EC5LP_timing.rpt" --device-file "C:\eda\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T04.dev" --timing-summary
+starting timerrunning timerExecuting : C:\eda\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbtimer.exe --des-lib C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt/sbt/netlist/oadb-EC5LP --lib-file C:\eda\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40TH4K.lib --sdc-file C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt\sbt\outputs\netlister\EC5LP_sbt.sdc --sdf-file C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt\sbt\outputs\simulation_netlist\EC5LP_sbt.sdf --report-file C:\Users\christop.grobety\Bachelor\Bachelor\Board\icecube2\test\test_Implmnt\sbt\outputs\timer\EC5LP_timing.rpt --device-file C:\eda\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T04.dev --timing-summary
+Lattice Semiconductor Corporation  Timer
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:41:47
+
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI672E_LC_9_18_4/in2" to pin "I_DUT.U_1.fpga_m_ret_3_RNI672E_LC_9_18_4/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_5.fpga_m_0_ret_4_RNIBT2F_LC_12_4_6/in1" to pin "I_DUT.U_5.fpga_m_0_ret_4_RNIBT2F_LC_12_4_6/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_5.fpga_m_0_ret_4_RNICU2F_LC_12_4_1/in0" to pin "I_DUT.U_5.fpga_m_0_ret_4_RNICU2F_LC_12_4_1/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_5.fpga_m_0_ret_4_RNIDV2F_LC_12_3_2/in1" to pin "I_DUT.U_5.fpga_m_0_ret_4_RNIDV2F_LC_12_3_2/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_5.fpga_m_0_ret_4_RNIE03F_LC_12_3_7/in3" to pin "I_DUT.U_5.fpga_m_0_ret_4_RNIE03F_LC_12_3_7/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_5.fpga_m_ret_4_RNIQT5I2_LC_9_9_4/in3" to pin "I_DUT.U_5.fpga_m_ret_4_RNIQT5I2_LC_9_9_4/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_5.fpga_m_ret_8_RNI1CV5_0_LC_8_6_1/in0" to pin "I_DUT.U_5.fpga_m_ret_8_RNI1CV5_0_LC_8_6_1/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_5.fpga_m_ret_8_RNI1CV5_1_LC_9_5_0/in1" to pin "I_DUT.U_5.fpga_m_ret_8_RNI1CV5_1_LC_9_5_0/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_5.fpga_m_ret_8_RNI1CV5_LC_9_5_1/in0" to pin "I_DUT.U_5.fpga_m_ret_8_RNI1CV5_LC_9_5_1/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_5.fpga_m_ret_8_RNI1CV5_2_LC_8_6_5/in1" to pin "I_DUT.U_5.fpga_m_ret_8_RNI1CV5_2_LC_8_6_5/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_4.fpga_m_ret_7_RNI2OTC1_LC_8_13_2/in0" to pin "I_DUT.U_4.fpga_m_ret_7_RNI2OTC1_LC_8_13_2/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_4.fpga_m_ret_9_RNI797L1_LC_8_10_1/in0" to pin "I_DUT.U_4.fpga_m_ret_9_RNI797L1_LC_8_10_1/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_4.fpga_m_ret_3_RNIK5EN1_LC_9_7_6/in0" to pin "I_DUT.U_4.fpga_m_ret_3_RNIK5EN1_LC_9_7_6/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_4.fpga_m_ret_5_RNI0PRE1_LC_7_11_4/in1" to pin "I_DUT.U_4.fpga_m_ret_5_RNI0PRE1_LC_7_11_4/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_4.fpga_m_ret_6_RNIM2D7_LC_11_7_3/in1" to pin "I_DUT.U_4.fpga_m_ret_6_RNIM2D7_LC_11_7_3/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_9_LC_2_13_1/in2" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_9_LC_2_13_1/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_10_LC_2_13_3/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_10_LC_2_13_3/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_11_LC_3_13_4/in2" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_11_LC_3_13_4/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_12_LC_1_12_7/in3" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_12_LC_1_12_7/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_13_LC_2_13_5/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_13_LC_2_13_5/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_14_LC_2_13_6/in0" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_14_LC_2_13_6/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_15_LC_3_13_7/in0" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_15_LC_3_13_7/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_16_LC_1_13_0/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_16_LC_1_13_0/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_LC_1_12_5/in2" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_LC_1_12_5/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_0_LC_3_13_0/in2" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_0_LC_3_13_0/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_1_LC_2_13_0/in0" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_1_LC_2_13_0/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_2_LC_1_13_1/in0" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_2_LC_1_13_1/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_3_LC_1_12_3/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_3_LC_1_12_3/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_4_LC_1_12_0/in0" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_4_LC_1_12_0/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_5_LC_1_13_6/in0" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_5_LC_1_13_6/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_6_LC_1_12_1/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_6_LC_1_12_1/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_7_LC_3_12_5/in0" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_7_LC_3_12_5/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_8_LC_1_13_4/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_8_LC_1_13_4/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_4.fpga_m_1_ret_RNIHEAG_LC_11_1_6/in1" to pin "I_DUT.U_4.fpga_m_1_ret_RNIHEAG_LC_11_1_6/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_4.fpga_m_2_ret_RNIIIGK_LC_11_2_4/in1" to pin "I_DUT.U_4.fpga_m_2_ret_RNIIIGK_LC_11_2_4/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_4.fpga_m_ret_RNI15M5_LC_18_1_3/in0" to pin "I_DUT.U_4.fpga_m_ret_RNI15M5_LC_18_1_3/lcout" to break the combinatorial loop
+Timer run-time: 3 seconds
+timer succeed.
+timer succeeded.
+
+
+"C:/eda/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\bitmap.exe" "C:\eda\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T04.dev" --design "C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt/sbt/netlist/oadb-EC5LP" --device_name iCE5LP1K --package SG48 --outdir "C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt\sbt\outputs\bitmap" --low_power on --init_ram on --init_ram_bank 1111 --frequency low --warm_boot on
+starting bitmaprunning bitmapLattice Semiconductor Corporation  Bit Stream Generator
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 18:17:40
+
+Bit Stream File Size: 570040 (556K 696 Bits)
+Bit Stream Generator succeeded
+
+Bitmap run-time: 1 (sec)
+bitmap succeed.
+17:07:41

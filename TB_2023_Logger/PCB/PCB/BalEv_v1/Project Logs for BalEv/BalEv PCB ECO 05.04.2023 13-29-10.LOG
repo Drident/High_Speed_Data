@@ -1,0 +1,8 @@
+Added Component: Designator=J1(SMA EDGE Molex 732511150)
+Add component (AddParameter): Name = "Value"; Value = "AIN0"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=AIN0 Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component J1 AIN0

@@ -1,0 +1,23 @@
+Added Component: Designator=J16(USB-C-SMD AMPHENOL 124018612112A)
+Add component (AddParameter): Name = "Value"; Value = "124018612112A"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J16-A1
+Added Pin To Net: NetName=USB_VBUS_IN Pin=J16-A4
+Added Pin To Net: NetName=NetJ16_A5 Pin=J16-A5
+Added Pin To Net: NetName=D_P Pin=J16-A6
+Added Pin To Net: NetName=D_N Pin=J16-A7
+Added Pin To Net: NetName=USB_VBUS_IN Pin=J16-A9
+Added Pin To Net: NetName=GND Pin=J16-A12
+Added Pin To Net: NetName=GND Pin=J16-B1
+Added Pin To Net: NetName=USB_VBUS_IN Pin=J16-B4
+Added Pin To Net: NetName=NetJ16_B5 Pin=J16-B5
+Added Pin To Net: NetName=D_P Pin=J16-B6
+Added Pin To Net: NetName=D_N Pin=J16-B7
+Added Pin To Net: NetName=USB_VBUS_IN Pin=J16-B9
+Added Pin To Net: NetName=GND Pin=J16-B12
+Added Pin To Net: NetName=GND Pin=J16-S1
+Added Pin To Net: NetName=GND Pin=J16-S2
+Added Pin To Net: NetName=GND Pin=J16-S3
+Added Pin To Net: NetName=GND Pin=J16-S4
+Added Pin To Net: NetName=GND Pin=J16-S5
+Added Pin To Net: NetName=GND Pin=J16-S6
+Added Member To Class: ClassName=BalEv_USB_v1_0 Member=Component J16 124018612112A

@@ -1,0 +1,7 @@
+C:\eda\lscc\iCEcube2.2020.12\synpbase\bin64\c_hdl.exe  -osyn  C:\Users\christop.grobety\Bachelor\Bachelor\Board\icecube2\test\test_Implmnt\synwork\test_comp.srs  -hdllog  C:\Users\christop.grobety\Bachelor\Bachelor\Board\icecube2\test\test_Implmnt\synlog\test_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -primux -fixsmult -infer_seqShift -ice -sdff_counter -nram -divnmod  -encrypt  -pro  -dmgen  C:\Users\christop.grobety\Bachelor\Bachelor\Board\icecube2\test\test_Implmnt\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd 
+rc:0 success:1 runtime:1
+file:C:\Users\christop.grobety\Bachelor\Bachelor\Board\icecube2\test\test_Implmnt\synwork\test_comp.srs|io:o|time:1690546161|size:26670|exec:0
+file:C:\Users\christop.grobety\Bachelor\Bachelor\Board\icecube2\test\test_Implmnt\synlog\test_compiler.srr|io:o|time:1690546161|size:22725|exec:0
+file:C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd|io:i|time:1690546144|size:54961|exec:0
+file:C:\eda\lscc\iCEcube2.2020.12\synpbase\bin\c_hdl.exe|io:i|time:1684220881|size:1338368|exec:1
+file:C:\eda\lscc\iCEcube2.2020.12\synpbase\bin64\c_hdl.exe|io:i|time:1684220883|size:1754112|exec:1

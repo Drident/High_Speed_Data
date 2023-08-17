@@ -1,0 +1,11 @@
+if unsigned(m) = "0001" then
+	  		NCs <= "1110";
+	  	elsif unsigned(m) = "0010" then
+	  		NCs <= "1101";
+	  	elsif unsigned(m) = "0100" then
+	  		NCs <= "1011";
+	  	elsif unsigned(m) = "1000" then
+	  		NCs <= "0111";
+	  	elsif unsigned(m) = "0000" then
+	  		NCs <= "1001";
+	    end if;

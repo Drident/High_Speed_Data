@@ -1,0 +1,13 @@
+/*
+ * sd_card_func.h
+ *
+ *  Created on: Jul 7, 2023
+ *      Author: christop.grobety
+ */
+
+#ifndef INC_SD_CARD_FUNC_H_
+#define INC_SD_CARD_FUNC_H_
+
+
+
+#endif /* INC_SD_CARD_FUNC_H_ */

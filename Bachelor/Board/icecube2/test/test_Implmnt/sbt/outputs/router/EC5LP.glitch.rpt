@@ -1,0 +1,225 @@
+* ******************************************************************************
+
+* iCEcube Router
+
+* Version:            2020.12.27943
+
+* Build Date:         Dec  9 2020 17:45:11
+
+* File Generated:     Aug 7 2023 08:40:53
+
+* Purpose:            Deglitch logic routing info
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+
+//o_adc_sclk_obufLegalizeSB_DFF(16:20:1) -> o_adc_sclk(17:21:0)
+Net : o_adc_sclk_obufLegalizeSB_DFFNet
+T_16_20_wire_logic_cluster/lc_1/out
+T_17_21_lc_trk_g0_1
+T_17_21_wire_io_cluster/io_0/OUT_ENB
+
+End 
+
+**********************************************************************************************************
+
+//o_fram_sdi_obuf_0LegalizeSB_DFF(18:1:0) -> o_fram_sdi[0](18:0:0)
+Net : o_fram_sdi_obuf_0LegalizeSB_DFFNet
+T_18_1_wire_logic_cluster/lc_0/out
+T_18_0_lc_trk_g1_0
+T_18_0_wire_io_cluster/io_0/OUT_ENB
+
+End 
+
+**********************************************************************************************************
+
+//o_meas_1mhz_obufLegalizeSB_DFF(16:20:2) -> o_meas_1mhz(16:21:0)
+Net : o_meas_1mhz_obufLegalizeSB_DFFNet
+T_16_20_wire_logic_cluster/lc_2/out
+T_16_21_lc_trk_g1_2
+T_16_21_wire_io_cluster/io_0/OUT_ENB
+
+End 
+
+**********************************************************************************************************
+
+//o_fram_ncs_obuf_2LegalizeSB_DFF(8:1:0) -> o_fram_ncs[2](8:0:0)
+Net : o_fram_ncs_obuf_2LegalizeSB_DFFNet
+T_8_1_wire_logic_cluster/lc_0/out
+T_8_0_lc_trk_g1_0
+T_8_0_wire_io_cluster/io_0/OUT_ENB
+
+End 
+
+**********************************************************************************************************
+
+//U_4.ODInstLegalizeSB_DFF(5:20:0) -> PACKAGEPIN(6:21:0)
+Net : U_4.ODInstLegalizeSB_DFFNet
+T_5_20_wire_logic_cluster/lc_0/out
+T_6_21_lc_trk_g1_0
+T_6_21_wire_io_cluster/io_0/OUT_ENB
+
+End 
+
+**********************************************************************************************************
+
+//o_fram_sclk_obuf_1LegalizeSB_DFF(18:20:1) -> o_fram_sclk[1](19:21:0)
+Net : o_fram_sclk_obuf_1LegalizeSB_DFFNet
+T_18_20_wire_logic_cluster/lc_1/out
+T_19_21_lc_trk_g0_1
+T_19_21_wire_io_cluster/io_0/OUT_ENB
+
+End 
+
+**********************************************************************************************************
+
+//U_8.ODInstLegalizeSB_DFF(3:20:0) -> PACKAGEPIN(4:21:0)
+Net : U_8.ODInstLegalizeSB_DFFNet
+T_3_20_wire_logic_cluster/lc_0/out
+T_4_21_lc_trk_g1_0
+T_4_21_wire_io_cluster/io_0/OUT_ENB
+
+End 
+
+**********************************************************************************************************
+
+//o_fram_sdi_obuf_1LegalizeSB_DFF(18:1:1) -> o_fram_sdi[1](18:0:1)
+Net : o_fram_sdi_obuf_1LegalizeSB_DFFNet
+T_18_1_wire_logic_cluster/lc_1/out
+T_18_0_lc_trk_g1_1
+T_18_0_wire_io_cluster/io_1/OUT_ENB
+
+End 
+
+**********************************************************************************************************
+
+//io_fpga_miso_obuftAndLUT4(7:1:0) -> io_fpga_miso(6:0:0)
+Net : io_fpga_miso_obuftAndNet
+T_7_1_wire_logic_cluster/lc_0/out
+T_6_0_lc_trk_g1_0
+T_6_0_wire_io_cluster/io_0/OUT_ENB
+
+End 
+
+    //io_fpga_miso_obuftLegalizeSB_DFF(7:1:1) -> io_fpga_miso_obuftAndLUT4(7:1:0)
+    Net : io_fpga_miso_obuftLegalizeSB_DFFNet
+    T_7_1_wire_logic_cluster/lc_1/out
+    T_7_1_lc_trk_g0_1
+    T_7_1_wire_logic_cluster/lc_0/in_1
+
+    End 
+
+**********************************************************************************************************
+
+//o_fram_sdi_obuf_2LegalizeSB_DFF(18:1:2) -> o_fram_sdi[2](19:0:0)
+Net : o_fram_sdi_obuf_2LegalizeSB_DFFNet
+T_18_1_wire_logic_cluster/lc_2/out
+T_19_0_lc_trk_g1_2
+T_19_0_wire_io_cluster/io_0/OUT_ENB
+
+End 
+
+**********************************************************************************************************
+
+//o_fram_ncs_obuf_3LegalizeSB_DFF(8:1:1) -> o_fram_ncs[3](9:0:0)
+Net : o_fram_ncs_obuf_3LegalizeSB_DFFNet
+T_8_1_wire_logic_cluster/lc_1/out
+T_9_0_lc_trk_g0_1
+T_9_0_wire_io_cluster/io_0/OUT_ENB
+
+End 
+
+**********************************************************************************************************
+
+//o_fram_sclk_obuf_0LegalizeSB_DFF(18:20:0) -> o_fram_sclk[0](19:21:1)
+Net : o_fram_sclk_obuf_0LegalizeSB_DFFNet
+T_18_20_wire_logic_cluster/lc_0/out
+T_19_21_lc_trk_g0_0
+T_19_21_wire_io_cluster/io_1/OUT_ENB
+
+End 
+
+**********************************************************************************************************
+
+//o_fram_ncs_obuf_0LegalizeSB_DFF(7:1:2) -> o_fram_ncs[0](7:0:0)
+Net : o_fram_ncs_obuf_0LegalizeSB_DFFNet
+T_7_1_wire_logic_cluster/lc_2/out
+T_7_0_lc_trk_g1_2
+T_7_0_wire_io_cluster/io_0/OUT_ENB
+
+End 
+
+**********************************************************************************************************
+
+//o_fram_sclk_obuf_3LegalizeSB_DFF(18:20:3) -> o_fram_sclk[3](18:21:0)
+Net : o_fram_sclk_obuf_3LegalizeSB_DFFNet
+T_18_20_wire_logic_cluster/lc_3/out
+T_18_21_lc_trk_g0_3
+T_18_21_wire_io_cluster/io_0/OUT_ENB
+
+End 
+
+**********************************************************************************************************
+
+//o_sclk_meas_obufLegalizeSB_DFF(12:20:0) -> o_sclk_meas(13:21:1)
+Net : o_sclk_meas_obufLegalizeSB_DFFNet
+T_12_20_wire_logic_cluster/lc_0/out
+T_13_21_lc_trk_g0_0
+T_13_21_wire_io_cluster/io_1/OUT_ENB
+
+End 
+
+**********************************************************************************************************
+
+//o_fram_sdi_obuf_3LegalizeSB_DFF(21:1:0) -> o_fram_sdi[3](22:0:1)
+Net : o_fram_sdi_obuf_3LegalizeSB_DFFNet
+T_21_1_wire_logic_cluster/lc_0/out
+T_22_0_lc_trk_g0_0
+T_22_0_wire_io_cluster/io_1/OUT_ENB
+
+End 
+
+**********************************************************************************************************
+
+//o_fram_ncs_obuf_1LegalizeSB_DFF(7:1:3) -> o_fram_ncs[1](7:0:1)
+Net : o_fram_ncs_obuf_1LegalizeSB_DFFNet
+T_7_1_wire_logic_cluster/lc_3/out
+T_7_0_lc_trk_g1_3
+T_7_0_wire_io_cluster/io_1/OUT_ENB
+
+End 
+
+**********************************************************************************************************
+
+//U_7.ODInstLegalizeSB_DFF(5:20:1) -> PACKAGEPIN(5:21:0)
+Net : U_7.ODInstLegalizeSB_DFFNet
+T_5_20_wire_logic_cluster/lc_1/out
+T_5_21_lc_trk_g0_1
+T_5_21_wire_io_cluster/io_0/OUT_ENB
+
+End 
+
+**********************************************************************************************************
+
+//o_fram_sclk_obuf_2LegalizeSB_DFF(18:20:2) -> o_fram_sclk[2](18:21:1)
+Net : o_fram_sclk_obuf_2LegalizeSB_DFFNet
+T_18_20_wire_logic_cluster/lc_2/out
+T_18_21_lc_trk_g0_2
+T_18_21_wire_io_cluster/io_1/OUT_ENB
+
+End 
+
+**********************************************************************************************************
+
+//o_adc_nsc_obufLegalizeSB_DFF(16:20:0) -> o_adc_nsc(16:21:1)
+Net : o_adc_nsc_obufLegalizeSB_DFFNet
+T_16_20_wire_logic_cluster/lc_0/out
+T_16_21_lc_trk_g0_0
+T_16_21_wire_io_cluster/io_1/OUT_ENB
+
+End 
+
+**********************************************************************************************************
+

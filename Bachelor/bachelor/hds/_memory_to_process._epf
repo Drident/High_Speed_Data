@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom student
+DEFAULT_FILE atom memory_to_process_student.vhd

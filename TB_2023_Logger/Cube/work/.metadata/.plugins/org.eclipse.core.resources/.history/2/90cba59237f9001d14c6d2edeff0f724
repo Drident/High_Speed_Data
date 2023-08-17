@@ -1,0 +1,13 @@
+/*
+ * fatfs_sd_card.h
+ *
+ *  Created on: May 23, 2023
+ *      Author: christop.grobety
+ */
+
+#ifndef INC_FATFS_SD_CARD_H_
+#define INC_FATFS_SD_CARD_H_
+
+
+
+#endif /* INC_FATFS_SD_CARD_H_ */

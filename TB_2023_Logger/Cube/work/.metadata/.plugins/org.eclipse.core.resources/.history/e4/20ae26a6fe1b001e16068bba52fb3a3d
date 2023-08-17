@@ -1,0 +1,93 @@
+/*
+ * fram_func.c
+ *
+ *  Created on: 6 juil. 2023
+ *      Author: christop.grobety
+ */
+#include "fram_func.h"
+#include "fatfs.h"
+SPI_HandleTypeDef hspi_2;
+
+FRESULT res; /* FatFs function common result code */
+uint32_t byteswritten, bytesread; /* File write/read counts */
+uint8_t  wtext[20] = "DATA FRAM IS : \n"; /* File write buffer */
+uint8_t  rtext[_MAX_SS];/* File read buffer */
+uint8_t	 TX_Data_ADC[2];
+uint8_t  TX_Data_PRETRIG = 80;
+uint8_t  TX_Data_FRAM_REG = 6;
+uint8_t  TX_Read_FRAM_REG = 5;
+uint8_t  TX_ReadId_FRAM_REG = 0x9F;
+uint8_t  TX_Data_FRAM_RESET = 4;
+uint32_t TX_Data_FRAM_ADD = 0x40;
+uint8_t  TX_FRAM_TEST[5] ;
+uint8_t  TX_FRAM_TEST_R[4] ;
+uint8_t  TX_SAMPLE;
+uint8_t  RX_ADD [3];
+
+void FRAM_write_one(enum State state_, uint8_t data_size){
+	PIN_reset();
+	switch(state_){
+		case FRAM_0:
+			HAL_GPIO_WritePin(SELECTOR_M2_GPIO_Port, SELECTOR_M2_Pin, GPIO_PIN_SET);
+			//HAL_SPI_Transmit(&hspi_1, (uint8_t*)&TX_Data_FRAM_REG,data_size, 100);
+			HAL_GPIO_WritePin(SELECTOR_M2_GPIO_Port, SELECTOR_M2_Pin, GPIO_PIN_RESET);
+			HAL_Delay(100);
+			break;
+		case FRAM_1:
+			HAL_GPIO_WritePin(SELECTOR_M0_GPIO_Port, SELECTOR_M0_Pin, GPIO_PIN_SET);
+			HAL_GPIO_WritePin(SELECTOR_M2_GPIO_Port, SELECTOR_M2_Pin, GPIO_PIN_SET);
+			HAL_SPI_Transmit(&hspi_1, (uint8_t*)&TX_Data_FRAM_REG,data_size, 100);
+			HAL_GPIO_WritePin(SELECTOR_M2_GPIO_Port, SELECTOR_M2_Pin, GPIO_PIN_RESET);
+			HAL_GPIO_WritePin(SELECTOR_M0_GPIO_Port, SELECTOR_M0_Pin, GPIO_PIN_RESET);
+			HAL_Delay(100);
+			break;
+		case FRAM_2:
+			HAL_GPIO_WritePin(SELECTOR_M1_GPIO_Port, SELECTOR_M1_Pin, GPIO_PIN_SET);
+			HAL_GPIO_WritePin(SELECTOR_M2_GPIO_Port, SELECTOR_M2_Pin, GPIO_PIN_SET);
+			HAL_SPI_Transmit(&hspi_1, (uint8_t*)&TX_Data_FRAM_REG,data_size, 100);
+			HAL_GPIO_WritePin(SELECTOR_M2_GPIO_Port, SELECTOR_M2_Pin, GPIO_PIN_RESET);
+			HAL_GPIO_WritePin(SELECTOR_M1_GPIO_Port, SELECTOR_M1_Pin, GPIO_PIN_RESET);
+			HAL_Delay(100);
+			break;
+		case FRAM_3:
+			HAL_GPIO_WritePin(SELECTOR_M0_GPIO_Port, SELECTOR_M0_Pin, GPIO_PIN_SET);
+			HAL_GPIO_WritePin(SELECTOR_M1_GPIO_Port, SELECTOR_M1_Pin, GPIO_PIN_SET);
+			HAL_GPIO_WritePin(SELECTOR_M2_GPIO_Port, SELECTOR_M2_Pin, GPIO_PIN_SET);
+			HAL_SPI_Transmit(&hspi_1, (uint8_t*)&TX_Data_FRAM_REG,data_size, 100);
+			HAL_GPIO_WritePin(SELECTOR_M2_GPIO_Port, SELECTOR_M2_Pin, GPIO_PIN_RESET);
+			HAL_GPIO_WritePin(SELECTOR_M1_GPIO_Port, SELECTOR_M1_Pin, GPIO_PIN_RESET);
+			HAL_GPIO_WritePin(SELECTOR_M0_GPIO_Port, SELECTOR_M0_Pin, GPIO_PIN_RESET);
+			HAL_Delay(100);
+			break;
+	}
+}
+void FRAM_write_all(SPI_HandleTypeDef hspi_1){
+	PIN_reset();
+	HAL_GPIO_WritePin(SELECTOR_M3_GPIO_Port, SELECTOR_M3_Pin, GPIO_PIN_SET);
+	HAL_SPI_Transmit(&hspi_1, (uint8_t*)&TX_Data_FRAM_REG,1, 100);
+	HAL_GPIO_WritePin(SELECTOR_M3_GPIO_Port, SELECTOR_M3_Pin, GPIO_PIN_RESET);
+	HAL_Delay(100);
+}
+void FRAM_write_reg(){
+
+}
+void FRAM_reset_reg(){
+
+}
+void FRAM_read_reg(){
+
+}
+void FRAM_device(){
+
+}
+void FRAM_read(){
+
+}
+void PIN_reset(){
+	HAL_GPIO_WritePin(SELECTOR_M3_GPIO_Port, SELECTOR_M3_Pin, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(SELECTOR_M3_GPIO_Port, SELECTOR_M3_Pin, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(SELECTOR_M3_GPIO_Port, SELECTOR_M3_Pin, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(SELECTOR_M3_GPIO_Port, SELECTOR_M3_Pin, GPIO_PIN_RESET);
+}
+
+

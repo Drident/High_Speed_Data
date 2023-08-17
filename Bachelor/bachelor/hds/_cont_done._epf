@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom v3_test
+DEFAULT_FILE atom cont_done_v3_test.vhd

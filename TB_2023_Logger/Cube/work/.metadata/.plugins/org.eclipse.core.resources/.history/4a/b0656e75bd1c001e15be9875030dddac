@@ -1,0 +1,18 @@
+/*
+ * sd_card_func.h
+ *
+ *  Created on: Jul 7, 2023
+ *      Author: christop.grobety
+ */
+
+#ifndef INC_SD_CARD_FUNC_H_
+#define INC_SD_CARD_FUNC_H_
+#include "main.h"
+#include "fatfs.h"
+
+void SD_create_file(FIL sd_file, TCHAR* fileName);
+void SD_write_data(FIL sd_file, TCHAR* fileName, uint8_t*data);
+void SD_read_data(FIL sd_file, TCHAR* fileName);
+
+
+#endif /* INC_SD_CARD_FUNC_H_ */

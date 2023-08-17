@@ -1,0 +1,32 @@
+---------------------------------------
+Resource Usage Report for EC5LP 
+
+Mapping to part: ice5lp1ksg48
+Cell usage:
+GND             14 uses
+SB_CARRY        60 uses
+SB_DFFER        86 uses
+SB_DFFES        8 uses
+SB_DFFR         36 uses
+SB_DFFS         21 uses
+SB_GB           5 uses
+SB_IO_OD        3 uses
+VCC             14 uses
+SB_MAC16            1 use
+  MULTONLY  1 use
+SB_LUT4         212 uses
+
+I/O ports: 35
+I/O primitives: 31
+SB_GB_IO       1 use
+SB_IO          30 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   151 (15%)
+
+@S |Mapping Summary:
+Total  LUTs: 212 (21%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 212 = 212 
+

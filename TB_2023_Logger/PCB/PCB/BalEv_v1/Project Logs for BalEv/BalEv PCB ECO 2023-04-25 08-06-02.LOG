@@ -1,0 +1,5 @@
+Added Component: Designator=J18(PinHeader1x2 P2.54)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J18-1
+Added Pin To Net: NetName=64M_CLK_EN Pin=J18-2
+Added Member To Class: ClassName=BalEv_FPTG_IO_v1_0 Member=Component J18 *

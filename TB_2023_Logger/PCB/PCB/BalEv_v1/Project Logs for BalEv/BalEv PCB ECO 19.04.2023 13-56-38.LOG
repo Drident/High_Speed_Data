@@ -1,0 +1,57 @@
+Removed Member From Class: ClassName=BalEv_ADC_v1_0 Member=R103
+Removed Member From Class: ClassName=BalEv_ADC_v1_0 Member=R104
+Added Component: Designator=C39(CAPACITOR 1608 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Added Component: Designator=C40(CAPACITOR 1608 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Added Component: Designator=C41(CAPACITOR 1608 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Added Component: Designator=C42(CAPACITOR 1608 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Added Component: Designator=X1(Oscillator C5.0x3.2 Abracon ASFL1)
+Add component (AddParameter): Name = "Value"; Value = "DSC1001BL5-064.0000"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C39-1
+Added Pin To Net: NetName=POW_IN Pin=C39-2
+Added Pin To Net: NetName=GND Pin=C40-1
+Added Pin To Net: NetName=+1v2 Pin=C40-2
+Added Pin To Net: NetName=GND Pin=C41-1
+Added Pin To Net: NetName=POW_IN Pin=C41-2
+Added Pin To Net: NetName=GND Pin=C42-1
+Added Pin To Net: NetName=+2v5 Pin=C42-2
+Added Pin To Net: NetName=64M_CLK_EN Pin=X1-1
+Added Pin To Net: NetName=GND Pin=X1-2
+Added Pin To Net: NetName=NetR107_2 Pin=X1-3
+Added Pin To Net: NetName=+3v3 Pin=X1-4
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C39 1uF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C40 1uF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C41 1uF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C42 1uF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C43 10nF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C44 10nF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C45 NC
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C46 10uF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C47 100nF
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component C72 100n
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component C74 68pF
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component C76 100n
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component C77 1u
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component C78 68pF
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component C79 68pF
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component C82 68pF
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component C84 68pF
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component C86 100n
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component R67 10k
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component R69 100
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R73 10k
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R75 10k
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R76 33
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R77 33
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R78 100
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R84 33
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R86 NC
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R88 NC
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R89 33
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component U12 AP7331-12WG-7
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component U13 N25Q032A13ESC40F
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component U71 ADA4500-2
+Added Member To Class: ClassName=BalEv_FPTG_IO_v1_0 Member=Component X1 DSC1001BL5-064.0000

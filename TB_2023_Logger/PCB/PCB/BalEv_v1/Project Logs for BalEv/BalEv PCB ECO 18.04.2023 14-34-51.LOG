@@ -1,0 +1,88 @@
+Added Component: Designator=J7(PinHeader2x3 P2.54)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP1(Hole 0.25 D0.8)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP2(Hole 0.25 D0.8)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP3(Hole 0.25 D0.8)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP4(Hole 0.25 D0.8)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP5(Hole 0.25 D0.8)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP6(Hole 0.25 D0.8)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP7(Hole 0.25 D0.8)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP8(Hole 0.25 D0.8)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP9(Hole 0.25 D0.8)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP10(Hole 0.25 D0.8)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP11(Hole 0.25 D0.8)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP12(Hole 0.25 D0.8)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP13(Hole 0.25 D0.8)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP14(Hole 0.25 D0.8)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP15(Hole 0.25 D0.8)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP16(Hole 0.25 D0.8)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP17(Hole 0.25 D0.8)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U12(SO8 P1.27 C4.0X5.0 H1.75)
+Add component (AddParameter): Name = "Value"; Value = "N25Q032A13ESC40F"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=FLASH_MOSI Pin=J7-1
+Added Pin To Net: NetName=ICE_MISO Pin=J7-2
+Added Pin To Net: NetName=ICE_MISO Pin=J7-3
+Added Pin To Net: NetName=FLASH_MISO Pin=J7-4
+Added Pin To Net: NetName=ICE_CS Pin=J7-5
+Added Pin To Net: NetName=FLASH_CS Pin=J7-6
+Added Pin To Net: NetName=ACQ_POW_EN Pin=TP1-1
+Added Pin To Net: NetName=DONE Pin=TP2-1
+Added Pin To Net: NetName=CDONE Pin=TP3-1
+Added Pin To Net: NetName=NetJ8_2 Pin=TP4-1
+Added Pin To Net: NetName=NetJ8_3 Pin=TP5-1
+Added Pin To Net: NetName=creset_b Pin=TP6-1
+Added Pin To Net: NetName=TCK/SCLK Pin=TP7-1
+Added Pin To Net: NetName=TRST Pin=TP8-1
+Added Pin To Net: NetName=TMS Pin=TP9-1
+Added Pin To Net: NetName=ICE_SCK Pin=TP10-1
+Added Pin To Net: NetName=ISPEN/PROG Pin=TP11-1
+Added Pin To Net: NetName=ICE_MOSI Pin=TP12-1
+Added Pin To Net: NetName=TDI_SI Pin=TP13-1
+Added Pin To Net: NetName=ICE_MISO Pin=TP14-1
+Added Pin To Net: NetName=NetJ8_9 Pin=TP15-1
+Added Pin To Net: NetName=ICE_SS Pin=TP16-1
+Added Pin To Net: NetName=TDI_SO Pin=TP17-1
+Added Pin To Net: NetName=FLASH_CS Pin=U12-1
+Added Pin To Net: NetName=FLASH_MISO Pin=U12-2
+Added Pin To Net: NetName=NetR65_1 Pin=U12-3
+Added Pin To Net: NetName=GND Pin=U12-4
+Added Pin To Net: NetName=FLASH_MOSI Pin=U12-5
+Added Pin To Net: NetName=ICE_SCK Pin=U12-6
+Added Pin To Net: NetName=NetR63_1 Pin=U12-7
+Added Pin To Net: NetName=+3v3 Pin=U12-8
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component J7 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP1 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP2 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP3 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP4 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP5 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP6 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP7 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP8 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP9 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP10 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP11 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP12 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP13 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP14 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP15 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP16 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP17 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component U12 N25Q032A13ESC40F

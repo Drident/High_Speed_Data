@@ -1,0 +1,26 @@
+/*
+ * fram_func.h
+ *
+ *  Created on: 6 juil. 2023
+ *      Author: christop.grobety
+ */
+
+#ifndef INC_FRAM_FUNC_H_
+#define INC_FRAM_FUNC_H_
+
+#define MEMORY_SIZE 524288
+#include "main.h"
+#include <stdbool.h>
+
+void FRAM_write_one(enum State state_, uint8_t data_size);
+void FRAM_write_all(SPI_HandleTypeDef hspi_1);
+void FRAM_write_reg();
+void FRAM_reset_reg();
+void FRAM_read_reg();
+void FRAM_device();
+void FRAM_read();
+void PIN_reset();
+void LED_on(bool red, bool blue, bool green);
+
+
+#endif /* INC_FRAM_FUNC_H_ */

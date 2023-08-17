@@ -1,0 +1,47 @@
+Added Component: Designator=C71(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Added Component: Designator=R70(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R71(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R72(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "33"; VariantName = "[No Variations]"
+Added Component: Designator=R74(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=U70(MSOP8 P0.65 C3.0X3.0 H1.1)
+Add component (AddParameter): Name = "Value"; Value = "ADA4500-2"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C71-1
+Added Pin To Net: NetName=NetC71_2 Pin=C71-2
+Added Pin To Net: NetName=NetC72_2 Pin=R70-1
+Added Pin To Net: NetName=NetC71_2 Pin=R70-2
+Added Pin To Net: NetName=GND Pin=R71-1
+Added Pin To Net: NetName=NetC71_2 Pin=R71-2
+Added Pin To Net: NetName=AIN0p Pin=R72-1
+Added Pin To Net: NetName=NetC73_1 Pin=R72-2
+Added Pin To Net: NetName=NetR74_1 Pin=R74-1
+Added Pin To Net: NetName=FPGA_ADC_SDO_0 Pin=R74-2
+Added Pin To Net: NetName=NetC72_2 Pin=U70-1
+Added Pin To Net: NetName=NetC72_2 Pin=U70-2
+Added Pin To Net: NetName=VREF+2v5 Pin=U70-3
+Added Pin To Net: NetName=NetC70_1 Pin=U70-4
+Added Pin To Net: NetName=NetC71_2 Pin=U70-5
+Added Pin To Net: NetName=+ADCcm Pin=U70-6
+Added Pin To Net: NetName=+ADCcm Pin=U70-7
+Added Pin To Net: NetName=+3v3A Pin=U70-8
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component C71 100n
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component C71 100n
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component C80 68pF
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R70 10k
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R70 NC
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R71 NC
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R71 10k
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R72 33
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R72 100
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R74 100
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R74 NC
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R79 100
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R80 NC
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R81 33
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R83 33
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component U70 ADA4500-2
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component U70 865-MB85RS4MTYPF-G-BCE1-ND

@@ -1,0 +1,47 @@
+15:16:37
+"C:\eda\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "test_syn.prj" -log "test_Implmnt/test.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of test_Implmnt/test.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\eda\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: WE2332207
+
+# Thu Jul 20 15:16:39 2023
+
+#Implementation: test_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\eda\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":13:7:13:11|Top entity is set to EC5LP.
+File C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd changed - recompiling
+File C:\eda\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40_components_syn.vhd changed - recompiling
+@W: CD266 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":569:43:569:46|done is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":572:12:572:15|done is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1224:23:1224:30|count_go is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1228:8:1228:16|adc_clock is not readable.  This may cause a simulation mismatch.
+@E: CD213 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1958:15:1958:22|Undefined identifier
+1 error parsing file C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jul 20 15:16:39 2023
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jul 20 15:16:39 2023
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds15:21:25

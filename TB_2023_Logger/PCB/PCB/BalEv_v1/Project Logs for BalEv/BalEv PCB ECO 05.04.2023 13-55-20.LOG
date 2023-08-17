@@ -1,0 +1,364 @@
+Added Component: Designator=C11(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "NC"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "22pF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "NC"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "470pF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "22pF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "NC"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "470pF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "NC"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "22pF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "NC"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "22pF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "22pF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "470pF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "NC"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "22pF"; VariantName = "[No Variations]"
+Added Component: Designator=R17(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "2k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "2k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "51"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "4.7k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "NC"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "2k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100K"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "NC"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "4.7k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "51"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "51"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "2k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "2k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "4.7k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100K"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100K"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "2k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "NC"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=U?(MSOP8 P0.65 C3.0X3.0 H1.1)
+Add component (AddParameter): Name = "Value"; Value = "ADA4500-2"; VariantName = "[No Variations]"
+Added Component: Designator=U?(LFCSP8 P0.5 C3.0x2.8 H1.0)
+Add component (AddParameter): Name = "Value"; Value = "LTC6362_DD"; VariantName = "[No Variations]"
+Added Component: Designator=U?(MSOP8 P0.65 C3.0X3.0 H1.1)
+Add component (AddParameter): Name = "Value"; Value = "ADA4500-2"; VariantName = "[No Variations]"
+Added Component: Designator=U?(MSOP8 P0.65 C3.0X3.0 H1.1)
+Add component (AddParameter): Name = "Value"; Value = "ADA4500-2"; VariantName = "[No Variations]"
+Added Component: Designator=U?(MSOP8 P0.65 C3.0X3.0 H1.1)
+Add component (AddParameter): Name = "Value"; Value = "ADA4500-2"; VariantName = "[No Variations]"
+Added Component: Designator=U?(MSOP8 P0.65 C3.0X3.0 H1.1)
+Add component (AddParameter): Name = "Value"; Value = "ADA4500-2"; VariantName = "[No Variations]"
+Added Component: Designator=U?(MSOP8 P0.65 C3.0X3.0 H1.1)
+Add component (AddParameter): Name = "Value"; Value = "ADA4500-2"; VariantName = "[No Variations]"
+Added Component: Designator=U?(MSOP8 P0.65 C3.0X3.0 H1.1)
+Add component (AddParameter): Name = "Value"; Value = "ADA4500-2"; VariantName = "[No Variations]"
+Added Component: Designator=U?(MSOP8 P0.65 C3.0X3.0 H1.1)
+Add component (AddParameter): Name = "Value"; Value = "ADA4500-2"; VariantName = "[No Variations]"
+Added Component: Designator=U?(LFCSP8 P0.5 C3.0x2.8 H1.0)
+Add component (AddParameter): Name = "Value"; Value = "LTC6362_DD"; VariantName = "[No Variations]"
+Added Component: Designator=U?(MSOP8 P0.65 C3.0X3.0 H1.1)
+Add component (AddParameter): Name = "Value"; Value = "ADA4500-2"; VariantName = "[No Variations]"
+Added Component: Designator=U?(LFCSP8 P0.5 C3.0x2.8 H1.0)
+Add component (AddParameter): Name = "Value"; Value = "LTC6362_DD"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C11-1
+Added Pin To Net: NetName=NetC11_2 Pin=C11-2
+Added Pin To Net: NetName=+3v3A Pin=C?-1
+Added Pin To Net: NetName=+3v3A Pin=C?-1
+Added Pin To Net: NetName=+3v3A Pin=C?-1
+Added Pin To Net: NetName=AIN1n Pin=C?-1
+Added Pin To Net: NetName=AIN1p Pin=C?-1
+Added Pin To Net: NetName=AIN1trig Pin=C?-1
+Added Pin To Net: NetName=AIN2n Pin=C?-1
+Added Pin To Net: NetName=AIN2p Pin=C?-1
+Added Pin To Net: NetName=AIN2trig Pin=C?-1
+Added Pin To Net: NetName=AIN3n Pin=C?-1
+Added Pin To Net: NetName=AIN3p Pin=C?-1
+Added Pin To Net: NetName=AIN3trig Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=+3v3A Pin=C?-2
+Added Pin To Net: NetName=+3v3A Pin=C?-2
+Added Pin To Net: NetName=+3v3A Pin=C?-2
+Added Pin To Net: NetName=+ADCcm Pin=C?-2
+Added Pin To Net: NetName=+ADCcm Pin=C?-2
+Added Pin To Net: NetName=+ADCcm Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=NetC?_2 Pin=C?-2
+Added Pin To Net: NetName=NetC11_2 Pin=R17-1
+Added Pin To Net: NetName=STM_DAC_TRIG Pin=R17-2
+Added Pin To Net: NetName=+ADCcm Pin=R?-1
+Added Pin To Net: NetName=+ADCcm Pin=R?-1
+Added Pin To Net: NetName=+ADCcm Pin=R?-1
+Added Pin To Net: NetName=AIN1m Pin=R?-1
+Added Pin To Net: NetName=AIN1m Pin=R?-1
+Added Pin To Net: NetName=AIN2m Pin=R?-1
+Added Pin To Net: NetName=AIN2m Pin=R?-1
+Added Pin To Net: NetName=AIN3m Pin=R?-1
+Added Pin To Net: NetName=AIN3m Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=NetC?_1 Pin=R?-1
+Added Pin To Net: NetName=NetC?_1 Pin=R?-1
+Added Pin To Net: NetName=NetC?_2 Pin=R?-1
+Added Pin To Net: NetName=NetR?_1 Pin=R?-1
+Added Pin To Net: NetName=+3v3A Pin=R?-2
+Added Pin To Net: NetName=+3v3A Pin=R?-2
+Added Pin To Net: NetName=+3v3A Pin=R?-2
+Added Pin To Net: NetName=AIN1 Pin=R?-2
+Added Pin To Net: NetName=AIN1 Pin=R?-2
+Added Pin To Net: NetName=AIN1m Pin=R?-2
+Added Pin To Net: NetName=AIN1n Pin=R?-2
+Added Pin To Net: NetName=AIN1p Pin=R?-2
+Added Pin To Net: NetName=AIN1trig Pin=R?-2
+Added Pin To Net: NetName=AIN2 Pin=R?-2
+Added Pin To Net: NetName=AIN2 Pin=R?-2
+Added Pin To Net: NetName=AIN2m Pin=R?-2
+Added Pin To Net: NetName=AIN2n Pin=R?-2
+Added Pin To Net: NetName=AIN2p Pin=R?-2
+Added Pin To Net: NetName=AIN2trig Pin=R?-2
+Added Pin To Net: NetName=AIN3 Pin=R?-2
+Added Pin To Net: NetName=AIN3 Pin=R?-2
+Added Pin To Net: NetName=AIN3m Pin=R?-2
+Added Pin To Net: NetName=AIN3n Pin=R?-2
+Added Pin To Net: NetName=AIN3p Pin=R?-2
+Added Pin To Net: NetName=AIN3trig Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=NetC?_1 Pin=R?-2
+Added Pin To Net: NetName=NetC?_2 Pin=R?-2
+Added Pin To Net: NetName=NetR?_1 Pin=R?-2
+Added Pin To Net: NetName=GND Pin=U?-0
+Added Pin To Net: NetName=GND Pin=U?-0
+Added Pin To Net: NetName=GND Pin=U?-0
+Added Pin To Net: NetName=AIN1m Pin=U?-1
+Added Pin To Net: NetName=AIN2m Pin=U?-1
+Added Pin To Net: NetName=AIN3m Pin=U?-1
+Added Pin To Net: NetName=+ADCcm Pin=U?-2
+Added Pin To Net: NetName=+ADCcm Pin=U?-2
+Added Pin To Net: NetName=+ADCcm Pin=U?-2
+Added Pin To Net: NetName=+3v3A Pin=U?-3
+Added Pin To Net: NetName=+3v3A Pin=U?-3
+Added Pin To Net: NetName=+3v3A Pin=U?-3
+Added Pin To Net: NetName=AIN1 Pin=U?-3
+Added Pin To Net: NetName=AIN2 Pin=U?-3
+Added Pin To Net: NetName=AIN3 Pin=U?-3
+Added Pin To Net: NetName=AIN1p Pin=U?-4
+Added Pin To Net: NetName=AIN2p Pin=U?-4
+Added Pin To Net: NetName=AIN3p Pin=U?-4
+Added Pin To Net: NetName=GND Pin=U?-4
+Added Pin To Net: NetName=GND Pin=U?-4
+Added Pin To Net: NetName=GND Pin=U?-4
+Added Pin To Net: NetName=AIN1n Pin=U?-5
+Added Pin To Net: NetName=AIN2n Pin=U?-5
+Added Pin To Net: NetName=AIN3n Pin=U?-5
+Added Pin To Net: NetName=NetR?_1 Pin=U?-5
+Added Pin To Net: NetName=GND Pin=U?-6
+Added Pin To Net: NetName=GND Pin=U?-6
+Added Pin To Net: NetName=GND Pin=U?-6
+Added Pin To Net: NetName=NetC?_2 Pin=U?-6
+Added Pin To Net: NetName=AIN1trig Pin=U?-7
+Added Pin To Net: NetName=AIN2trig Pin=U?-7
+Added Pin To Net: NetName=AIN3trig Pin=U?-7
+Added Pin To Net: NetName=+3v3A Pin=U?-8
+Added Pin To Net: NetName=+3v3A Pin=U?-8
+Added Pin To Net: NetName=+3v3A Pin=U?-8
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C11 100nF
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C? NC
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C? 22pF
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C? NC
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C? 470pF
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C? 100nF
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C? 100nF
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C? 100nF
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C? 22pF
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component C? 470pF
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component C? 100nF
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component C? 22pF
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component C? NC
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component C? 22pF
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component C? NC
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component C? NC
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component C? 470pF
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component C? 22pF
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component C? 100nF
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component C? 22pF
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component C? 100nF
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component C? 100nF
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component C? NC
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component C? 100nF
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component C? 100nF
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component J? AIN2
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R17 *
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R? 1k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R? 0
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R? 2k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R? 10k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R? 1k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R? NC
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R? 10k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R? 4.7k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R? 0
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R? 2k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R? 100K
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R? 51
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R? 10k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R? 10k
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R? 10k
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R? NC
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R? 0
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R? 1k
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R? 2k
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R? 10k
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R? 1k
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R? 10k
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R? 10k
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R? 100K
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R? 1k
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R? 51
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R? 4.7k
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R? 2k
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R? 10k
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R? 10k
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R? 2k
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R? 1k
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R? 10k
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R? 0
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R? 100K
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R? 0
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R? 2k
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R? 0
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R? 10k
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R? 4.7k
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R? 51
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R? NC
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component U? ADA4500-2
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component U? LTC6362_DD
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component U? ADA4500-2
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component U? ADA4500-2
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component U? ADA4500-2
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component U? ADA4500-2
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component U? ADA4500-2
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component U? ADA4500-2
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component U? LTC6362_DD
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component U? ADA4500-2
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component U? LTC6362_DD
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component U? ADA4500-2

@@ -1,0 +1,4 @@
+Added Component: Designator=TP26(Pad 0.5X0.5)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetD1_6 Pin=TP26-1
+Added Member To Class: ClassName=BalEv_USB_v1_0 Member=Component TP26 *

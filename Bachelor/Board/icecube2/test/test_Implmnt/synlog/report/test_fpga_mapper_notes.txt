@@ -1,0 +1,41 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MT206 |Auto Constrain mode is enabled
+@N: MO231 :"c:\users\christop.grobety\bachelor\bachelor\board\concat\bachelor.vhd":647:4:647:5|Found counter in view:work.mainCircuit(struct) instance U_2.count[4:0] 
+@N: MO231 :"c:\users\christop.grobety\bachelor\bachelor\board\concat\bachelor.vhd":1206:2:1206:3|Found counter in view:work.ADC_TO_FPGA(student) instance count[4:0] 
+@N: MO231 :"c:\users\christop.grobety\bachelor\bachelor\board\concat\bachelor.vhd":554:4:554:5|Found counter in view:work.cont_done(v3_test) instance count_preTrig[18:0] 
+@N: MO231 :"c:\users\christop.grobety\bachelor\bachelor\board\concat\bachelor.vhd":554:4:554:5|Found counter in view:work.cont_done(v3_test) instance count_memory[18:0] 
+@N: MF179 :"c:\users\christop.grobety\bachelor\bachelor\board\concat\bachelor.vhd":566:13:566:43|Found 19 by 19 bit equality operator ('==') done_Counter\.un3_go (in view: work.cont_done(v3_test))
+@N: MF578 :"c:\users\christop.grobety\bachelor\bachelor\board\concat\bachelor.vhd":588:4:588:5|Incompatible asynchronous control logic preventing generated clock conversion of I_DUT.U_1.memoryTrigTest[18] (in view: work.EC5LP(struct)).
+@N: BN362 :"c:\users\christop.grobety\bachelor\bachelor\board\concat\bachelor.vhd":1900:6:1900:7|Removing sequential instance fpga_m[2] (in view: work.EC5LP(struct)) because it does not drive other instances.
+@N: BN362 :"c:\users\christop.grobety\bachelor\bachelor\board\concat\bachelor.vhd":1900:6:1900:7|Removing sequential instance fpga_m[0] (in view: work.EC5LP(struct)) because it does not drive other instances.
+@N: BN362 :"c:\users\christop.grobety\bachelor\bachelor\board\concat\bachelor.vhd":1900:6:1900:7|Removing sequential instance fpga_m[3] (in view: work.EC5LP(struct)) because it does not drive other instances.
+@N: BN362 :"c:\users\christop.grobety\bachelor\bachelor\board\concat\bachelor.vhd":1900:6:1900:7|Removing sequential instance fpga_m[1] (in view: work.EC5LP(struct)) because it does not drive other instances.
+@N: BN362 :"c:\users\christop.grobety\bachelor\bachelor\board\concat\bachelor.vhd":1900:6:1900:7|Removing sequential instance fpga_m_0[1] (in view: work.EC5LP(struct)) because it does not drive other instances.
+@N: BN362 :"c:\users\christop.grobety\bachelor\bachelor\board\concat\bachelor.vhd":1900:6:1900:7|Removing sequential instance fpga_m_0[3] (in view: work.EC5LP(struct)) because it does not drive other instances.
+@N: BN362 :"c:\users\christop.grobety\bachelor\bachelor\board\concat\bachelor.vhd":1900:6:1900:7|Removing sequential instance fpga_m_0[0] (in view: work.EC5LP(struct)) because it does not drive other instances.
+@N: BN362 :"c:\users\christop.grobety\bachelor\bachelor\board\concat\bachelor.vhd":1900:6:1900:7|Removing sequential instance fpga_m_1[1] (in view: work.EC5LP(struct)) because it does not drive other instances.
+@N: BN362 :"c:\users\christop.grobety\bachelor\bachelor\board\concat\bachelor.vhd":1900:6:1900:7|Removing sequential instance fpga_m_0[2] (in view: work.EC5LP(struct)) because it does not drive other instances.
+@N: BN362 :"c:\users\christop.grobety\bachelor\bachelor\board\concat\bachelor.vhd":1900:6:1900:7|Removing sequential instance fpga_m_1[3] (in view: work.EC5LP(struct)) because it does not drive other instances.
+@N: BN362 :"c:\users\christop.grobety\bachelor\bachelor\board\concat\bachelor.vhd":1900:6:1900:7|Removing sequential instance fpga_m_2[3] (in view: work.EC5LP(struct)) because it does not drive other instances.
+@N: BN362 :"c:\users\christop.grobety\bachelor\bachelor\board\concat\bachelor.vhd":1900:6:1900:7|Removing sequential instance fpga_m_1[2] (in view: work.EC5LP(struct)) because it does not drive other instances.
+@N: BN362 :"c:\users\christop.grobety\bachelor\bachelor\board\concat\bachelor.vhd":1900:6:1900:7|Removing sequential instance fpga_m_1[0] (in view: work.EC5LP(struct)) because it does not drive other instances.
+@N: BN362 :"c:\users\christop.grobety\bachelor\bachelor\board\concat\bachelor.vhd":1900:6:1900:7|Removing sequential instance fpga_m_2[1] (in view: work.EC5LP(struct)) because it does not drive other instances.
+@N: BN362 :"c:\users\christop.grobety\bachelor\bachelor\board\concat\bachelor.vhd":1900:6:1900:7|Removing sequential instance fpga_m_2[2] (in view: work.EC5LP(struct)) because it does not drive other instances.
+@N: BN362 :"c:\users\christop.grobety\bachelor\bachelor\board\concat\bachelor.vhd":1900:6:1900:7|Removing sequential instance fpga_m_2[0] (in view: work.EC5LP(struct)) because it does not drive other instances.
+@N: BN362 :"c:\users\christop.grobety\bachelor\bachelor\board\concat\bachelor.vhd":1900:6:1900:7|Removing sequential instance fpga_m_3[0] (in view: work.EC5LP(struct)) because it does not drive other instances.
+@N: BN362 :"c:\users\christop.grobety\bachelor\bachelor\board\concat\bachelor.vhd":1900:6:1900:7|Removing sequential instance fpga_m_3[2] (in view: work.EC5LP(struct)) because it does not drive other instances.
+@N: BN362 :"c:\users\christop.grobety\bachelor\bachelor\board\concat\bachelor.vhd":1900:6:1900:7|Removing sequential instance fpga_m_4[0] (in view: work.EC5LP(struct)) because it does not drive other instances.
+@N: FX271 :"c:\users\christop.grobety\bachelor\bachelor\board\concat\bachelor.vhd":1900:6:1900:7|Replicating instance fpga_sck (in view: work.EC5LP(struct)) with 9 loads 1 time to improve timing.
+@N: FX1016 :"c:\users\christop.grobety\bachelor\bachelor\board\concat\bachelor.vhd":20:8:20:15|SB_GB_IO inserted on the port iGCK_clk.
+@N: FX1017 :|SB_GB inserted on the net lsig_resetSynch_n_i.
+@N: FX1017 :|SB_GB inserted on the net I_DUT.U_1.done_Counter\.un13_count_pretrig.
+@N: FX1017 :|SB_GB inserted on the net N_22.
+@N: FX1017 :|SB_GB inserted on the net N_24.
+@N: FX1017 :|SB_GB inserted on the net I_DUT.U_13.MISO_OUT_1_sqmuxa_i.
+@N: MT611 :|Automatically generated clock TFF|q_int_derived_clock is not used and is being removed
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: C:\Users\christop.grobety\Bachelor\Bachelor\Board\icecube2\test\test_Implmnt\test.edf
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

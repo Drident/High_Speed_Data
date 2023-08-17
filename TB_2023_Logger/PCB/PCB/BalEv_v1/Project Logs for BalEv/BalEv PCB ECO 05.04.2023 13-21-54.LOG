@@ -1,0 +1,16 @@
+Added Component: Designator=J3(PinHeader1x19 P5.08)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change Net Color : Old Net Color=RGB(86, 169, 199) New Net Color=Default
+Change Net Color : Old Net Color=Yellow New Net Color=Default
+Added Pin To Net: NetName=ACQ_POW_EN Pin=J3-19
+Added Net: Name=ACQ_POW_EN
+Added Pin To Net: NetName=FPGA_CAL_0 Pin=J3-1
+Added Net: Name=FPGA_CAL_0
+Added Pin To Net: NetName=FPGA_CAL_1 Pin=J3-2
+Added Net: Name=FPGA_CAL_1
+Added Pin To Net: NetName=NetC11_2 Pin=U4-4
+Added Net: Name=NetC11_2
+Added Pin To Net: NetName=STM_DAC_CS Pin=J3-18
+Added Net: Name=STM_DAC_CS
+Added Net: Name=STM_DAC_TRIG
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component J3 *

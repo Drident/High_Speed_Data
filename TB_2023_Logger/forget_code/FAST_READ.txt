@@ -1,0 +1,25 @@
+ Add_ = TAB_SIZE*TX_32+start_Add_tot;
+		  if(Add_> MEMORY_SIZE){
+			  Add_ = Add_ - MEMORY_SIZE;
+		  }
+		  PIN_reset();
+		  RX_FRAM_test[3] = (uint8_t)(Add_&255);
+		  RX_FRAM_test[2] = (uint8_t)((Add_>>8)&255);
+		  RX_FRAM_test[1] = (uint8_t)((Add_>>16)&7);
+		  RX_FRAM_test[0] = 3;
+		  HAL_GPIO_WritePin(SELECTOR_M2_GPIO_Port, SELECTOR_M2_Pin, GPIO_PIN_SET);
+		  HAL_SPI_Transmit(&hspi1, (uint8_t*)&RX_FRAM_test,4, 100);
+		  HAL_SPI_Receive(&hspi1, (uint8_t*)&RX_FAST,TAB_SIZE, 100);
+		  HAL_GPIO_WritePin(SELECTOR_M2_GPIO_Port, SELECTOR_M2_Pin, GPIO_PIN_RESET);
+
+		  for(uint32_t i = 0; i<(TAB_SIZE/2) ; i++){
+			  Add_ = i*2+TAB_SIZE*TX_32+start_Add_tot;
+			  if(Add_> MEMORY_SIZE){
+				  Add_ = Add_ - MEMORY_SIZE;
+			  }
+			  //receive = FRAM_read(FRAM_0,i*2+TAB_SIZE*TX_32, hspi1, 2);
+			  //receive = FRAM_read(FRAM_0, Add_, hspi1, 2);
+			  DATA_SD = (((uint16_t)RX_FAST[i*2])<<8)+(uint16_t)(RX_FAST[i*2+1]);
+			  DATA_ind[i] = DATA_SD;
+		  }
+		  SD_write_data(SDFile, fileName0, DATA_ind);

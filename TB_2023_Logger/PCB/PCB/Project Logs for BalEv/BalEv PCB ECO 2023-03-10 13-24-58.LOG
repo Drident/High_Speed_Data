@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=GND Pin=U?-2
+Removed Pin From Net: NetName=+3v3A Pin=U?-5
+Removed Member From Class: ClassName=BalEv_AIN_v1_0 Member=U?
+Change Component Designator: OldDesignator=C? NewDesignator=C12
+Change Component Designator: OldDesignator=C? NewDesignator=C13
+Change Component Designator: OldDesignator=J? NewDesignator=J2
+Change Component Designator: OldDesignator=R? NewDesignator=R12
+Change Component Designator: OldDesignator=U? NewDesignator=U4
+Change Component Designator: OldDesignator=U? NewDesignator=U5
+Added Pin To Net: NetName=GND Pin=U5-2
+Added Pin To Net: NetName=+3v3A Pin=U5-5
+Added Member To Class: ClassName=BalEv_AIN_v1_0 Member=Component C13 100nF
+Added Member To Class: ClassName=BalEv_AIN_v1_0 Member=Component U4 ADG804
+Added Member To Class: ClassName=BalEv_AIN_v1_0 Member=Component U5 TLV???

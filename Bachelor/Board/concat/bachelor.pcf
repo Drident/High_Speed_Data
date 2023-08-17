@@ -1,0 +1,55 @@
+################
+#### Clk / Rst
+################
+
+set_io iGCK_clk 37
+set_io iRST_rst_n 35 -pullup yes
+
+################
+#### I/Os
+################
+
+### ACQ ###
+set_io i_acq_pretrig 36
+set_io i_acq_trig 43
+set_io o_acq_done 39 -pullup yes
+
+### ADC ###
+set_io i_adc_sdo[0] 11
+set_io i_adc_sdo[1] 10
+set_io i_adc_sdo[2] 9
+set_io i_adc_sdo[3] 6
+set_io o_adc_sclk 28
+set_io o_adc_nsc 31
+
+### FPGA ###
+set_io i_fpga_m[0] 19
+set_io i_fpga_m[1] 3
+set_io i_fpga_m[2] 38
+set_io i_fpga_m[3] 42
+set_io i_fpga_sck 46
+set_io i_fpga_mosi 44
+set_io io_fpga_miso 47 -pullup yes
+
+### FRAM ###
+set_io o_fram_sclk[0] 25
+set_io o_fram_sclk[1] 23
+set_io o_fram_sclk[2] 27
+set_io o_fram_sclk[3] 26
+set_io o_fram_sdi[0] 12
+set_io o_fram_sdi[1] 21
+set_io o_fram_sdi[2] 13
+set_io o_fram_sdi[3] 18
+set_io o_fram_ncs[0] 48
+set_io o_fram_ncs[1] 45
+set_io o_fram_ncs[2] 2
+set_io o_fram_ncs[3] 4
+
+### CAL ###
+set_io o_cal[1] 41 -pullup yes
+set_io o_cal[2] 40 -pullup yes
+
+### Others ###
+set_io i_clk_en 20
+set_io o_sclk_meas 34
+set_io o_meas_1mhz 32

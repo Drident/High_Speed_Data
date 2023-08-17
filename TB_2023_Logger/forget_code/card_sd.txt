@@ -1,0 +1,48 @@
+//Give a Work Area to the FATFS module
+  /*f_mount(&SDFatFS, (TCHAR const*)SDPath, 0) ;
+  f_open(&SDFile, "stm32_test.txt", (FA_CREATE_ALWAYS | FA_WRITE));
+  f_write(&SDFile, wtext, strlen((char *)wtext), (void *)&byteswritten);
+  f_close(&SDFile);
+  f_mount(&SDFatFS, (TCHAR const*)NULL, 0);*/
+
+
+  /*res =f_mount(&SDFatFS, (TCHAR const*)SDPath, 0) ;
+  if(res != FR_OK)
+  {
+  		Error_Handler();
+  }
+  else{
+		//Open file for writing (Create)
+		res = f_open(&SDFile, "TEST2.txt", (FA_CREATE_ALWAYS | FA_WRITE));
+		if(res != FR_OK)
+		{
+			Error_Handler();
+		}
+		else
+		{
+			//Write to the text file
+			res = f_write(&SDFile, wtext, strlen((char *)wtext), (void *)&byteswritten);
+			if((byteswritten == 0) || (res != FR_OK))
+			{
+				Error_Handler();
+			}
+			else
+			{
+
+				f_close(&SDFile);
+
+				//TEST read file
+				/*f_open(&SDFile,"stm32_test.txt", FA_READ);
+				memset(rtext,0,sizeof(rtext));
+				res = f_read(&SDFile,rtext, sizeof(rtext), (UINT*)&bytesread);
+				if((bytesread == 0)|| (res != FR_OK)){
+					Error_Handler();
+				}
+				else{
+					Error_Handler();
+				}
+				f_close(&SDFile);
+			}
+		}
+  	}
+  	f_mount(&SDFatFS, (TCHAR const*)NULL, 0);*/

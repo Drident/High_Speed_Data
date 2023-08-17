@@ -1,0 +1,60 @@
+Removed Pin From Net: NetName=+3v3A Pin=C9-1
+Removed Pin From Net: NetName=GND Pin=U1-4
+Removed Pin From Net: NetName=AIN0m Pin=U1-5
+Removed Pin From Net: NetName=NetJ1_1 Pin=U3-2
+Removed Pin From Net: NetName=GND Pin=U3-3
+Removed Pin From Net: NetName=VREF+1v25 Pin=U3-4
+Removed Pin From Net: NetName=+3v3A Pin=U3-5
+Removed Pin From Net: NetName=+3v3A Pin=U3-6
+Removed Pin From Net: NetName=GND Pin=U3-9
+Removed Pin From Net: NetName=FPGA_CAL_1 Pin=U3-10
+Removed Pin From Net: NetName=ACQ_TRIG Pin=U5-3
+Change Component Footprint: Designator=U3 Old Footprint=TSSOP50P490X110-10N New Footprint=TSOP65P640X120-16N
+Change Component Comment : Designator=U3 Old Comment=ADG804 New Comment=ADG1609BRUZ
+Change component parameters: Designator = "U3" ("U3"); Footprint = "TSSOP50P490X110-10N"; UniqueID = "\UQOQHBEE" ("\UQOQHBEE")
+Change component parameters (AddParameter): Name = "Value"; Value = "ADG1609BRUZ"; VariantName = "[No Variations]"
+Added Component: Designator=C14(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C15(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=R13(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "20k"; VariantName = "[No Variations]"
+Added Component: Designator=R14(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R15(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R16(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=-3v3A Pin=C9-1
+Added Pin To Net: NetName=GND Pin=C14-1
+Added Pin To Net: NetName=-3v3A Pin=C14-2
+Added Pin To Net: NetName=+3v3A Pin=C15-1
+Added Pin To Net: NetName=GND Pin=C15-2
+Added Pin To Net: NetName=AIN0m Pin=R13-1
+Added Pin To Net: NetName=+ADCcm Pin=R14-2
+Added Pin To Net: NetName=ACQ_TRIG Pin=R15-2
+Added Pin To Net: NetName=FPGA_ACQ_TRIG Pin=R16-1
+Added Pin To Net: NetName=-3v3A Pin=U1-4
+Added Pin To Net: NetName=+3v3A Pin=U3-2
+Added Pin To Net: NetName=-3v3A Pin=U3-3
+Added Pin To Net: NetName=NetJ1_1 Pin=U3-4
+Added Pin To Net: NetName=GND Pin=U3-5
+Added Pin To Net: NetName=VREF+1v25 Pin=U3-6
+Added Pin To Net: NetName=+3v3A Pin=U3-14
+Added Pin To Net: NetName=GND Pin=U3-15
+Added Pin To Net: NetName=FPGA_CAL_1 Pin=U3-16
+Added Pin To Net: NetName=NetR13_2 Pin=R13-2
+Added Pin To Net: NetName=NetR13_2 Pin=R14-1
+Added Pin To Net: NetName=NetR13_2 Pin=U1-5
+Added Net: Name=NetR13_2
+Added Pin To Net: NetName=NetR15_1 Pin=R15-1
+Added Pin To Net: NetName=NetR15_1 Pin=R16-2
+Added Pin To Net: NetName=NetR15_1 Pin=U5-3
+Added Net: Name=NetR15_1
+Change Class Name : Old Net Name=BalEv_AIN_v1_0 New Net Name=BalEv_AINa_v1_0
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C14 100nF
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C15 100nF
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R13 20k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R14 10k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R15 *
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R16 *

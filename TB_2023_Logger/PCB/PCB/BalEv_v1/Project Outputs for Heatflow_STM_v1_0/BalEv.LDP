@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: I:\RaD\SI-ET\Projets\ECS\TB_2023_Logger\PCB\BalEv_v1\BalEv.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=balev-roundholes.txt|DrillLayers=gtl,gp1,gp2,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=balev-slotholes.txt|DrillLayers=gtl,gp1,gp2,gbl

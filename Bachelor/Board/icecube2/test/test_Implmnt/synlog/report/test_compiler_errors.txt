@@ -1,0 +1,4 @@
+@E: CS187 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":856:14:856:14|Expecting <=
+@E: CD415 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":865:24:865:24|Expecting keyword of
+@E: Parse errors encountered - exiting
+

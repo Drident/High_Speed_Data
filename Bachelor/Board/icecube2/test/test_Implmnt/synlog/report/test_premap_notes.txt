@@ -1,0 +1,5 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: BN115 :"c:\users\christop.grobety\bachelor\bachelor\board\concat\bachelor.vhd":1988:4:1988:6|Removing instance I28 (in view: work.EC5LP(struct)) of type view:work.logic1(sim) because it does not drive other instances.
+@N: BN362 :"c:\users\christop.grobety\bachelor\bachelor\board\concat\bachelor.vhd":1900:6:1900:7|Removing sequential instance clk_en (in view: work.EC5LP(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN225 |Writing default property annotation file C:\Users\christop.grobety\Bachelor\Bachelor\Board\icecube2\test\test_Implmnt\test.sap.

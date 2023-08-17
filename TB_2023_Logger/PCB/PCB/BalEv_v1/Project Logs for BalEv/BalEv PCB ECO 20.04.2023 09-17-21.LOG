@@ -1,0 +1,151 @@
+Removed Member From Class: ClassName=BalEv_ADC_v1_0 Member=R66
+Removed Member From Class: ClassName=BalEv_ADC_v1_0 Member=R68
+Removed Member From Class: ClassName=BalEv_FPTG_IO_v1_0 Member=R73
+Removed Member From Class: ClassName=BalEv_FPTG_IO_v1_0 Member=R74
+Removed Member From Class: ClassName=BalEv_FPTG_IO_v1_0 Member=R82
+Removed Member From Class: ClassName=BalEv_ADC_v1_0 Member=R110
+Removed Member From Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=R111
+Removed Member From Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=R112
+Removed Member From Class: ClassName=BalEv_ADC_v1_0 Member=R114
+Removed Member From Class: ClassName=BalEv_ADC_v1_0 Member=R115
+Removed Member From Class: ClassName=BalEv_ADC_v1_0 Member=R116
+Removed Member From Class: ClassName=BalEv_ADC_v1_0 Member=R117
+Removed Member From Class: ClassName=BalEv_ADC_v1_0 Member=R119
+Removed Member From Class: ClassName=BalEv_ADC_v1_0 Member=R120
+Removed Member From Class: ClassName=BalEv_ADC_v1_0 Member=R122
+Removed Member From Class: ClassName=BalEv_ADC_v1_0 Member=R124
+Removed Member From Class: ClassName=BalEv_ADC_v1_0 Member=R125
+Added Component: Designator=LD1(LED Kingbright AAA3528LSEEZGKQBKS)
+Add component (AddParameter): Name = "Value"; Value = "AAA3528LSEEZGKQBKS"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetLD1_1 Pin=LD1-1
+Added Pin To Net: NetName=POW_IN Pin=LD1-2
+Added Pin To Net: NetName=NetLD1_3 Pin=LD1-3
+Added Pin To Net: NetName=NetLD1_4 Pin=LD1-4
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C5 NC
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C6 NC
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C8 22pF
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C11 100nF
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C13 100nF
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C16 100nF
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C17 100nF
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C18 0.33uF
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C19 100nF
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component C23 470pF
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component C24 NC
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component C25 NC
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component C27 NC
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component C28 22pF
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component C32 100nF
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component C33 100nF
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component C34 100nF
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component C35 100nF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C40 10nF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C43 10uF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C44 100nF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C45 100nF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C47 10nF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C51 NC
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C53 1uF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component C55 100nF
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component C72 100n
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component C74 68pF
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component C77 68pF
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component C83 68pF
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component C84 68pF
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component C85 68pF
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component C87 100n
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component C88 100n
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component C91 1u
+Added Member To Class: ClassName=BalEv_STM_v1_0 Member=Component LD1 AAA3528LSEEZGKQBKS
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R3 100K
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R8 10k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R9 10k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R10 10k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R13 1k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R14 1k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R16 1k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R17 1k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R19 2k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R21 2k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R23 0
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R25 0
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R26 0
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R28 NC
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R29 *
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R31 *
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R33 51
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R34 100K
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R38 10k
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R39 10k
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R46 10k
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R47 1k
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R50 2k
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R51 2k
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R54 0
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R57 0
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R58 NC
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R59 NC
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component R61 10k
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component R63 10k
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component R65 10k
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component R66 10k
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component R67 NC
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component R69 10k
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R72 NC
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R75 100
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R77 100
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R78 NC
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R79 NC
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R81 NC
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R83 NC
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R84 NC
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R85 NC
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R86 33
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R88 33
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R89 33
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R90 33
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R91 33
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R93 33
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R94 10k
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R95 10k
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R96 100
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R97 100
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R99 100
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R100 NC
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R101 NC
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component R102 NC
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component R103 10k
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component R104 10k
+Added Member To Class: ClassName=BalEv_FPTG_IO_v1_0 Member=Component R105 10k
+Added Member To Class: ClassName=BalEv_FPTG_IO_v1_0 Member=Component R107 NC
+Added Member To Class: ClassName=BalEv_FPTG_IO_v1_0 Member=Component R108 NC
+Added Member To Class: ClassName=BalEv_FPTG_IO_v1_0 Member=Component R109 NC
+Added Member To Class: ClassName=BalEv_FPTG_IO_v1_0 Member=Component R121 100
+Added Member To Class: ClassName=BalEv_FPTG_IO_v1_0 Member=Component R123 100
+Added Member To Class: ClassName=BalEv_FPTG_IO_v1_0 Member=Component R126 100
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component SB4 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component SB5 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component SB6 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component SB8 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP3 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP5 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP7 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP8 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP9 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP11 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP12 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP13 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP15 *
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component U1 ADA4500-2
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component U2 ADA4500-2
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component U3 LTC6362_DD
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component U4 LTC6362_DD
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component U8 ADA4500-2
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component U10 LTC6362_DD
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component U11 LTC6362_DD
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component U12 LM3880MFE-1AF
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component U14 LD29080PT33R
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component U17 N25Q032A13ESC40F
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component U71 865-MB85RS4MTYPF-G-BCE1-ND
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component U74 ADR4525WBRZ-R7
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component U75 ADA4500-2

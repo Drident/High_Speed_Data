@@ -1,0 +1,3 @@
+Change Component Designator: OldDesignator=R65 NewDesignator=R66
+Change Component Designator: OldDesignator=R66 NewDesignator=R65
+Change Component Library : Designator=U13 Old Library=ECSlib.SchLib New Library=IntegratedCircuit.SchLib

@@ -1,0 +1,70 @@
+* ******************************************************************************
+
+* iCEcube Pin Table
+
+* Version:            2020.12.27943
+
+* Build Date:         Dec  9 2020 17:31:51
+
+* File Generated:     Aug 7 2023 08:40:48
+
+* Purpose:            Detailed IO and package pin info
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Device, iCE5LP1K
+Package, SG48
+
+Pin Number, Pin Type Name, Signal Name, Direction, Global Buffer, IO Standard, Pull Up, IO Function, IO Bank, Glitch Logic 
+---------------, ---------------, ---------------, ---------------, ---------------, ---------------, ---------------, ---------------, ---------------, ---------------, 
+1, VCCIO_2, not used, , , , , , bottomBank
+2, PIO, o_fram_ncs[2], Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, bottomBank, o_fram_ncs_obuf_2LegalizeSB_DFF(8:1:0) -> 2(8:0:0)
+3, PIO, i_fpga_m[1], Input, , SB_LVCMOS, No Pull Up, Simple Input, bottomBank
+4, PIO, o_fram_ncs[3], Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, bottomBank, o_fram_ncs_obuf_3LegalizeSB_DFF(8:1:1) -> 4(9:0:0)
+5, VCC, not used, , , , , , UnknownBank
+6, PIO, i_adc_sdo[3], Input, , SB_LVCMOS, No Pull Up, Simple Input, bottomBank
+7, CDONE, not used, , , , , , bottomBank
+8, CRESET_B, not used, , , , , , bottomBank
+9, PIO, i_adc_sdo[2], Input, , SB_LVCMOS, No Pull Up, Simple Input, bottomBank
+10, PIO, i_adc_sdo[1], Input, , SB_LVCMOS, No Pull Up, Simple Input, bottomBank
+11, PIO, i_adc_sdo[0], Input, , SB_LVCMOS, No Pull Up, Simple Input, bottomBank
+12, PIO, o_fram_sdi[0], Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, bottomBank, o_fram_sdi_obuf_0LegalizeSB_DFF(18:1:0) -> 12(18:0:0)
+13, PIO, o_fram_sdi[2], Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, bottomBank, o_fram_sdi_obuf_2LegalizeSB_DFF(18:1:2) -> 13(19:0:0)
+14, SPI_SO, not used, , , , , , bottomBank
+15, SPI_SCK, not used, , , , , , bottomBank
+16, SPI_SS_B, not used, , , , , , bottomBank
+17, SPI_SI, not used, , , , , , bottomBank
+18, PIO, o_fram_sdi[3], Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, bottomBank, o_fram_sdi_obuf_3LegalizeSB_DFF(21:1:0) -> 18(22:0:1)
+19, PIO, i_fpga_m[0], Input, , SB_LVCMOS, No Pull Up, Simple Input, bottomBank
+20, PIO_GBIN, not used, , , , , , bottomBank
+21, PIO, o_fram_sdi[1], Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, bottomBank, o_fram_sdi_obuf_1LegalizeSB_DFF(18:1:1) -> 21(18:0:1)
+22, VDDIO_SPI, not used, , , , , , bottomBank
+23, PIO, o_fram_sclk[1], Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, topBank, o_fram_sclk_obuf_1LegalizeSB_DFF(18:20:1) -> 23(19:21:0)
+24, VPP, not used, , , , , , topBank
+25, PIO, o_fram_sclk[0], Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, topBank, o_fram_sclk_obuf_0LegalizeSB_DFF(18:20:0) -> 25(19:21:1)
+26, PIO, o_fram_sclk[3], Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, topBank, o_fram_sclk_obuf_3LegalizeSB_DFF(18:20:3) -> 26(18:21:0)
+27, PIO, o_fram_sclk[2], Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, topBank, o_fram_sclk_obuf_2LegalizeSB_DFF(18:20:2) -> 27(18:21:1)
+28, PIO, o_adc_sclk, Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, topBank, o_adc_sclk_obufLegalizeSB_DFF(16:20:1) -> 28(17:21:0)
+29, AVDD_TOP, not used, , , , , , UnknownBank
+30, VCC, not used, , , , , , UnknownBank
+31, PIO, o_adc_nsc, Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, topBank, o_adc_nsc_obufLegalizeSB_DFF(16:20:0) -> 31(16:21:1)
+32, PIO, o_meas_1mhz, Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, topBank, o_meas_1mhz_obufLegalizeSB_DFF(16:20:2) -> 32(16:21:0)
+33, VCCIO_0, not used, , , , , , topBank
+34, PIO, o_sclk_meas, Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, topBank, o_sclk_meas_obufLegalizeSB_DFF(12:20:0) -> 34(13:21:1)
+35, PIO_GBIN, iRST_rst_n, Input, , SB_LVCMOS, Pull Up, Simple Input, topBank
+36, PIO, i_acq_pretrig, Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+37, PIO_GBIN, iGCK_clk, Input, glb Buff, SB_LVCMOS, No Pull Up, Simple Input, topBank
+38, PIO, i_fpga_m[2], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+39, PIO_RGB, o_acq_done, Output, , SB_LVCMOS, Pull Up, Output Tristatable by Enable (Open-drain IO), topBank, U_4.ODInstLegalizeSB_DFF(5:20:0) -> 39(6:21:0)
+40, PIO_RGB, o_cal[2], Output, , SB_LVCMOS, Pull Up, Output Tristatable by Enable (Open-drain IO), topBank, U_7.ODInstLegalizeSB_DFF(5:20:1) -> 40(5:21:0)
+41, PIO_RGB, o_cal[1], Output, , SB_LVCMOS, Pull Up, Output Tristatable by Enable (Open-drain IO), topBank, U_8.ODInstLegalizeSB_DFF(3:20:0) -> 41(4:21:0)
+42, PIO, i_fpga_m[3], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+43, PIO, i_acq_trig, Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+44, PIO_GBIN, i_fpga_mosi, Input, , SB_LVCMOS, No Pull Up, Simple Input, bottomBank
+45, PIO, o_fram_ncs[1], Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, bottomBank, o_fram_ncs_obuf_1LegalizeSB_DFF(7:1:3) -> 45(7:0:1)
+46, PIO, i_fpga_sck, Input, , SB_LVCMOS, No Pull Up, Simple Input, bottomBank
+47, PIO, io_fpga_miso, Output, , SB_LVCMOS, Pull Up, Output Tristatable by Enable, bottomBank, io_fpga_miso_obuftAndLUT4(7:1:0) -> 47(6:0:0)
+48, PIO, o_fram_ncs[0], Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, bottomBank, o_fram_ncs_obuf_0LegalizeSB_DFF(7:1:2) -> 48(7:0:0)
+Total Number of Used Pins, 34

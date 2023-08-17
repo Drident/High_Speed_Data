@@ -1,0 +1,35 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\eda\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":13:7:13:11|Top entity is set to EC5LP.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":13:7:13:11|Synthesizing work.ec5lp.struct.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":617:7:617:17|Synthesizing work.freqdivider.rtl.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":679:7:679:9|Synthesizing work.tff.sim.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":147:7:147:9|Synthesizing work.dff.sim.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1696:7:1696:18|Synthesizing work.ice40_sbiood.rtl.
+@N: CD630 :"C:\eda\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40_components_syn.vhd":3592:10:3592:17|Synthesizing sb_ice40_components_syn.sb_io_od.syn_black_box.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":113:7:113:12|Synthesizing work.logic1.sim.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":75:7:75:14|Synthesizing work.inverter.sim.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":897:7:897:18|Synthesizing work.bufferulogic.sim.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":198:7:198:17|Synthesizing work.maincircuit.struct.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":617:7:617:17|Synthesizing work.freqdivider.rtl.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":810:7:810:23|Synthesizing work.memory_to_process.student.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":325:7:325:15|Synthesizing work.cont_done.v3_test.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":735:7:735:19|Synthesizing work.pretrig_value.student.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1034:7:1034:14|Synthesizing work.main_mux.student.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":937:7:937:20|Synthesizing work.fram_writeread.student_v3.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":247:7:247:15|Synthesizing work.adc_write.student_v3.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1157:7:1157:17|Synthesizing work.adc_to_fpga.student.
+@N: CL159 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":250:8:250:10|Input SDO is unused.
+@N: CL159 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":251:8:251:12|Input clock is unused.
+@N: CL159 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":253:8:253:12|Input reset is unused.
+@N: CL159 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":941:8:941:12|Input clock is unused.
+@N: CL159 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":943:8:943:12|Input reset is unused.
+@N: CL159 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1043:8:1043:14|Input AW_MISO is unused.
+@N: CL159 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":623:8:623:12|Input clock is unused.
+@N: CL159 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":624:8:624:12|Input reset is unused.
+@N: CL159 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":207:8:207:13|Input clk_en is unused.
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":13:7:13:11|Selected library: work cell: EC5LP view struct as top level
+@N: NF107 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":13:7:13:11|Selected library: work cell: EC5LP view struct as top level
+

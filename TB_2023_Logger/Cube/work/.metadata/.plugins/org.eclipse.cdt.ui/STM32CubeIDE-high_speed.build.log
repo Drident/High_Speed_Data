@@ -1,0 +1,16 @@
+14:03:09 **** Incremental Build of configuration Debug for project STM32CubeIDE-high_speed ****
+make -j16 all 
+arm-none-eabi-gcc -o "STM32CubeIDE-high_speed.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\christop.grobety\Bachelor\TB_2023_Logger\Cube\work\STM32CubeIDE-high_speed\STM32L496RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32CubeIDE-high_speed.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32CubeIDE-high_speed.elf
+ 
+arm-none-eabi-size   STM32CubeIDE-high_speed.elf 
+arm-none-eabi-objdump -h -S  STM32CubeIDE-high_speed.elf  > "STM32CubeIDE-high_speed.list"
+   text	   data	    bss	    dec	    hex	filename
+  59648	    128	  22392	  82168	  140f8	STM32CubeIDE-high_speed.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32CubeIDE-high_speed.list
+ 
+
+14:03:10 Build Finished. 0 errors, 0 warnings. (took 807ms)
+

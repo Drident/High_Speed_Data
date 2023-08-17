@@ -1,0 +1,16 @@
+Added Component: Designator=U13(QFN50P700X700X100_HS-49N)
+Added Pin To Net: NetName=GND Pin=U13-0
+Added Pin To Net: NetName=+3v3 Pin=U13-1
+Added Pin To Net: NetName=+1v2 Pin=U13-5
+Added Pin To Net: NetName=CDONE Pin=U13-7
+Added Pin To Net: NetName=creset_b Pin=U13-8
+Added Pin To Net: NetName=ICE_MISO Pin=U13-14
+Added Pin To Net: NetName=ICE_SCK Pin=U13-15
+Added Pin To Net: NetName=ICE_SS Pin=U13-16
+Added Pin To Net: NetName=ICE_MOSI Pin=U13-17
+Added Pin To Net: NetName=+3v3 Pin=U13-22
+Added Pin To Net: NetName=+2v5 Pin=U13-24
+Added Pin To Net: NetName=VCC_PLL Pin=U13-29
+Added Pin To Net: NetName=+1v2 Pin=U13-30
+Added Pin To Net: NetName=+3v3 Pin=U13-33
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component U13 iCE40 Ultra / iCE5LP

@@ -1,0 +1,33 @@
+
+  //--------------------------------------------------RESET FRAM REG----------------------------------------
+  HAL_GPIO_WritePin(SELECTOR_M0_GPIO_Port, SELECTOR_M0_Pin, GPIO_PIN_SET);
+  HAL_SPI_Transmit(&hspi1, (uint8_t*)&TX_Data_FRAM_RESET,1, 1);
+  HAL_GPIO_WritePin(SELECTOR_M0_GPIO_Port, SELECTOR_M0_Pin, GPIO_PIN_RESET);
+  HAL_Delay(100);
+  //--------------------------------------------------WRITE FRAM REG----------------------------------------
+  HAL_GPIO_WritePin(SELECTOR_M0_GPIO_Port, SELECTOR_M0_Pin, GPIO_PIN_SET);
+  HAL_SPI_Transmit(&hspi1, (uint8_t*)&TX_Data_FRAM_REG,1, 1);
+  HAL_GPIO_WritePin(SELECTOR_M0_GPIO_Port, SELECTOR_M0_Pin, GPIO_PIN_RESET);
+  HAL_Delay(100);
+
+  //---------------------------------------------------WRITE FRAM-------------------------------------------
+  TX_FRAM_TEST[0] = 2;
+  for(int i =1; i<5;i++){
+  	 TX_FRAM_TEST[i] = 0;
+  }
+  TX_FRAM_TEST[4] = 65; // "A"
+
+  HAL_GPIO_WritePin(SELECTOR_M0_GPIO_Port, SELECTOR_M0_Pin, GPIO_PIN_SET);
+  HAL_SPI_Transmit(&hspi1, (uint8_t*)TX_FRAM_TEST,5, 100);
+  HAL_GPIO_WritePin(SELECTOR_M0_GPIO_Port, SELECTOR_M0_Pin, GPIO_PIN_RESET);
+  HAL_Delay(100);
+
+  //---------------------------------------------------READ FRAM 0--------------------------------------------
+  TX_FRAM_TEST[0] = 3;
+  for(int i =1; i<5;i++){
+  	  	  	TX_FRAM_TEST[i] = 0;
+  }
+  HAL_GPIO_WritePin(SELECTOR_M0_GPIO_Port, SELECTOR_M0_Pin, GPIO_PIN_SET);
+  HAL_SPI_Transmit(&hspi1, (uint8_t*)&TX_FRAM_TEST,5, 100);
+  HAL_SPI_Receive(&hspi1, (uint8_t*)&TX_SAMPLE,1, 100);
+  HAL_GPIO_WritePin(SELECTOR_M0_GPIO_Port, SELECTOR_M0_Pin, GPIO_PIN_RESET);

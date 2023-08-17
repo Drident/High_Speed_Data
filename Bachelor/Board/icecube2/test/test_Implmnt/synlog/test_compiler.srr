@@ -1,0 +1,166 @@
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\eda\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":13:7:13:11|Top entity is set to EC5LP.
+File C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd changed - recompiling
+File C:\eda\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40_components_syn.vhd changed - recompiling
+@W: CD266 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":570:47:570:50|done is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":574:12:574:15|done is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1229:23:1229:30|count_go is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1233:8:1233:16|adc_clock is not readable.  This may cause a simulation mismatch.
+VHDL syntax check successful!
+File C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd changed - recompiling
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":13:7:13:11|Synthesizing work.ec5lp.struct.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":617:7:617:17|Synthesizing work.freqdivider.rtl.
+Post processing for work.freqdivider.rtl
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":679:7:679:9|Synthesizing work.tff.sim.
+Post processing for work.tff.sim
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":147:7:147:9|Synthesizing work.dff.sim.
+Post processing for work.dff.sim
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1696:7:1696:18|Synthesizing work.ice40_sbiood.rtl.
+@N: CD630 :"C:\eda\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40_components_syn.vhd":3592:10:3592:17|Synthesizing sb_ice40_components_syn.sb_io_od.syn_black_box.
+Post processing for sb_ice40_components_syn.sb_io_od.syn_black_box
+Post processing for work.ice40_sbiood.rtl
+@W: CL167 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1719:2:1719:7|Input dout1 of instance ODInst is floating
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":113:7:113:12|Synthesizing work.logic1.sim.
+Post processing for work.logic1.sim
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":75:7:75:14|Synthesizing work.inverter.sim.
+Post processing for work.inverter.sim
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":897:7:897:18|Synthesizing work.bufferulogic.sim.
+Post processing for work.bufferulogic.sim
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":198:7:198:17|Synthesizing work.maincircuit.struct.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":617:7:617:17|Synthesizing work.freqdivider.rtl.
+Post processing for work.freqdivider.rtl
+@W: CL190 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":647:4:647:5|Optimizing register bit count(0) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":647:4:647:5|Pruning unused register count(0). Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":810:7:810:23|Synthesizing work.memory_to_process.student.
+@W: CG296 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":850:11:850:17|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":855:17:855:22|Referenced variable stmclk is not in sensitivity list.
+@W: CD638 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":848:8:848:15|Signal done_int is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.memory_to_process.student
+@W: CL169 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":852:2:852:3|Pruning unused register count_2(18 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":852:2:852:3|Pruning unused register start_bit_2. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":325:7:325:15|Synthesizing work.cont_done.v3_test.
+@W: CG296 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":586:11:586:17|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":591:45:591:55|Referenced variable pretriggval is not in sensitivity list.
+@W: CG290 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":590:32:590:41|Referenced variable memorytrig is not in sensitivity list.
+Post processing for work.cont_done.v3_test
+@W: CL117 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":588:4:588:5|Latch generated from process for signal Trigg_in; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":588:4:588:5|Latch generated from process for signal memoryTrigTest(18 downto 0); possible missing assignment in an if or case statement.
+@W: CL111 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":554:4:554:5|All reachable assignments to memoryTrig(0) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":554:4:554:5|All reachable assignments to memoryTrig(1) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":554:4:554:5|All reachable assignments to memoryTrig(2) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":554:4:554:5|All reachable assignments to memoryTrig(3) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":554:4:554:5|All reachable assignments to memoryTrig(4) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":554:4:554:5|All reachable assignments to memoryTrig(5) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":554:4:554:5|All reachable assignments to memoryTrig(6) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":554:4:554:5|All reachable assignments to memoryTrig(7) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":554:4:554:5|All reachable assignments to memoryTrig(8) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":554:4:554:5|All reachable assignments to memoryTrig(9) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":554:4:554:5|All reachable assignments to memoryTrig(10) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":554:4:554:5|All reachable assignments to memoryTrig(11) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":554:4:554:5|All reachable assignments to memoryTrig(12) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":554:4:554:5|All reachable assignments to memoryTrig(13) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":554:4:554:5|All reachable assignments to memoryTrig(14) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":554:4:554:5|All reachable assignments to memoryTrig(15) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":554:4:554:5|All reachable assignments to memoryTrig(16) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":554:4:554:5|All reachable assignments to memoryTrig(17) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":554:4:554:5|All reachable assignments to memoryTrig(18) are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":735:7:735:19|Synthesizing work.pretrig_value.student.
+@W: CG296 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":768:20:768:26|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":773:20:773:25|Referenced variable stmclk is not in sensitivity list.
+@W: CD638 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":765:9:765:20|Signal valuepretrig is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.pretrig_value.student
+@W: CL169 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":770:4:770:5|Pruning unused register count_pre_2(3 downto 0). Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1034:7:1034:14|Synthesizing work.main_mux.student.
+@W: CG296 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1076:6:1076:12|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1104:16:1104:26|Referenced variable af_fram_sdi is not in sensitivity list.
+@W: CG290 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1124:17:1124:27|Referenced variable fw_fram_sdi is not in sensitivity list.
+@W: CG290 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1103:14:1103:21|Referenced variable af_ncs_f is not in sensitivity list.
+Post processing for work.main_mux.student
+@W: CL117 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1080:2:1080:5|Latch generated from process for signal FRAM_SDI(3 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1080:2:1080:5|Latch generated from process for signal ADC_CLOCK; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1080:2:1080:5|Latch generated from process for signal FR_NCS(3 downto 0); possible missing assignment in an if or case statement.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":937:7:937:20|Synthesizing work.fram_writeread.student_v3.
+@W: CG296 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1000:14:1000:20|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1002:15:1002:15|Referenced variable m is not in sensitivity list.
+@W: CD638 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":967:8:967:9|Signal go is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":968:8:968:12|Signal count is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":969:8:969:17|Signal countvalue is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.fram_writeread.student_v3
+@W: CL117 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":976:4:976:5|Latch generated from process for signal SDI(2); possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":976:4:976:5|Latch generated from process for signal SDI(1); possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":976:4:976:5|Latch generated from process for signal SDI(0); possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":976:4:976:5|Latch generated from process for signal SDI(3); possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":976:4:976:5|Latch generated from process for signal NCs(3 downto 0); possible missing assignment in an if or case statement.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":247:7:247:15|Synthesizing work.adc_write.student_v3.
+@W: CD434 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":283:19:283:21|Signal sdo in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CG296 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":294:14:294:20|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":296:15:296:15|Referenced variable m is not in sensitivity list.
+@W: CD638 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":277:8:277:12|Signal count is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":278:8:278:9|Signal go is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":279:8:279:14|Signal miso_in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":281:8:281:14|Signal clockgo is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.adc_write.student_v3
+@W: CL240 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":255:8:255:11|Signal MISO is floating; a simulation mismatch is possible.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1157:7:1157:17|Synthesizing work.adc_to_fpga.student.
+Post processing for work.adc_to_fpga.student
+@W: CL169 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1206:2:1206:3|Pruning unused register done16_1. Make sure that there are no unused intermediate registers.
+Post processing for work.maincircuit.struct
+@W: CL168 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1662:4:1662:7|Removing instance U_10 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1642:4:1642:7|Removing instance U_11 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+Post processing for work.ec5lp.struct
+@W: CL168 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":2033:4:2033:6|Removing instance U_5 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":2023:4:2023:6|Removing instance U_6 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL169 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1930:6:1930:7|Pruning unused register fpga_miso_in_2. Make sure that there are no unused intermediate registers.
+@W: CL279 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1206:2:1206:3|Pruning register bits 3 to 1 of fram_clock(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1206:2:1206:3|Pruning register bits 3 to 1 of ncs_fram(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL159 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":250:8:250:10|Input SDO is unused.
+@N: CL159 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":251:8:251:12|Input clock is unused.
+@N: CL159 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":253:8:253:12|Input reset is unused.
+@N: CL159 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":941:8:941:12|Input clock is unused.
+@N: CL159 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":943:8:943:12|Input reset is unused.
+@N: CL159 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1043:8:1043:14|Input AW_MISO is unused.
+@N: CL159 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":623:8:623:12|Input clock is unused.
+@N: CL159 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":624:8:624:12|Input reset is unused.
+@N: CL159 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":207:8:207:13|Input clk_en is unused.
+@W: CL190 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":647:4:647:5|Optimizing register bit count(5) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":647:4:647:5|Pruning register bit 5 of count(5 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 74MB peak: 75MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jul 28 14:09:21 2023
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":13:7:13:11|Selected library: work cell: EC5LP view struct as top level
+@N: NF107 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":13:7:13:11|Selected library: work cell: EC5LP view struct as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jul 28 14:09:21 2023
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jul 28 14:09:21 2023
+
+###########################################################]

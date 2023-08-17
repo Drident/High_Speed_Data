@@ -1,0 +1,38 @@
+Added Component: Designator=C7(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C8(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Added Component: Designator=C10(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "4.7nF"; VariantName = "[No Variations]"
+Added Component: Designator=R9(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "7.15k"; VariantName = "[No Variations]"
+Added Component: Designator=R10(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "1.5k"; VariantName = "[No Variations]"
+Added Component: Designator=R11(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "3k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=GND Pin=C10-2
+Added Pin To Net: NetName=+ADCcm Pin=R10-1
+Added Pin To Net: NetName=GND Pin=U2-0
+Added Pin To Net: NetName=-3v3A Pin=C7-1
+Added Pin To Net: NetName=-3v3A Pin=U2-6
+Added Net: Name=-3v3A
+Added Pin To Net: NetName=AIN0n Pin=C8-1
+Added Pin To Net: NetName=AIN0n Pin=R11-2
+Added Pin To Net: NetName=AIN0n Pin=U2-5
+Added Net: Name=AIN0n
+Added Pin To Net: NetName=NetC8_2 Pin=C8-2
+Added Pin To Net: NetName=NetC8_2 Pin=R9-2
+Added Pin To Net: NetName=NetC8_2 Pin=U2-8
+Added Net: Name=NetC8_2
+Added Pin To Net: NetName=NetC10_1 Pin=C10-1
+Added Pin To Net: NetName=NetC10_1 Pin=R9-1
+Added Pin To Net: NetName=NetC10_1 Pin=R10-2
+Added Pin To Net: NetName=NetC10_1 Pin=R11-1
+Added Net: Name=NetC10_1
+Added Member To Class: ClassName=BalEv_AIN_v1_0 Member=Component C7 100nF
+Added Member To Class: ClassName=BalEv_AIN_v1_0 Member=Component C8 100pF
+Added Member To Class: ClassName=BalEv_AIN_v1_0 Member=Component C10 4.7nF
+Added Member To Class: ClassName=BalEv_AIN_v1_0 Member=Component R9 7.15k
+Added Member To Class: ClassName=BalEv_AIN_v1_0 Member=Component R10 1.5k
+Added Member To Class: ClassName=BalEv_AIN_v1_0 Member=Component R11 3k

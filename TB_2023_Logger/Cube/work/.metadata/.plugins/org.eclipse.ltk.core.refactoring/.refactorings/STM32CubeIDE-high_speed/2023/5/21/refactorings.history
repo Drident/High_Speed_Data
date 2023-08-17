@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;STM32CubeIDE-high_speed/high_speed.ioc&apos; to &apos;STM32CubeIDE-high_speed.ioc&apos;" description="Rename resource &apos;high_speed.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="high_speed.ioc" name="STM32CubeIDE-high_speed.ioc" stamp="1684741544925" updateReferences="true"/>
+</session>

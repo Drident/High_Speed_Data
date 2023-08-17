@@ -1,0 +1,24 @@
+Added Component: Designator=TP24(Hole 0.25 D0.8)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP25(Hole 0.25 D0.8)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=FLASH_SI Pin=J7-3
+Added Pin To Net: NetName=FLASH_SI Pin=SB2-2
+Added Pin To Net: NetName=FLASH_SI Pin=TP24-1
+Added Pin To Net: NetName=FLASH_SI Pin=U17-5
+Added Net: Name=FLASH_SI
+Added Pin To Net: NetName=FLASH_SO Pin=J7-2
+Added Pin To Net: NetName=FLASH_SO Pin=SB3-2
+Added Pin To Net: NetName=FLASH_SO Pin=TP25-1
+Added Pin To Net: NetName=FLASH_SO Pin=U17-2
+Added Net: Name=FLASH_SO
+Added Pin To Net: NetName=ICE_SI Pin=J7-1
+Added Pin To Net: NetName=ICE_SI Pin=TP5-1
+Added Pin To Net: NetName=ICE_SI Pin=U13-17
+Added Net: Name=ICE_SI
+Added Pin To Net: NetName=ICE_SO Pin=J7-4
+Added Pin To Net: NetName=ICE_SO Pin=TP6-1
+Added Pin To Net: NetName=ICE_SO Pin=U13-14
+Added Net: Name=ICE_SO
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP24 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP25 *

@@ -1,0 +1,82 @@
+* ******************************************************************************
+
+* iCEcube Router
+
+* Version:            2020.12.27943
+
+* Build Date:         Dec  9 2020 17:45:10
+
+* File Generated:     Aug 7 2023 08:40:49
+
+* Purpose:            Router runtime info
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Executing : C:\eda\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbrouter.exe C:\eda\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T04.dev C:\Users\christop.grobety\Bachelor\Bachelor\Board\icecube2\test\test_Implmnt\sbt\netlist\oadb-EC5LP C:\eda\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40TH4K.lib C:\Users\christop.grobety\Bachelor\Bachelor\Board\icecube2\test\test_Implmnt\sbt\outputs\packer\EC5LP_pk.sdc --outdir C:\Users\christop.grobety\Bachelor\Bachelor\Board\icecube2\test\test_Implmnt\sbt\outputs\router --sdf_file C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt\sbt\outputs\simulation_netlist\EC5LP_sbt.sdf --pin_permutation 
+I1203: Reading Design EC5LP
+I1202: Reading Architecture of device iCE5LP1K
+Warning-1035: Removing timing arc from pin "I_DUT.U_4.fpga_m_ret_RNI15M5_LC_18_1_3/in1" to pin "I_DUT.U_4.fpga_m_ret_RNI15M5_LC_18_1_3/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_5.fpga_m_0_ret_4_RNIDV2F_LC_12_3_2/in1" to pin "I_DUT.U_5.fpga_m_0_ret_4_RNIDV2F_LC_12_3_2/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_5.fpga_m_0_ret_4_RNIBT2F_LC_12_4_6/in1" to pin "I_DUT.U_5.fpga_m_0_ret_4_RNIBT2F_LC_12_4_6/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_5.fpga_m_0_ret_4_RNICU2F_LC_12_4_1/in1" to pin "I_DUT.U_5.fpga_m_0_ret_4_RNICU2F_LC_12_4_1/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_5.fpga_m_0_ret_4_RNIE03F_LC_12_3_7/in1" to pin "I_DUT.U_5.fpga_m_0_ret_4_RNIE03F_LC_12_3_7/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_4.fpga_m_1_ret_RNIHEAG_LC_11_1_6/in1" to pin "I_DUT.U_4.fpga_m_1_ret_RNIHEAG_LC_11_1_6/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_5.fpga_m_ret_8_RNI1CV5_LC_9_5_1/in1" to pin "I_DUT.U_5.fpga_m_ret_8_RNI1CV5_LC_9_5_1/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_5.fpga_m_ret_8_RNI1CV5_1_LC_9_5_0/in1" to pin "I_DUT.U_5.fpga_m_ret_8_RNI1CV5_1_LC_9_5_0/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_5.fpga_m_ret_8_RNI1CV5_0_LC_8_6_1/in1" to pin "I_DUT.U_5.fpga_m_ret_8_RNI1CV5_0_LC_8_6_1/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_5.fpga_m_ret_8_RNI1CV5_2_LC_8_6_5/in1" to pin "I_DUT.U_5.fpga_m_ret_8_RNI1CV5_2_LC_8_6_5/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_4.fpga_m_ret_9_RNI797L1_LC_8_10_1/in1" to pin "I_DUT.U_4.fpga_m_ret_9_RNI797L1_LC_8_10_1/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_4.fpga_m_ret_3_RNIK5EN1_LC_9_7_6/in1" to pin "I_DUT.U_4.fpga_m_ret_3_RNIK5EN1_LC_9_7_6/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_5.fpga_m_ret_4_RNIQT5I2_LC_9_9_4/in1" to pin "I_DUT.U_5.fpga_m_ret_4_RNIQT5I2_LC_9_9_4/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_4.fpga_m_ret_6_RNIM2D7_LC_11_7_3/in1" to pin "I_DUT.U_4.fpga_m_ret_6_RNIM2D7_LC_11_7_3/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_4.fpga_m_ret_5_RNI0PRE1_LC_7_11_4/in1" to pin "I_DUT.U_4.fpga_m_ret_5_RNI0PRE1_LC_7_11_4/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_4.fpga_m_ret_7_RNI2OTC1_LC_8_13_2/in1" to pin "I_DUT.U_4.fpga_m_ret_7_RNI2OTC1_LC_8_13_2/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_4.fpga_m_2_ret_RNIIIGK_LC_11_2_4/in1" to pin "I_DUT.U_4.fpga_m_2_ret_RNIIIGK_LC_11_2_4/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI672E_LC_9_18_4/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI672E_LC_9_18_4/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_15_LC_3_13_7/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_15_LC_3_13_7/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_11_LC_3_13_4/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_11_LC_3_13_4/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_0_LC_3_13_0/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_0_LC_3_13_0/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_7_LC_3_12_5/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_7_LC_3_12_5/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_14_LC_2_13_6/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_14_LC_2_13_6/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_13_LC_2_13_5/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_13_LC_2_13_5/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_10_LC_2_13_3/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_10_LC_2_13_3/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_9_LC_2_13_1/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_9_LC_2_13_1/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_1_LC_2_13_0/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_1_LC_2_13_0/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_5_LC_1_13_6/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_5_LC_1_13_6/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_8_LC_1_13_4/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_8_LC_1_13_4/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_2_LC_1_13_1/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_2_LC_1_13_1/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_16_LC_1_13_0/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_16_LC_1_13_0/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_12_LC_1_12_7/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_12_LC_1_12_7/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_LC_1_12_5/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_LC_1_12_5/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_3_LC_1_12_3/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_3_LC_1_12_3/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_6_LC_1_12_1/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_6_LC_1_12_1/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_4_LC_1_12_0/in1" to pin "I_DUT.U_1.fpga_m_ret_3_RNI1HJ3_4_LC_1_12_0/lcout" to break the combinatorial loop
+I1209: Started routing
+I1223: Total Nets : 390 
+I1212: Iteration  1 :    91 unrouted : 1 seconds
+I1212: Iteration  2 :    23 unrouted : 0 seconds
+I1212: Iteration  3 :    17 unrouted : 0 seconds
+I1212: Iteration  4 :     4 unrouted : 0 seconds
+I1212: Iteration  5 :     4 unrouted : 0 seconds
+I1212: Iteration  6 :     4 unrouted : 0 seconds
+I1212: Iteration  7 :     4 unrouted : 0 seconds
+I1212: Iteration  8 :     4 unrouted : 0 seconds
+I1212: Iteration  9 :     4 unrouted : 0 seconds
+I1212: Iteration 10 :     4 unrouted : 0 seconds
+I1212: Iteration 11 :     4 unrouted : 0 seconds
+I1212: Iteration 12 :     4 unrouted : 0 seconds
+I1212: Iteration 13 :     2 unrouted : 0 seconds
+I1212: Iteration 14 :     2 unrouted : 0 seconds
+I1212: Iteration 15 :     2 unrouted : 0 seconds
+I1212: Iteration 16 :     2 unrouted : 0 seconds
+I1212: Iteration 17 :     2 unrouted : 0 seconds
+I1212: Iteration 18 :     2 unrouted : 0 seconds
+I1212: Iteration 19 :     0 unrouted : 0 seconds
+I1215: Routing is successful
+I1206: Completed routing
+I1204: Writing Design EC5LP
+I1210: Writing routes
+I1218: Exiting the router
+I1224: Router run-time : 4 seconds

@@ -1,0 +1,17 @@
+@P:  Worst Slack : -1.564
+@P:  EC5LP|iGCK_clk - Estimated Frequency : 95.9 MHz
+@P:  EC5LP|iGCK_clk - Requested Frequency : 112.8 MHz
+@P:  EC5LP|iGCK_clk - Estimated Period : 10.428
+@P:  EC5LP|iGCK_clk - Requested Period : 8.864
+@P:  EC5LP|iGCK_clk - Slack : -1.564
+@P:  System - Estimated Frequency : 507.3 MHz
+@P:  System - Requested Frequency : 344.2 MHz
+@P:  System - Estimated Period : 1.971
+@P:  System - Requested Period : 2.906
+@P:  System - Slack : 0.934
+@P: EC5LP Part : ice5lp1ksg48
+@P: EC5LP I/O primitives : 31
+@P: EC5LP I/O Register bits : 0
+@P: EC5LP Register bits (Non I/O) : 151 (15%)
+@P: EC5LP Total Luts : 212 (21%)
+@P:  CPU Time : 0h:00m:01s

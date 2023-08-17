@@ -1,0 +1,13 @@
+../Core/Src/fram_func.c:36:6:FRAM_write_one	16	static
+../Core/Src/fram_func.c:73:6:FRAM_write_all	8	static
+../Core/Src/fram_func.c:82:6:FRAM_write_ADC_to_FRAM	16	static
+../Core/Src/fram_func.c:99:6:FRAM_write_reg	8	static
+../Core/Src/fram_func.c:105:6:FRAM_reset_reg	8	static
+../Core/Src/fram_func.c:112:6:FRAM_read_reg	24	static
+../Core/Src/fram_func.c:157:6:FRAM_device	4152	static
+../Core/Src/fram_func.c:172:10:FRAM_read	16	static
+../Core/Src/fram_func.c:218:6:setPreTrigg	8	static
+../Core/Src/fram_func.c:227:6:setTriggChannel	16	static
+../Core/Src/fram_func.c:249:6:PIN_reset	8	static
+../Core/Src/fram_func.c:256:6:LED_on	16	static
+../Core/Src/fram_func.c:280:6:LED_off	8	static

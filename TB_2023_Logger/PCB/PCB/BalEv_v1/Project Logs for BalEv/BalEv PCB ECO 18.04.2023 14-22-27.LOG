@@ -1,0 +1,50 @@
+Removed Member From Class: ClassName=BalEv_AINa_v1_0 Member=C24
+Removed Member From Class: ClassName=BalEv_AINb_v1_0 Member=J2
+Removed Member From Class: ClassName=BalEv_AINb_v1_0 Member=R31
+Removed Member From Class: ClassName=BalEv_AINb_v1_0 Member=U6
+Change Component Designator: OldDesignator=R15 NewDesignator=R17
+Change Component Designator: OldDesignator=R16 NewDesignator=R19
+Change Component Designator: OldDesignator=R17 NewDesignator=R15
+Change Component Designator: OldDesignator=R18 NewDesignator=R16
+Change Component Designator: OldDesignator=R19 NewDesignator=R18
+Added Component: Designator=U72(SO8 P1.27 C4.0X5.0 H1.75)
+Add component (AddParameter): Name = "Value"; Value = "ADR4525WBRZ-R7"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=U72-4
+Added Pin To Net: NetName=VREF+2v5 Pin=U72-6
+Change Net Name : Old Net Name=NetR15_1 New Net Name=NetR17_1
+Change Net Name : Old Net Name=NetR18_1 New Net Name=NetR16_1
+Added Net: Name=+1v2
+Added Net: Name=+2v5
+Added Net: Name=CDONE
+Added Net: Name=creset_b
+Added Net: Name=DONE
+Added Net: Name=EN_1v2
+Added Net: Name=EN_2v5
+Added Net: Name=EN_3v3
+Added Net: Name=FLASH_CS
+Added Net: Name=FLASH_MISO
+Added Net: Name=FLASH_MOSI
+Added Net: Name=ICE_CS
+Added Net: Name=ICE_MISO
+Added Net: Name=ICE_MOSI
+Added Net: Name=ICE_SCK
+Added Net: Name=ICE_SS
+Added Net: Name=ISPEN/PROG
+Added Net: Name=NetJ8_2
+Added Net: Name=NetJ8_3
+Added Net: Name=NetJ8_9
+Added Net: Name=NetR63_1
+Added Net: Name=NetR65_1
+Added Net: Name=POW_IN
+Added Net: Name=TCK/SCLK
+Added Net: Name=TDI_SI
+Added Net: Name=TDI_SO
+Added Net: Name=TMS
+Added Net: Name=TRST
+Added Net: Name=VCC_PLL
+Added Class: Name=BalEv_FPTG_POW_COFIG_v1_0
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C15 100nF
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component J4 AIN2
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component R38 0
+Added Member To Class: ClassName=BalEv_AINb_v1_0 Member=Component U9 LTC6362_DD
+Added Member To Class: ClassName=BalEv_ADC_v1_0 Member=Component U72 ADR4525WBRZ-R7

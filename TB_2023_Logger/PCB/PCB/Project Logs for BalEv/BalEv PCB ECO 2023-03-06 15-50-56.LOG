@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=GND Pin=C7-2
+Removed Pin From Net: NetName=GND Pin=C10-2
+Removed Pin From Net: NetName=GND Pin=U2-0
+Removed Member From Class: ClassName=BalEv_AIN_v1_0 Member=C7
+Removed Member From Class: ClassName=BalEv_AIN_v1_0 Member=C8
+Removed Member From Class: ClassName=BalEv_AIN_v1_0 Member=C10
+Removed Member From Class: ClassName=BalEv_AIN_v1_0 Member=R9
+Removed Member From Class: ClassName=BalEv_AIN_v1_0 Member=R10
+Removed Member From Class: ClassName=BalEv_AIN_v1_0 Member=R11

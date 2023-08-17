@@ -1,0 +1,22 @@
+/*
+ * fram_func.h
+ *
+ *  Created on: 6 juil. 2023
+ *      Author: christop.grobety
+ */
+
+#ifndef INC_FRAM_FUNC_H_
+#define INC_FRAM_FUNC_H_
+
+
+void FRAM_write_one();
+void FRAM_write_all();
+void FRAM_write_reg();
+void FRAM_reset_reg();
+void FRAM_read_reg();
+void FRAM_device();
+void FRAM_read();
+void PIN_reset();
+
+
+#endif /* INC_FRAM_FUNC_H_ */

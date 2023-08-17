@@ -1,0 +1,105 @@
+# Synopsys Constraint Checker, version maplat, Build 1612R, built Dec  5 2016
+# Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Fri Jul 28 14:09:23 2023
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "EC5LP"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                    Ending                      |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                      System                      |     No paths         |     No paths         |     No paths         |     1.022                            
+System                      EC5LP|iGCK_clk              |     No paths         |     No paths         |     No paths         |     1000.000                         
+EC5LP|iGCK_clk              System                      |     1000.000         |     No paths         |     No paths         |     No paths                         
+EC5LP|iGCK_clk              EC5LP|iGCK_clk              |     1000.000         |     No paths         |     No paths         |     No paths                         
+EC5LP|iGCK_clk              TFF|q_int_derived_clock     |     1000.000         |     No paths         |     No paths         |     No paths                         
+TFF|q_int_derived_clock     EC5LP|iGCK_clk              |     1000.000         |     No paths         |     No paths         |     No paths                         
+TFF|q_int_derived_clock     TFF|q_int_derived_clock     |     1000.000         |     No paths         |     No paths         |     No paths                         
+===================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:iRST_rst_n
+p:i_acq_pretrig
+p:i_acq_trig
+p:i_adc_sdo[0]
+p:i_adc_sdo[1]
+p:i_adc_sdo[2]
+p:i_adc_sdo[3]
+p:i_clk_en
+p:i_fpga_m[0]
+p:i_fpga_m[1]
+p:i_fpga_m[2]
+p:i_fpga_m[3]
+p:i_fpga_mosi
+p:i_fpga_sck
+p:io_fpga_miso
+p:o_acq_done (bidir end point)
+p:o_acq_done (bidir start point)
+p:o_adc_nsc
+p:o_adc_sclk
+p:o_cal[1] (bidir end point)
+p:o_cal[1] (bidir start point)
+p:o_cal[2] (bidir end point)
+p:o_cal[2] (bidir start point)
+p:o_fram_ncs[0]
+p:o_fram_ncs[1]
+p:o_fram_ncs[2]
+p:o_fram_ncs[3]
+p:o_fram_sclk[0]
+p:o_fram_sclk[1]
+p:o_fram_sclk[2]
+p:o_fram_sclk[3]
+p:o_fram_sdi[0]
+p:o_fram_sdi[1]
+p:o_fram_sdi[2]
+p:o_fram_sdi[3]
+p:o_meas_1mhz
+p:o_sclk_meas
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

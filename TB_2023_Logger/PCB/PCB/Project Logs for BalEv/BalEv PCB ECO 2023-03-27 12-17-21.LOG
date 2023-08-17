@@ -1,0 +1,117 @@
+Removed Pin From Net: NetName=AIN0m Pin=C3-1
+Removed Pin From Net: NetName=GND Pin=C6-2
+Removed Pin From Net: NetName=GND Pin=C7-2
+Removed Pin From Net: NetName=AIN0n Pin=C8-1
+Removed Pin From Net: NetName=GND Pin=C9-2
+Removed Pin From Net: NetName=GND Pin=C14-1
+Removed Pin From Net: NetName=+3v3A Pin=C15-1
+Removed Pin From Net: NetName=GND Pin=C15-2
+Removed Pin From Net: NetName=GND Pin=J2-2
+Removed Pin From Net: NetName=GND Pin=J2-2
+Removed Pin From Net: NetName=GND Pin=J2-2
+Removed Pin From Net: NetName=GND Pin=J2-2
+Removed Pin From Net: NetName=AIN0m Pin=R2-1
+Removed Pin From Net: NetName=AIN0 Pin=R4-1
+Removed Pin From Net: NetName=+ADCcm Pin=R10-1
+Removed Pin From Net: NetName=GND Pin=R12-1
+Removed Pin From Net: NetName=+ADCcm Pin=R14-2
+Removed Pin From Net: NetName=AIN0trig Pin=U1-6
+Removed Pin From Net: NetName=+3v3A Pin=U3-2
+Removed Pin From Net: NetName=GND Pin=U3-5
+Removed Pin From Net: NetName=AIN0 Pin=U3-8
+Removed Pin From Net: NetName=+3v3A Pin=U3-14
+Removed Pin From Net: NetName=GND Pin=U3-15
+Removed Member From Class: ClassName=BalEv_AINa_v1_0 Member=C3
+Removed Member From Class: ClassName=BalEv_AINa_v1_0 Member=C6
+Removed Member From Class: ClassName=BalEv_AINa_v1_0 Member=C7
+Removed Member From Class: ClassName=BalEv_AINa_v1_0 Member=C9
+Removed Member From Class: ClassName=BalEv_AINa_v1_0 Member=C14
+Removed Member From Class: ClassName=BalEv_AINa_v1_0 Member=C15
+Removed Member From Class: ClassName=BalEv_AINa_v1_0 Member=J2
+Removed Member From Class: ClassName=BalEv_AINa_v1_0 Member=R4
+Removed Member From Class: ClassName=BalEv_AINa_v1_0 Member=R5
+Removed Member From Class: ClassName=BalEv_AINa_v1_0 Member=R12
+Removed Member From Class: ClassName=BalEv_AINa_v1_0 Member=U3
+Change Component Comment : Designator=R2 Old Comment=1.5k New Comment=1k
+Change Component Comment : Designator=R10 Old Comment=1.5k New Comment=1k
+Change Component Comment : Designator=R7 Old Comment=3.6k New Comment=4.7k
+Change Component Comment : Designator=R3 Old Comment=3k New Comment=2k
+Change Component Comment : Designator=R11 Old Comment=3k New Comment=2k
+Change Component Comment : Designator=C1 Old Comment=4.7nF New Comment=NC
+Change Component Comment : Designator=C10 Old Comment=4.7nF New Comment=NC
+Change Component Comment : Designator=R6 Old Comment=7.15k New Comment=0
+Change Component Comment : Designator=R9 Old Comment=7.15k New Comment=0
+Change Component Comment : Designator=R13 Old Comment=20k New Comment=10k
+Change Component Comment : Designator=C4 Old Comment=100pF New Comment=22pF
+Change Component Comment : Designator=C8 Old Comment=100pF New Comment=22pF
+Change Component Comment : Designator=U2 Old Comment=AD8137YCPZ New Comment=LTC6362_DD
+Change Component Comment : Designator=U1 Old Comment=ADA4807-2ARMZ-R7 New Comment=ADA4500-2
+Change Component Designator: OldDesignator=R1 NewDesignator=100k
+Change component parameters: Designator = "C1" ("C1"); Footprint = "CAPACITOR 1005 REFLOW"; UniqueID = "\CYKHMOLK" ("\CYKHMOLK")
+Change component parameters (AddParameter): Name = "Value"; Value = "NC"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C4" ("C4"); Footprint = "CAPACITOR 1005 REFLOW"; UniqueID = "\WFOLEOQF" ("\WFOLEOQF")
+Change component parameters (AddParameter): Name = "Value"; Value = "22pF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C8" ("C8"); Footprint = "CAPACITOR 1005 REFLOW"; UniqueID = "\VRDXPWAM" ("\VRDXPWAM")
+Change component parameters (AddParameter): Name = "Value"; Value = "22pF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C10" ("C10"); Footprint = "CAPACITOR 1005 REFLOW"; UniqueID = "\XFZWUZGJ" ("\XFZWUZGJ")
+Change component parameters (AddParameter): Name = "Value"; Value = "NC"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R2" ("R2"); Footprint = "RESISTOR 1005 REFLOW"; UniqueID = "\TBDUTPUT" ("\TBDUTPUT")
+Change component parameters (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R3" ("R3"); Footprint = "RESISTOR 1005 REFLOW"; UniqueID = "\NPNFEOZB" ("\NPNFEOZB")
+Change component parameters (AddParameter): Name = "Value"; Value = "2k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R6" ("R6"); Footprint = "RESISTOR 1005 REFLOW"; UniqueID = "\NOZMNWOI" ("\NOZMNWOI")
+Change component parameters (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R7" ("R7"); Footprint = "RESISTOR 1005 REFLOW"; UniqueID = "\MYPIGYXG" ("\MYPIGYXG")
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R9" ("R9"); Footprint = "RESISTOR 1005 REFLOW"; UniqueID = "\OZGUDCBT" ("\OZGUDCBT")
+Change component parameters (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R10" ("R10"); Footprint = "RESISTOR 1005 REFLOW"; UniqueID = "\XUTBQAIG" ("\XUTBQAIG")
+Change component parameters (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R11" ("R11"); Footprint = "RESISTOR 1005 REFLOW"; UniqueID = "\FEGLVXRI" ("\FEGLVXRI")
+Change component parameters (AddParameter): Name = "Value"; Value = "2k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R13" ("R13"); Footprint = "RESISTOR 1005 REFLOW"; UniqueID = "\OBLQIOEJ" ("\OBLQIOEJ")
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1" ("U1"); Footprint = "MSOP8 P0.65 C3.0X3.0 H1.1"; UniqueID = "\XKIICNTM" ("\XKIICNTM")
+Change component parameters (AddParameter): Name = "Value"; Value = "ADA4500-2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U2" ("U2"); Footprint = "LFCSP8 P0.5 C3.0x2.8 H1.0"; UniqueID = "\JGQFXDXZ" ("\JGQFXDXZ")
+Change component parameters (AddParameter): Name = "Value"; Value = "LTC6362_DD"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "470pF"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "NC"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=AIN0 Pin=100k-2
+Added Pin To Net: NetName=AIN0n Pin=C8-2
+Added Pin To Net: NetName=AIN0trig Pin=C?-1
+Added Pin To Net: NetName=AIN0 Pin=J1-1
+Added Pin To Net: NetName=+ADCcm Pin=R2-1
+Added Pin To Net: NetName=AIN0 Pin=R8-2
+Added Pin To Net: NetName=AIN0m Pin=R10-1
+Added Pin To Net: NetName=GND Pin=R14-2
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=AIN0trig Pin=R?-2
+Added Pin To Net: NetName=AIN0 Pin=U1-3
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Pin To Net: NetName=GND Pin=U2-6
+Added Pin To Net: NetName=NetC8_1 Pin=C8-1
+Added Pin To Net: NetName=NetC8_1 Pin=R9-2
+Added Pin To Net: NetName=NetC8_1 Pin=U2-8
+Added Net: Name=NetC8_1
+Added Pin To Net: NetName=NetC?_2 Pin=C?-2
+Added Pin To Net: NetName=NetC?_2 Pin=R?-1
+Added Pin To Net: NetName=NetC?_2 Pin=R?-2
+Added Pin To Net: NetName=NetC?_2 Pin=U1-6
+Added Net: Name=NetC?_2
+Added Pin To Net: NetName=NetR7_1 Pin=R7-1
+Added Pin To Net: NetName=NetR7_1 Pin=U1-2
+Added Net: Name=NetR7_1
+Added Pin To Net: NetName=NetR?_1 Pin=R?-1
+Added Pin To Net: NetName=NetR?_1 Pin=U2-7
+Added Net: Name=NetR?_1
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C? 470pF
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R? 10k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R? NC
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R? 10k

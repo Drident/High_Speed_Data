@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=EN_1v2 Pin=U16-3
+Added Component: Designator=TP18(Test Point Keystone Miniature RED)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP19(Test Point Keystone Miniature RED)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP20(Test Point Keystone Miniature RED)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP21(Test Point Keystone Miniature BLACK)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3v3 Pin=TP18-1
+Added Pin To Net: NetName=+1v2 Pin=TP19-1
+Added Pin To Net: NetName=+2v5 Pin=TP20-1
+Added Pin To Net: NetName=GND Pin=TP21-1
+Added Pin To Net: NetName=EN_2v5 Pin=U16-3
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP18 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP19 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP20 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP21 *

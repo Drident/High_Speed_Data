@@ -1,0 +1,9 @@
+Added Component: Designator=U11(SC70-6 P0.65 C1.4x2.2 H1.0)
+Add component (AddParameter): Name = "Value"; Value = "LM3880MFE-1AF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=POW_IN Pin=U11-1
+Added Pin To Net: NetName=GND Pin=U11-2
+Added Pin To Net: NetName=ACQ_POW_EN Pin=U11-3
+Added Pin To Net: NetName=EN_2v5 Pin=U11-4
+Added Pin To Net: NetName=EN_3v3 Pin=U11-5
+Added Pin To Net: NetName=EN_1v2 Pin=U11-6
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component U11 LM3880MFE-1AF

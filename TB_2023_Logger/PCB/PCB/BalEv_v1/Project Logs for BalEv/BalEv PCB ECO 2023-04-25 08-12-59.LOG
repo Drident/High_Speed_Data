@@ -1,0 +1,2 @@
+Added Pin To Net: NetName=GND Pin=J19-1
+Added Pin To Net: NetName=FPGA_64M_CLK Pin=J19-2

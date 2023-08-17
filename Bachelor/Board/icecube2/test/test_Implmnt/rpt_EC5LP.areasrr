@@ -1,0 +1,320 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE5LP1KSG48 (Lattice)
+
+---------------------------------------------------------------------
+########   Utilization report for  Top level view:   EC5LP   ########
+=====================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     151                100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block EC5LP:	151 (30.63 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       212                100 %                
+CARRYS     60                 100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block EC5LP:	272 (55.17 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     39                 100 %                
+=================================================
+Total IO PADS in the block EC5LP:	39 (7.91 % Utilization)
+
+---------------------------------------------------------
+########   Utilization report for  cell:   DFF   ########
+Instance path:   EC5LP.DFF                               
+=========================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  0.6620 %             
+==================================================
+Total SEQUENTIAL ELEMENTS in the block EC5LP.DFF:	1 (0.20 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     2                  0.9430 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block EC5LP.DFF:	2 (0.41 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     1                  2.56 %               
+=================================================
+Total IO PADS in the block EC5LP.DFF:	1 (0.20 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   ice40_sbIoOd   ########
+Instance path:   EC5LP.ice40_sbIoOd                               
+==================================================================
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     1                  2.56 %               
+=================================================
+Total IO PADS in the block EC5LP.ice40_sbIoOd:	1 (0.20 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   ice40_sbIoOd_0   ########
+Instance path:   EC5LP.ice40_sbIoOd_0                               
+====================================================================
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     1                  2.56 %               
+=================================================
+Total IO PADS in the block EC5LP.ice40_sbIoOd_0:	1 (0.20 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   ice40_sbIoOd_1   ########
+Instance path:   EC5LP.ice40_sbIoOd_1                               
+====================================================================
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     1                  2.56 %               
+=================================================
+Total IO PADS in the block EC5LP.ice40_sbIoOd_1:	1 (0.20 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   mainCircuit   ########
+Instance path:   EC5LP.mainCircuit                               
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     137                90.7 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block EC5LP.mainCircuit:	137 (27.79 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       210                99.1 %               
+CARRYS     60                 100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block EC5LP.mainCircuit:	270 (54.77 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     4                  10.3 %               
+=================================================
+Total IO PADS in the block EC5LP.mainCircuit:	4 (0.81 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   ADC_TO_FPGA   ########
+Instance path:   mainCircuit.ADC_TO_FPGA                         
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     14                 9.27 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block mainCircuit.ADC_TO_FPGA:	14 (2.84 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       30                 14.2 %               
+CARRYS     4                  6.67 %               
+===================================================
+Total COMBINATIONAL LOGIC in the block mainCircuit.ADC_TO_FPGA:	34 (6.90 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   ADC_Write   ########
+Instance path:   mainCircuit.ADC_Write                         
+===============================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     1                  0.4720 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block mainCircuit.ADC_Write:	1 (0.20 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   FRAM_WriteRead   ########
+Instance path:   mainCircuit.FRAM_WriteRead                         
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     10                 6.62 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block mainCircuit.FRAM_WriteRead:	10 (2.03 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     24                 11.3 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block mainCircuit.FRAM_WriteRead:	24 (4.87 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   MAIN_MUX   ########
+Instance path:   mainCircuit.MAIN_MUX                         
+==============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     10                 6.62 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block mainCircuit.MAIN_MUX:	10 (2.03 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       40                 18.9 %               
+CARRYS     6                  10 %                 
+===================================================
+Total COMBINATIONAL LOGIC in the block mainCircuit.MAIN_MUX:	46 (9.33 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   PRETRIG_VALUE   ########
+Instance path:   mainCircuit.PRETRIG_VALUE                         
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     10                 6.62 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block mainCircuit.PRETRIG_VALUE:	10 (2.03 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     3                  1.42 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block mainCircuit.PRETRIG_VALUE:	3 (0.61 % Utilization)
+
+---------------------------------------------------------
+########   Utilization report for  cell:   TFF   ########
+Instance path:   mainCircuit.TFF                         
+=========================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  0.6620 %             
+==================================================
+Total SEQUENTIAL ELEMENTS in the block mainCircuit.TFF:	1 (0.20 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     1                  0.4720 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block mainCircuit.TFF:	1 (0.20 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   cont_done   ########
+Instance path:   mainCircuit.cont_done                         
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     64                 42.4 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block mainCircuit.cont_done:	64 (12.98 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       81                 38.2 %               
+CARRYS     46                 76.7 %               
+===================================================
+Total COMBINATIONAL LOGIC in the block mainCircuit.cont_done:	127 (25.76 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     3                  7.69 %               
+=================================================
+Total IO PADS in the block mainCircuit.cont_done:	3 (0.61 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   freqDividerZ1   ########
+Instance path:   mainCircuit.freqDividerZ1                         
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     5                  3.31 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block mainCircuit.freqDividerZ1:	5 (1.01 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       6                  2.83 %               
+CARRYS     4                  6.67 %               
+===================================================
+Total COMBINATIONAL LOGIC in the block mainCircuit.freqDividerZ1:	10 (2.03 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   memory_to_process   ########
+Instance path:   mainCircuit.memory_to_process                         
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     23                 15.2 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block mainCircuit.memory_to_process:	23 (4.67 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     24                 11.3 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block mainCircuit.memory_to_process:	24 (4.87 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     1                  2.56 %               
+=================================================
+Total IO PADS in the block mainCircuit.memory_to_process:	1 (0.20 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

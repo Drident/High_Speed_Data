@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=NetJ13_4 Pin=R130-2
+Removed Pin From Net: NetName=NetJ13_3 Pin=R131-2
+Removed Pin From Net: NetName=NetJ13_4 Pin=T2-3
+Removed Pin From Net: NetName=NetJ13_3 Pin=T3-3
+Change Component Footprint: Designator=J11 Old Footprint=MOLEX 43650-0200 New Footprint=MOLEX 43650-0216
+Change Component Footprint: Designator=J12 Old Footprint=MOLEX 43650-0200 New Footprint=MOLEX 43650-0216
+Change Component Footprint: Designator=J13 Old Footprint=MOLEX 43650-0400 New Footprint=MOLEX 43045-0418
+Change Component Comment : Designator=J11 Old Comment=MOLEX 43650-0200 New Comment=MOLEX 43650-0216
+Change Component Comment : Designator=J12 Old Comment=MOLEX 43650-0200 New Comment=MOLEX 43650-0216
+Change Component Comment : Designator=J13 Old Comment=NC New Comment=MOLEX 43045-0418
+Added Pin To Net: NetName=NetJ13_3 Pin=R130-2
+Added Pin To Net: NetName=NetJ13_4 Pin=R131-2
+Added Pin To Net: NetName=NetJ13_3 Pin=T2-3
+Added Pin To Net: NetName=NetJ13_4 Pin=T3-3

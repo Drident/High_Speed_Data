@@ -1,0 +1,67 @@
+/*
+ * sd_card_func.c
+ *
+ *  Created on: Jul 7, 2023
+ *      Author: christop.grobety
+ */
+
+#include "sd_card_func.h"
+
+
+FRESULT res_sd;
+uint32_t byteswritten_sd, bytesread_sd;
+uint8_t wtext_ [30] ;
+uint8_t test [2] ;
+
+void SD_create_file(FIL sd_file, TCHAR* fileName){
+	res_sd = f_mount(&SDFatFS, (TCHAR const*)SDPath, 0) ;
+	if(res_sd != FR_OK){
+		LED_on(RED);
+	}
+	else{
+	  //Open file for writing (Create)
+	  res_sd = f_open(&sd_file, fileName, (FA_CREATE_ALWAYS | FA_WRITE));
+	  if(res_sd != FR_OK){
+		  LED_on(RED);
+	  }
+	  else{
+		  LED_on(BLUE);
+		  f_close(&sd_file);
+	  }
+	}
+	f_mount(&SDFatFS, (TCHAR const*)NULL, 0);
+}
+
+void SD_write_data(FIL sd_file, TCHAR* fileName, uint16_t data){
+	//sprintf((char*)wtext_, "%d \n",data);
+	res_sd = f_mount(&SDFatFS, (TCHAR const*)SDPath, 0) ;
+	if(res_sd != FR_OK){
+		LED_on(RED);
+	}
+	else{
+	//Open file for writing (Create)
+	  res_sd = f_open(&sd_file, fileName, (FA_OPEN_ALWAYS | FA_WRITE));
+	  if(res_sd != FR_OK){
+		  LED_on(RED);
+	  }
+	  else{
+		//Write to the text file
+		  if(f_lseek(&sd_file, f_size(&sd_file)) == FR_OK){
+			  //res_sd = f_write(&sd_file, wtext_, strlen((char *)wtext_), (void *)&byteswritten_sd);
+			  res_sd = f_write(&sd_file, &data, 2, (void *)&byteswritten_sd);
+			if((byteswritten_sd == 0) || (res_sd != FR_OK)){
+				  LED_on(RED);
+			}
+			else{
+				LED_on(BLUE);
+				f_close(&sd_file);
+			}
+		  }
+		}
+	}
+	f_mount(&SDFatFS, (TCHAR const*)NULL, 0);
+}
+
+void SD_read_data(FIL sd_file, TCHAR* fileName){
+
+}

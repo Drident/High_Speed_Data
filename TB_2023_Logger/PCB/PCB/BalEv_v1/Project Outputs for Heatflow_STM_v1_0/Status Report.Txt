@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [BalEv.PrjPcb]
+   Generated File[BalEv-RoundHoles.TXT]
+   Generated File[BalEv-SlotHoles.TXT]
+   Generated File[BalEv.LDP]
+   Generated File[BalEv.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 10:22:41 On 01.05.2023

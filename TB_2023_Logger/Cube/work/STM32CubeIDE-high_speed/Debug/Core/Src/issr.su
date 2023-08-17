@@ -1,0 +1,1 @@
+../Core/Src/issr.c:10:6:HAL_GPIO_EXTI_IRQHandler	16	static

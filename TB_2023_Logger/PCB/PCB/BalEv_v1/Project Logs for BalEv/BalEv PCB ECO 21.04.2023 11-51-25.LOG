@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=UI_EX6 Pin=J15-15
+Removed Pin From Net: NetName=GND Pin=J15-16
+Change Component Footprint: Designator=J15 Old Footprint=FlatCable2x8 2MM Right Angle TH FCI 98614-G61-16ULF New Footprint=FlatCable2x7 2MM Right Angle TH FCI 98614-G61-14ULF
+Change Component Comment : Designator=J15 Old Comment=NC New Comment=FlatCable2x7
+Added Pin To Net: NetName=UI_EX6 Pin=J15-12
+Added Pin To Net: NetName=GND Pin=J15-14
+Added Member To Class: ClassName=BalEv_STM_v1_0 Member=Component J14 *

@@ -1,0 +1,65 @@
+[Concat]
+Board = $HDS_PROJECT_DIR/../Board/concat
+Bachelor = $HDS_PROJECT_DIR/../Bachelor/concat
+Bachelor_test = $HDS_PROJECT_DIR/../Bachelor_test/concat
+[ModelSim]
+Board = $SCRATCH_DIR/$DESIGN_NAME/Board/work
+Common = $SCRATCH_DIR/Libraries/Common/work
+Common_test = $SCRATCH_DIR/Libraries/Common_test/work
+Bachelor = $SCRATCH_DIR/$DESIGN_NAME/Bachelor/work
+Bachelor_test = $SCRATCH_DIR/$DESIGN_NAME/Bachelor_test/work
+gates = $SCRATCH_DIR/Libraries/gates/work
+io = $SCRATCH_DIR/Libraries/IO/work
+Lattice = $SCRATCH_DIR/Libraries/Lattice/work
+LCD = $SCRATCH_DIR/Libraries/LCD/work
+Memory = $SCRATCH_DIR/Libraries/Memory/work
+sequential = $SCRATCH_DIR/Libraries/sequential/work
+Vga = $SCRATCH_DIR/Libraries/Vga/work
+[hdl]
+Board = $HDS_PROJECT_DIR/../Board/hdl
+Common = $HEI_LIBS_DIR/Common/hdl
+Common_test = $HEI_LIBS_DIR/Common_test/hdl
+Bachelor = $HDS_PROJECT_DIR/../Bachelor/hdl
+Bachelor_test = $HDS_PROJECT_DIR/../Bachelor_test/hdl
+gates = $HEI_LIBS_DIR/Gates/hdl
+ieee = $HDS_HOME/hdl_libs/ieee/hdl
+io = $HEI_LIBS_DIR/IO/hdl
+Lattice = $HEI_LIBS_DIR/Lattice/hdl
+LCD = $HEI_LIBS_DIR/Lcd/hdl
+Memory = $HEI_LIBS_DIR/Memory/hdl
+sequential = $HEI_LIBS_DIR/Sequential/hdl
+std = $HDS_HOME/hdl_libs/std/hdl
+Vga = $HEI_LIBS_DIR/Vga/hdl
+[hds]
+Board = $HDS_PROJECT_DIR/../Board/hds
+Common = $HEI_LIBS_DIR/Common/hds
+Common_test = $HEI_LIBS_DIR/Common_test/hds
+Bachelor = $HDS_PROJECT_DIR/../Bachelor/hds
+Bachelor_test = $HDS_PROJECT_DIR/../Bachelor_test/hds
+gates = $HEI_LIBS_DIR/Gates/hds
+ieee = $HDS_HOME/hdl_libs/ieee/hds
+io = $HEI_LIBS_DIR/IO/hds
+Lattice = $HEI_LIBS_DIR/Lattice/hds
+LCD = $HEI_LIBS_DIR/Lcd/hds
+Memory = $HEI_LIBS_DIR/Memory/hds
+sequential = $HEI_LIBS_DIR/Sequential/hds
+std = $HDS_HOME/hdl_libs/std/hds
+Vga = $HEI_LIBS_DIR/Vga/hds
+[hds_settings]
+design_root = Board.EBS3(struct)@e@b@s3/struct.bd
+[library_files_inclusion]
+Bachelor_test = all
+Lattice = all
+LCD = all
+Memory = all
+Vga = all
+[library_type]
+Board = regular
+ieee = standard
+Lattice = regular
+LCD = regular
+Memory = regular
+std = standard
+Vga = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

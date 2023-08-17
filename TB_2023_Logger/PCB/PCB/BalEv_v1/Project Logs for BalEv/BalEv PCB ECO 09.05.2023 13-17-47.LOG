@@ -1,0 +1,15 @@
+Change Component Comment : Designator=R30 Old Comment=* New Comment=1k
+Change Component Comment : Designator=R29 Old Comment=* New Comment=10k
+Change Component Comment : Designator=R31 Old Comment=* New Comment=33k
+Change Component Comment : Designator=J3 Old Comment=* New Comment=NC
+Change Component Comment : Designator=J15 Old Comment=FlatCable2x7 New Comment=NC
+Change Component Comment : Designator=J13 Old Comment=MOLEX 43045-0412 New Comment=NC
+Change Component Description : Designator=J13 Old Description=Micro-Fit 3.0 Vertical Header, 3.00mm Pitch, Dual Row, 4 Circuits New Description=MOLEX 43045-0412
+Change component parameters: Designator = "J3" ("J3"); Footprint = "PinHeader1x19 P5.08"; UniqueID = "\LQKYKCLQ" ("\LQKYKCLQ")
+Change component parameters (AddParameter): Name = "Value"; Value = "NC"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R29" ("R29"); Footprint = "RESISTOR 1005 REFLOW"; UniqueID = "\EFJWDLJJ" ("\EFJWDLJJ")
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R30" ("R30"); Footprint = "RESISTOR 1005 REFLOW"; UniqueID = "\ROSBQLDY" ("\ROSBQLDY")
+Change component parameters (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R31" ("R31"); Footprint = "RESISTOR 1005 REFLOW"; UniqueID = "\LYAGKODF" ("\LYAGKODF")
+Change component parameters (AddParameter): Name = "Value"; Value = "33k"; VariantName = "[No Variations]"

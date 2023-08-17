@@ -1,0 +1,61 @@
+Circuit: * I:\RaD\SI-ET\Projets\ECS\TB_2023_Logger\LTspice\InputFilter3.asc
+
+WARNING: Less than two connections to node VN.  This node is used by R10.
+WARNING: Less than two connections to node VP.  This node is used by R11.
+WARNING: Less than two connections to node VEE.  This node is used by V5.
+Instance "m:u3:p7": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u3:p5": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u3:n8": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u3:n6": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u3:p2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u3:p1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:p7": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:p5": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:n8": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:n6": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:p2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:p1": Length shorter than recommended for a level 1 MOSFET.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+vernier = 0.5
+vernier = 0.666667
+Gmin = 4.3448e-005
+vernier = 0.888888
+Gmin = 7.3703e-006
+vernier = 1
+Gmin = 8.09366e-007
+Gmin = 8.6905e-008
+Gmin = 9.33136e-009
+Gmin = 1.00195e-009
+Gmin = 1.07583e-010
+Gmin = 1.15517e-011
+Gmin = 1.24035e-012
+Gmin = 1.33182e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+Date: Mon Mar 27 12:15:04 2023
+Total elapsed time: 3.493 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 90106
+traniter = 89228
+tranpoints = 31662
+accept = 22166
+rejected = 9496
+matrix size = 198
+fillins = 249
+solver = Normal
+Thread vector: 16.8/8.9[5] 5.9/4.7[2] 3.6/3.9[1] 1.1/1.8[1]  2592/500
+Matrix Compiler1: 21.19 KB object code size  5.3/3.8/[1.1]
+Matrix Compiler2: 21.07 KB object code size  3.0/4.5/[1.3]
+

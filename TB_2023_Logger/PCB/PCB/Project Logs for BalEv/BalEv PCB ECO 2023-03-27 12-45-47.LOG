@@ -1,0 +1,216 @@
+Added Component: Designator=C70(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Added Component: Designator=C71(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Added Component: Designator=C72(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "1u"; VariantName = "[No Variations]"
+Added Component: Designator=C73(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "68pF"; VariantName = "[No Variations]"
+Added Component: Designator=C74(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "68pF"; VariantName = "[No Variations]"
+Added Component: Designator=C75(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "1u"; VariantName = "[No Variations]"
+Added Component: Designator=C76(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "68pF"; VariantName = "[No Variations]"
+Added Component: Designator=C77(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "68pF"; VariantName = "[No Variations]"
+Added Component: Designator=C78(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "68pF"; VariantName = "[No Variations]"
+Added Component: Designator=C79(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "68pF"; VariantName = "[No Variations]"
+Added Component: Designator=C80(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "68pF"; VariantName = "[No Variations]"
+Added Component: Designator=C81(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "68pF"; VariantName = "[No Variations]"
+Added Component: Designator=C82(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "68pF"; VariantName = "[No Variations]"
+Added Component: Designator=C83(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Added Component: Designator=C84(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "68pF"; VariantName = "[No Variations]"
+Added Component: Designator=C85(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "68pF"; VariantName = "[No Variations]"
+Added Component: Designator=C86(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "68pF"; VariantName = "[No Variations]"
+Added Component: Designator=R70(RESISTOR 1608 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R71(RESISTOR 1608 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R72(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "33"; VariantName = "[No Variations]"
+Added Component: Designator=R73(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "33"; VariantName = "[No Variations]"
+Added Component: Designator=R74(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R75(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R76(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "33"; VariantName = "[No Variations]"
+Added Component: Designator=R77(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "NC"; VariantName = "[No Variations]"
+Added Component: Designator=R78(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "NC"; VariantName = "[No Variations]"
+Added Component: Designator=R79(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R80(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "NC"; VariantName = "[No Variations]"
+Added Component: Designator=R81(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "33"; VariantName = "[No Variations]"
+Added Component: Designator=R82(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R83(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "33"; VariantName = "[No Variations]"
+Added Component: Designator=R84(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "33"; VariantName = "[No Variations]"
+Added Component: Designator=R85(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "33"; VariantName = "[No Variations]"
+Added Component: Designator=R86(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "33"; VariantName = "[No Variations]"
+Added Component: Designator=U70(MSOP8 P0.65 C3.0X3.0 H1.1)
+Add component (AddParameter): Name = "Value"; Value = "ADA4500-2"; VariantName = "[No Variations]"
+Added Component: Designator=U71(QFN24 P0.5 T0.5x0.5 C4.0x4.0 H0.6)
+Add component (AddParameter): Name = "Value"; Value = "AD7380-4BCPZ"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3v3A Pin=C70-2
+Added Pin To Net: NetName=GND Pin=C71-1
+Added Pin To Net: NetName=GND Pin=C72-1
+Added Pin To Net: NetName=GND Pin=C73-2
+Added Pin To Net: NetName=GND Pin=C75-1
+Added Pin To Net: NetName=GND Pin=C76-1
+Added Pin To Net: NetName=GND Pin=C77-2
+Added Pin To Net: NetName=GND Pin=C79-1
+Added Pin To Net: NetName=GND Pin=C80-2
+Added Pin To Net: NetName=GND Pin=C82-1
+Added Pin To Net: NetName=GND Pin=C83-1
+Added Pin To Net: NetName=GND Pin=C84-2
+Added Pin To Net: NetName=GND Pin=C86-1
+Added Pin To Net: NetName=GND Pin=R71-1
+Added Pin To Net: NetName=GND Pin=R77-1
+Added Pin To Net: NetName=GND Pin=R78-1
+Added Pin To Net: NetName=GND Pin=R80-1
+Added Pin To Net: NetName=+ADCcm Pin=U70-6
+Added Pin To Net: NetName=+ADCcm Pin=U70-7
+Added Pin To Net: NetName=+3v3A Pin=U70-8
+Added Pin To Net: NetName=GND Pin=U71-1
+Added Pin To Net: NetName=+3v3A Pin=U71-4
+Added Pin To Net: NetName=GND Pin=U71-5
+Added Pin To Net: NetName=GND Pin=U71-14
+Added Pin To Net: NetName=GND Pin=U71-16
+Added Pin To Net: NetName=GND Pin=U71-25
+Added Pin To Net: NetName=+3v3 Pin=C75-2
+Added Pin To Net: NetName=+3v3 Pin=U71-2
+Added Net: Name=+3v3
+Added Pin To Net: NetName=AIN1n Pin=R73-1
+Added Pin To Net: NetName=AIN1n Pin=R81-1
+Added Net: Name=AIN1n
+Added Pin To Net: NetName=AIN1p Pin=R72-1
+Added Pin To Net: NetName=AIN1p Pin=R76-1
+Added Net: Name=AIN1p
+Added Pin To Net: NetName=AIN2n Pin=R84-1
+Added Net: Name=AIN2n
+Added Pin To Net: NetName=AIN2p Pin=R83-1
+Added Net: Name=AIN2p
+Added Pin To Net: NetName=AIN3n Pin=R86-1
+Added Net: Name=AIN3n
+Added Pin To Net: NetName=AIN3p Pin=R85-1
+Added Net: Name=AIN3p
+Added Pin To Net: NetName=FPGA_ADC_nSC Pin=R80-2
+Added Pin To Net: NetName=FPGA_ADC_nSC Pin=U71-18
+Added Net: Name=FPGA_ADC_nSC
+Added Pin To Net: NetName=FPGA_ADC_SCLK Pin=R77-2
+Added Pin To Net: NetName=FPGA_ADC_SCLK Pin=U71-22
+Added Net: Name=FPGA_ADC_SCLK
+Added Pin To Net: NetName=FPGA_ADC_SDO_0 Pin=R74-2
+Added Net: Name=FPGA_ADC_SDO_0
+Added Pin To Net: NetName=FPGA_ADC_SDO_1 Pin=R75-2
+Added Net: Name=FPGA_ADC_SDO_1
+Added Pin To Net: NetName=FPGA_ADC_SDO_2 Pin=R79-2
+Added Net: Name=FPGA_ADC_SDO_2
+Added Pin To Net: NetName=FPGA_ADC_SDO_3 Pin=R82-2
+Added Net: Name=FPGA_ADC_SDO_3
+Added Pin To Net: NetName=NetC70_1 Pin=C70-1
+Added Pin To Net: NetName=NetC70_1 Pin=U70-4
+Added Net: Name=NetC70_1
+Added Pin To Net: NetName=NetC71_2 Pin=C71-2
+Added Pin To Net: NetName=NetC71_2 Pin=R70-2
+Added Pin To Net: NetName=NetC71_2 Pin=R71-2
+Added Pin To Net: NetName=NetC71_2 Pin=U70-5
+Added Net: Name=NetC71_2
+Added Pin To Net: NetName=NetC72_2 Pin=C72-2
+Added Pin To Net: NetName=NetC72_2 Pin=R70-1
+Added Pin To Net: NetName=NetC72_2 Pin=U70-1
+Added Pin To Net: NetName=NetC72_2 Pin=U70-2
+Added Pin To Net: NetName=NetC72_2 Pin=U71-17
+Added Net: Name=NetC72_2
+Added Pin To Net: NetName=NetC73_1 Pin=C73-1
+Added Pin To Net: NetName=NetC73_1 Pin=C74-2
+Added Pin To Net: NetName=NetC73_1 Pin=R72-2
+Added Pin To Net: NetName=NetC73_1 Pin=U71-13
+Added Net: Name=NetC73_1
+Added Pin To Net: NetName=NetC74_1 Pin=C74-1
+Added Pin To Net: NetName=NetC74_1 Pin=C76-2
+Added Pin To Net: NetName=NetC74_1 Pin=R73-2
+Added Pin To Net: NetName=NetC74_1 Pin=U71-12
+Added Net: Name=NetC74_1
+Added Pin To Net: NetName=NetC77_1 Pin=C77-1
+Added Pin To Net: NetName=NetC77_1 Pin=C78-2
+Added Pin To Net: NetName=NetC77_1 Pin=R76-2
+Added Pin To Net: NetName=NetC77_1 Pin=U71-11
+Added Net: Name=NetC77_1
+Added Pin To Net: NetName=NetC78_1 Pin=C78-1
+Added Pin To Net: NetName=NetC78_1 Pin=C79-2
+Added Pin To Net: NetName=NetC78_1 Pin=R81-2
+Added Pin To Net: NetName=NetC78_1 Pin=U71-10
+Added Net: Name=NetC78_1
+Added Pin To Net: NetName=NetC80_1 Pin=C80-1
+Added Pin To Net: NetName=NetC80_1 Pin=C81-2
+Added Pin To Net: NetName=NetC80_1 Pin=R83-2
+Added Pin To Net: NetName=NetC80_1 Pin=U71-9
+Added Net: Name=NetC80_1
+Added Pin To Net: NetName=NetC81_1 Pin=C81-1
+Added Pin To Net: NetName=NetC81_1 Pin=C82-2
+Added Pin To Net: NetName=NetC81_1 Pin=R84-2
+Added Pin To Net: NetName=NetC81_1 Pin=U71-8
+Added Net: Name=NetC81_1
+Added Pin To Net: NetName=NetC83_2 Pin=C83-2
+Added Pin To Net: NetName=NetC83_2 Pin=U71-3
+Added Net: Name=NetC83_2
+Added Pin To Net: NetName=NetC84_1 Pin=C84-1
+Added Pin To Net: NetName=NetC84_1 Pin=C85-2
+Added Pin To Net: NetName=NetC84_1 Pin=R85-2
+Added Pin To Net: NetName=NetC84_1 Pin=U71-7
+Added Net: Name=NetC84_1
+Added Pin To Net: NetName=NetC85_1 Pin=C85-1
+Added Pin To Net: NetName=NetC85_1 Pin=C86-2
+Added Pin To Net: NetName=NetC85_1 Pin=R86-2
+Added Pin To Net: NetName=NetC85_1 Pin=U71-6
+Added Net: Name=NetC85_1
+Added Pin To Net: NetName=NetR74_1 Pin=R74-1
+Added Pin To Net: NetName=NetR74_1 Pin=U71-19
+Added Net: Name=NetR74_1
+Added Pin To Net: NetName=NetR75_1 Pin=R75-1
+Added Pin To Net: NetName=NetR75_1 Pin=U71-20
+Added Net: Name=NetR75_1
+Added Pin To Net: NetName=NetR79_1 Pin=R79-1
+Added Pin To Net: NetName=NetR79_1 Pin=U71-23
+Added Net: Name=NetR79_1
+Added Pin To Net: NetName=NetR82_1 Pin=R82-1
+Added Pin To Net: NetName=NetR82_1 Pin=U71-24
+Added Net: Name=NetR82_1
+Added Pin To Net: NetName=STM_FPGA_MOSI Pin=R78-2
+Added Pin To Net: NetName=STM_FPGA_MOSI Pin=U71-21
+Added Net: Name=STM_FPGA_MOSI
+Added Pin To Net: NetName=VREF+2v5 Pin=U70-3
+Added Net: Name=VREF+2v5
+Added Class: Name=BalEv_ADC_v1_0
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C2 22pF
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C3 100nF
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C4 100nF
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C5 NC
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component C10 100nF
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R1 4.7k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R3 1k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R6 1k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R7 0
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R11 10k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component R12 10k
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component U1 LTC6362_DD

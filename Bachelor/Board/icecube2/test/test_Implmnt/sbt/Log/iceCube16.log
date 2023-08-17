@@ -1,0 +1,100 @@
+10:39:09
+"C:\eda\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "test_syn.prj" -log "test_Implmnt/test.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of test_Implmnt/test.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\eda\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: WE2332207
+
+# Wed Jun 21 10:39:11 2023
+
+#Implementation: test_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\eda\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":13:7:13:11|Top entity is set to EC5LP.
+File C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd changed - recompiling
+File C:\eda\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40_components_syn.vhd changed - recompiling
+@W: CD266 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":590:43:590:46|done is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":593:12:593:15|done is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1212:23:1212:30|count_go is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1216:8:1216:16|adc_clock is not readable.  This may cause a simulation mismatch.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":13:7:13:11|Synthesizing work.ec5lp.struct.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":147:7:147:9|Synthesizing work.dff.sim.
+Post processing for work.dff.sim
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1681:7:1681:18|Synthesizing work.ice40_sbiood.rtl.
+@N: CD630 :"C:\eda\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40_components_syn.vhd":3592:10:3592:17|Synthesizing sb_ice40_components_syn.sb_io_od.syn_black_box.
+Post processing for sb_ice40_components_syn.sb_io_od.syn_black_box
+Post processing for work.ice40_sbiood.rtl
+@W: CL167 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1703:2:1703:7|Input dout1 of instance ODInst is floating
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":113:7:113:12|Synthesizing work.logic1.sim.
+Post processing for work.logic1.sim
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":75:7:75:14|Synthesizing work.inverter.sim.
+Post processing for work.inverter.sim
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1285:7:1285:18|Synthesizing work.bufferulogic.sim.
+Post processing for work.bufferulogic.sim
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":198:7:198:17|Synthesizing work.maincircuit.struct.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":625:7:625:17|Synthesizing work.freqdivider.rtl.
+Post processing for work.freqdivider.rtl
+@W: CL190 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":655:4:655:5|Optimizing register bit count(0) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":655:4:655:5|Pruning unused register count(0). Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":625:7:625:17|Synthesizing work.freqdivider.rtl.
+Post processing for work.freqdivider.rtl
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":687:7:687:9|Synthesizing work.tff.sim.
+Post processing for work.tff.sim
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":817:7:817:23|Synthesizing work.memory_to_process.student.
+@W: CD638 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":853:8:853:15|Signal done_int is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.memory_to_process.student
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":340:7:340:15|Synthesizing work.cont_done.test.
+Post processing for work.cont_done.test
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":743:7:743:19|Synthesizing work.pretrig_value.student.
+Post processing for work.pretrig_value.student
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1021:7:1021:14|Synthesizing work.main_mux.student.
+@W: CG296 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1063:6:1063:12|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1110:17:1110:27|Referenced variable fw_fram_sdi is not in sensitivity list.
+@W: CG290 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1083:12:1083:18|Referenced variable aw_miso is not in sensitivity list.
+@W: CG290 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1090:14:1090:21|Referenced variable af_ncs_f is not in sensitivity list.
+@W: CG290 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1091:16:1091:26|Referenced variable af_fram_sdi is not in sensitivity list.
+Post processing for work.main_mux.student
+@W: CL117 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1067:2:1067:5|Latch generated from process for signal FR_CLOCK(3 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1067:2:1067:5|Latch generated from process for signal ADC_CLOCK; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1067:2:1067:5|Latch generated from process for signal FRAM_SDI(3 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1067:2:1067:5|Latch generated from process for signal MISO; possible missing assignment in an if or case statement.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":906:7:906:20|Synthesizing work.fram_writeread.student.
+@W: CD638 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":937:8:937:17|Signal countvalue is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.fram_writeread.student
+@E: CL126 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":974:3:974:4|Asynchronous load of non-constant data for sclk_in(0) is not supported
+@E: CL126 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":974:3:974:4|Asynchronous load of non-constant data for sclk_in(1) is not supported
+@E: CL126 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":974:3:974:4|Asynchronous load of non-constant data for sclk_in(2) is not supported
+@E: CL126 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":974:3:974:4|Asynchronous load of non-constant data for sclk_in(3) is not supported
+@W: CL116 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":974:3:974:4|Input data for signal sclk_in(3 downto 0) contains references to signal edges. An asynchronous reset may be missing from the sensitivity list.
+@E: CL126 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":974:3:974:4|Asynchronous load of non-constant data for go is not supported
+@W: CL116 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":974:3:974:4|Input data for signal go contains references to signal edges. An asynchronous reset may be missing from the sensitivity list.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":247:7:247:15|Synthesizing work.adc_write.student.
+@W: CD638 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":277:8:277:9|Signal go is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd":1141:7:1141:17|Synthesizing work.adc_to_fpga.student.
+5 errors during synthesis
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jun 21 10:39:11 2023
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jun 21 10:39:11 2023
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds10:39:18

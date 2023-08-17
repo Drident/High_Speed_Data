@@ -1,0 +1,8 @@
+Added Component: Designator=TP22(Hole 0.25 D0.8)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP23(Hole 0.25 D0.8)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3v3 Pin=TP22-1
+Added Pin To Net: NetName=GND Pin=TP23-1
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP22 *
+Added Member To Class: ClassName=BalEv_FPTG_POW_COFIG_v1_0 Member=Component TP23 *

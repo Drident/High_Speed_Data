@@ -1,0 +1,8 @@
+Added Component: Designator=J2(PinHeader1x15 P5.08)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change Net Color : Old Net Color=RGB(86, 169, 199) New Net Color=Default
+Change Net Color : Old Net Color=Yellow New Net Color=Default
+Added Pin To Net: NetName=NetC11_2 Pin=U4-4
+Added Net: Name=NetC11_2
+Added Net: Name=STM_DAC_TRIG
+Added Member To Class: ClassName=BalEv_AINa_v1_0 Member=Component J2 *

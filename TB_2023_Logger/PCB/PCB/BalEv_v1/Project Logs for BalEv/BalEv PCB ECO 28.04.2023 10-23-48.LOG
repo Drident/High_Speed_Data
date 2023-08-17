@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=GND Pin=D1-6
+Change Component Footprint: Designator=D1 Old Footprint=SOT23-6 P0.95 C1.5x3.0 H1.3 New Footprint=SON50P160X160X65-7N
+Change Component Comment : Designator=D1 Old Comment=ECLAMP2122S.TCT New Comment=ECLAMP2522P.TCT
+Change Component Comment : Designator=J8 Old Comment=FlatCable2x5 New Comment=MHR-10-VUAL
+Change Component Comment : Designator=U5 Old Comment=TLV??? New Comment=TLV3201A
+Change component parameters: Designator = "D1" ("D1"); Footprint = "SOT23-6 P0.95 C1.5x3.0 H1.3"; UniqueID = "\ESGYUHSA" ("\ESGYUHSA")
+Change component parameters (AddParameter): Name = "Value"; Value = "ECLAMP2522P.TCT"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U5" ("U5"); Footprint = "SOT23-5 P0.95 C1.6x3.0 H1.3"; UniqueID = "\VQCLRTNT" ("\VQCLRTNT")
+Change component parameters (AddParameter): Name = "Value"; Value = "TLV3201A"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=D1-7

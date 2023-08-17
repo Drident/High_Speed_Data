@@ -1,0 +1,4 @@
+14:37:49
+"C:\eda\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "test_syn.prj" -log "test_Implmnt/test.srr"
+starting SynthesisSynthesis not found.
+14:38:24

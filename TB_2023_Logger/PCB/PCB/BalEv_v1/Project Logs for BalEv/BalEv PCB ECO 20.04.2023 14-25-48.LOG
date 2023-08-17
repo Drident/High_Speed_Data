@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=FPGA_ADC_SDO_3 Pin=R106-2
+Removed Pin From Net: NetName=FPGA_ADC_SDO_2 Pin=R107-2
+Removed Pin From Net: NetName=FPGA_ADC_SDO_1 Pin=R108-2
+Removed Pin From Net: NetName=FPGA_ADC_SDO_0 Pin=R109-2
+Removed Pin From Net: NetName=FPGA_ADC_SDO_0 Pin=U13-6
+Removed Pin From Net: NetName=FPGA_ADC_SDO_1 Pin=U13-9
+Removed Pin From Net: NetName=FPGA_ADC_SDO_2 Pin=U13-10
+Removed Pin From Net: NetName=FPGA_ADC_SDO_3 Pin=U13-11
+Added Pin To Net: NetName=FPGA_ADC_SDO_0 Pin=R106-2
+Added Pin To Net: NetName=FPGA_ADC_SDO_1 Pin=R107-2
+Added Pin To Net: NetName=FPGA_ADC_SDO_2 Pin=R108-2
+Added Pin To Net: NetName=FPGA_ADC_SDO_3 Pin=R109-2
+Added Pin To Net: NetName=FPGA_ADC_SDO_3 Pin=U13-6
+Added Pin To Net: NetName=FPGA_ADC_SDO_2 Pin=U13-9
+Added Pin To Net: NetName=FPGA_ADC_SDO_1 Pin=U13-10
+Added Pin To Net: NetName=FPGA_ADC_SDO_0 Pin=U13-11

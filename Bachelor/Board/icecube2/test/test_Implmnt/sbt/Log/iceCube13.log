@@ -1,0 +1,14 @@
+09:53:18
+
+
+"C:/eda/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\bitmap.exe" "C:\eda\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T04.dev" --design "C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt/sbt/netlist/oadb-EC5LP" --device_name iCE5LP1K --package SG48 --outdir "C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt\sbt\outputs\bitmap" --low_power on --init_ram on --init_ram_bank 1111 --frequency low --warm_boot on
+starting bitmaprunning bitmapLattice Semiconductor Corporation  Bit Stream Generator
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 18:17:40
+
+Bit Stream File Size: 570040 (556K 696 Bits)
+Bit Stream Generator succeeded
+
+Bitmap run-time: 0 (sec)
+bitmap succeed.
+09:59:47

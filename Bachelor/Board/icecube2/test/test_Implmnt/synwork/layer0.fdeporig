@@ -1,0 +1,54 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\christop.grobety\\Bachelor\\Bachelor\\Board\\icecube2\\test\\test_Implmnt\\synwork\\test_comp.srs|-autotop|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work"
+#CUR:"C:\\eda\\lscc\\iCEcube2.2020.12\\synpbase\\bin64\\c_vhdl.exe":1684220883
+#CUR:"C:\\eda\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\location.map":1684220887
+#CUR:"C:\\eda\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\std.vhd":1684220887
+#CUR:"C:\\eda\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1684220887
+#CUR:"C:\\eda\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\std1164.vhd":1684220887
+#CUR:"C:\\eda\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\numeric.vhd":1684220887
+#CUR:"C:\\eda\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\umr_capim.vhd":1684220887
+#CUR:"C:\\eda\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\arith.vhd":1684220887
+#CUR:"C:\\eda\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\unsigned.vhd":1684220887
+#CUR:"C:\\eda\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\hyperents.vhd":1684220887
+#CUR:"C:\\Users\\christop.grobety\\Bachelor\\Bachelor\\Board\\concat\\bachelor.vhd":1690546144
+0 "C:\Users\christop.grobety\Bachelor\Bachelor\Board\concat\bachelor.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+
+# Dependency Lists (Users Of)
+0 -1
+
+# Design Unit to File Association
+arch work ec5lp struct 0
+arch work ice40_sbiood rtl 0
+module work ice40_sbiood 0
+arch work maincircuit struct 0
+arch work adc_to_fpga student 0
+module work adc_to_fpga 0
+arch work main_mux student 0
+module work main_mux 0
+arch work fram_writeread student_v3 0
+module work fram_writeread 0
+arch work bufferulogic sim 0
+module work bufferulogic 0
+arch work memory_to_process student 0
+module work memory_to_process 0
+arch work pretrig_value student 0
+module work pretrig_value 0
+arch work tff sim 0
+module work tff 0
+arch work freqdivider rtl 0
+module work freqdivider 0
+arch work cont_done v3_test 0
+module work cont_done 0
+arch work adc_write student_v3 0
+module work adc_write 0
+module work maincircuit 0
+arch work dff sim 0
+module work dff 0
+arch work logic1 sim 0
+module work logic1 0
+arch work inverter sim 0
+module work inverter 0
+module work ec5lp 0

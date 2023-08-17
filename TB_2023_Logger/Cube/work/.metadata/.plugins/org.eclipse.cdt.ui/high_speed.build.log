@@ -1,0 +1,13 @@
+08:40:36 **** Incremental Build of configuration Debug for project high_speed ****
+make -j16 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -I"C:/Users/christop.grobety/Bachelor/TB_2023_Logger/Cube/high_speed/../mdw" -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32l496rgtx.d" -MT"Core/Startup/startup_stm32l496rgtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32l496rgtx.o" "../Core/Startup/startup_stm32l496rgtx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L496xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:24:10: fatal error: trace/trace.h: No such file or directory
+   24 | #include "trace/trace.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+
+08:40:36 Build Failed. 2 errors, 0 warnings. (took 455ms)
+

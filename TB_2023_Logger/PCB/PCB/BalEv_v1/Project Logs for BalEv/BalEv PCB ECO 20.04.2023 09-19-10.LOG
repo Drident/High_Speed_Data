@@ -1,0 +1,18 @@
+Added Component: Designator=T1(SOT23 P0.95 C1.6x3.0 H1.3)
+Add component (AddParameter): Name = "Value"; Value = "DMN53D0U-7"; VariantName = "[No Variations]"
+Added Component: Designator=T2(SOT23 P0.95 C1.6x3.0 H1.3)
+Add component (AddParameter): Name = "Value"; Value = "DMN53D0U-7"; VariantName = "[No Variations]"
+Added Component: Designator=T3(SOT23 P0.95 C1.6x3.0 H1.3)
+Add component (AddParameter): Name = "Value"; Value = "DMN53D0U-7"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=UI_LED_B Pin=T1-1
+Added Pin To Net: NetName=GND Pin=T1-2
+Added Pin To Net: NetName=NetJ13_2 Pin=T1-3
+Added Pin To Net: NetName=UI_LED_G Pin=T2-1
+Added Pin To Net: NetName=GND Pin=T2-2
+Added Pin To Net: NetName=NetJ13_3 Pin=T2-3
+Added Pin To Net: NetName=UI_LED_R Pin=T3-1
+Added Pin To Net: NetName=GND Pin=T3-2
+Added Pin To Net: NetName=NetJ13_4 Pin=T3-3
+Added Member To Class: ClassName=BalEv_STM_v1_0 Member=Component T1 DMN53D0U-7
+Added Member To Class: ClassName=BalEv_STM_v1_0 Member=Component T2 DMN53D0U-7
+Added Member To Class: ClassName=BalEv_STM_v1_0 Member=Component T3 DMN53D0U-7

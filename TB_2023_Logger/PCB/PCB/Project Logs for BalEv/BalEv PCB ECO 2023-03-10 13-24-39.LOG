@@ -1,0 +1,52 @@
+Added Component: Designator=C9(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPACITOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=J1(SMA EDGE Molex 732511150)
+Add component (AddParameter): Name = "Value"; Value = "AIN0"; VariantName = "[No Variations]"
+Added Component: Designator=R8(RESISTOR 1005 REFLOW)
+Add component (AddParameter): Name = "Value"; Value = "51"; VariantName = "[No Variations]"
+Added Component: Designator=U3(TSSOP50P490X110-10N)
+Added Component: Designator=U?(SOT23-5 P0.95 C1.6x3.0 H1.3)
+Add component (AddParameter): Name = "Value"; Value = "TLV???"; VariantName = "[No Variations]"
+Added Component: Designator=U?(SOT23-5 P0.95 C1.6x3.0 H1.3)
+Add component (AddParameter): Name = "Value"; Value = "TLV???"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3v3A Pin=C9-1
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Pin To Net: NetName=+3v3A Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=GND Pin=R8-1
+Added Pin To Net: NetName=GND Pin=U3-3
+Added Pin To Net: NetName=+3v3A Pin=U3-5
+Added Pin To Net: NetName=+3v3A Pin=U3-6
+Added Pin To Net: NetName=CAL_EXT Pin=U3-7
+Added Pin To Net: NetName=AIN0 Pin=U3-8
+Added Pin To Net: NetName=GND Pin=U3-9
+Added Pin To Net: NetName=GND Pin=U?-2
+Added Pin To Net: NetName=ACQ_TRIG Pin=U?-3
+Added Pin To Net: NetName=+3v3A Pin=U?-5
+Added Pin To Net: NetName=FPGA_ACQ_TRIG Pin=U?-1
+Added Net: Name=FPGA_ACQ_TRIG
+Added Pin To Net: NetName=FPGA_CAL_0 Pin=U3-1
+Added Net: Name=FPGA_CAL_0
+Added Pin To Net: NetName=FPGA_CAL_1 Pin=U3-10
+Added Net: Name=FPGA_CAL_1
+Added Pin To Net: NetName=NetJ1_1 Pin=J1-1
+Added Pin To Net: NetName=NetJ1_1 Pin=R8-2
+Added Pin To Net: NetName=NetJ1_1 Pin=U3-2
+Added Net: Name=NetJ1_1
+Added Pin To Net: NetName=STM_DAC_0 Pin=U?-4
+Added Net: Name=STM_DAC_0
+Added Pin To Net: NetName=VREF+1v25 Pin=U3-4
+Added Net: Name=VREF+1v25
+Added Member To Class: ClassName=BalEv_AIN_v1_0 Member=Component C9 100nF
+Added Member To Class: ClassName=BalEv_AIN_v1_0 Member=Component C? 100nF
+Added Member To Class: ClassName=BalEv_AIN_v1_0 Member=Component J1 AIN0
+Added Member To Class: ClassName=BalEv_AIN_v1_0 Member=Component R8 51
+Added Member To Class: ClassName=BalEv_AIN_v1_0 Member=Component U3 ADG804
+Added Member To Class: ClassName=BalEv_AIN_v1_0 Member=Component U? TLV???
+Added Member To Class: ClassName=BalEv_AIN_v1_0 Member=Component U? TLV???

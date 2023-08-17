@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Member To Class: ClassName=BalEv_AIN_v1_0 Member=Component C? 100nF
+Added Member To Class: ClassName=BalEv_AIN_v1_0 Member=Component R? 51
+Added Member To Class: ClassName=BalEv_AIN_v1_0 Member=Component U? ADG804

@@ -1,0 +1,4 @@
+Change Component Comment : Designator=100k Old Comment=28.7k New Comment=100K
+Change Component Designator: OldDesignator=100k NewDesignator=R12
+Change component parameters: Designator = "100k" ("100k"); Footprint = "RESISTOR 1005 REFLOW"; UniqueID = "\UOHWRWAG" ("\UOHWRWAG")
+Change component parameters (AddParameter): Name = "Value"; Value = "100K"; VariantName = "[No Variations]"

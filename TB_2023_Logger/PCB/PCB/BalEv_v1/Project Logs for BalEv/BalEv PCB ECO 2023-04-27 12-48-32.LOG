@@ -1,0 +1,10 @@
+Change Component Footprint: Designator=J15 Old Footprint=FlatCable2x7 2MM Right Angle TH FCI 98614-G61-14ULF New Footprint=FlatCable2x7 2MM Straight TH FCI 98414-G06-14ULF
+Change Net Name : Old Net Name=NetJ13_2 New Net Name=LED_B
+Added Pin To Net: NetName=LED_G Pin=J13-4
+Added Pin To Net: NetName=LED_G Pin=R130-2
+Added Pin To Net: NetName=LED_G Pin=T2-3
+Added Net: Name=LED_G
+Added Pin To Net: NetName=LED_R Pin=J13-3
+Added Pin To Net: NetName=LED_R Pin=R131-2
+Added Pin To Net: NetName=LED_R Pin=T3-3
+Added Net: Name=LED_R

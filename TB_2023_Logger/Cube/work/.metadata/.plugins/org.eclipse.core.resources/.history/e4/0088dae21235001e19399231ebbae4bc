@@ -1,0 +1,27 @@
+/*
+ * isrs.c
+ *
+ *  Created on: Jun 30, 2023
+ *      Author: christop.grobety
+ */
+
+#include "stm32l4xx_hal.h"
+#include "main.h"
+
+
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+{
+	if(GPIO_Pin == FPGA_DONE_Pin){
+		//---------------------------------------------------RECEIVE ADD------------------------------------------
+		LED_on(BLUE);
+		HAL_ResumeTick();
+		//sleep_ = 1;
+	}
+	else if(GPIO_Pin == WAKE_UP_Pin){
+		LED_on(RED);
+		//HAL_Delay(100);
+	}
+	else if(GPIO_Pin == ARM_BUTTON_Pin){
+		LED_on(GREEN);
+	}
+}

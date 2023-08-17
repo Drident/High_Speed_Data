@@ -1,0 +1,39 @@
+08:33:59
+
+
+"C:/eda/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\edifparser.exe" "C:\eda\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T04.dev" "C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt/test.edf C:\eda\lscc\iCEcube2.2020.12\sbt_backend\devices\ipfiles\iCE5LP\rgbsoft.edf " "C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt\sbt\netlist" "-pSG48" "-yC:/Users/christop.grobety/Bachelor/Bachelor/Board/concat/bachelor.pcf " -c --devicename iCE5LP1K
+starting edif parserrunning edif parserLattice Semiconductor Corporation  Edif Parser
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:30:22
+
+Parsing edif file: C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt/test.edf...
+Parsing edif file: C:\eda\lscc\iCEcube2.2020.12\sbt_backend\devices\ipfiles\iCE5LP\rgbsoft.edf...
+Parsing constraint file: C:/Users/christop.grobety/Bachelor/Bachelor/Board/concat/bachelor.pcf ...
+start to read sdc/scf file C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt/test.scf
+sdc_reader OK C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt/test.scf
+Stored edif netlist at C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt\sbt\netlist\oadb-EC5LP...
+Warning: The terminal connectivity U_4.ODInst:LATCHINPUTVALUE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity U_4.ODInst:CLOCKENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity U_4.ODInst:INPUTCLK is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity U_4.ODInst:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity U_4.ODInst:OUTPUTCLK is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity U_2.ODInst:LATCHINPUTVALUE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity U_2.ODInst:CLOCKENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity U_2.ODInst:INPUTCLK is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity U_2.ODInst:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity U_2.ODInst:OUTPUTCLK is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity U_3.ODInst:LATCHINPUTVALUE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity U_3.ODInst:CLOCKENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity U_3.ODInst:INPUTCLK is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity U_3.ODInst:OUTPUTENABLE is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal connectivity U_3.ODInst:OUTPUTCLK is removed because the PIN_TYPE is configured as 011001
+Warning: The terminal I6.Q:D is driven by non-default constant value VCC
+
+write Timing Constraint to C:/Users/christop.grobety/Bachelor/Bachelor/Board/icecube2/test/test_Implmnt\sbt/Temp/sbt_temp.sdc
+
+EDIF Parser succeeded
+Top module is: EC5LP
+
+EDF Parser run-time: 4 (sec)
+edif parser succeed.
+16:20:42
